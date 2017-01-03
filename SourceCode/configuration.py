@@ -29,8 +29,8 @@ class Configuration:
             if len(self.buffer) > 1:
                 buffStr += ' .. '
             buffStr += ']'
-
-
+        else:
+            buffStr = '[ ]'
         # tokensStr = '[  '
         # for token in self.tokens:
         #     if isinstance(token, VMWE):

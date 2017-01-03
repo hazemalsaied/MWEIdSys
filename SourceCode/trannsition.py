@@ -29,7 +29,7 @@ class Transition:
         return False
 
     def __str__(self):
-        result = 'Trans   \t>\t\tConfiguration\n'
+        result = 'Trans&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;Configuration\n'
         transition = self
         while True:
             type = ''
@@ -37,11 +37,13 @@ class Transition:
             if transition.type is not None:
                 type = transition.type.name
             else:
-                type = '        '
+                type = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
             configuration = str(transition.configuration)
-            if len(type) == 5:
-                type = type + '   '
-            result += type + '\t>\t\t' + configuration + '\n'
+            if type == 'MERGE' :
+                type = '**MERGE**&nbsp;&nbsp;&nbsp;'
+            if len(type) == 'SHIFT':
+                type = type + '&nbsp;&nbsp;&nbsp;'
+            result += type + '&nbsp;&nbsp;&nbsp;' + '>' +'&nbsp;&nbsp;&nbsp;' + configuration + '\n\n'
             if transition.next is None:
                 break
             transition = transition.next
