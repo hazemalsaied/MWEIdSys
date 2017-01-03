@@ -25,19 +25,23 @@ class Transition:
 
     def isTerminal(self):
         if self.configuration is not None:
-            return self.configuration.isTerminal
+            return self.configuration.isTerminalConf()
         return False
 
     def __str__(self):
-        result = 'Trans\t\t===>\t\tConfiguration\n'
+        result = 'Trans   \t>\t\tConfiguration\n'
         transition = self
         while True:
             type = ''
             configuration = ''
             if transition.type is not None:
                 type = transition.type.name
+            else:
+                type = '        '
             configuration = str(transition.configuration)
-            result += type + '\t\t===>\t\t' + configuration + '\n'
+            if len(type) == 5:
+                type = type + '   '
+            result += type + '\t>\t\t' + configuration + '\n'
             if transition.next is None:
                 break
             transition = transition.next

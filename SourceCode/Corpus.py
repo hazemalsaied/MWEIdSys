@@ -1,4 +1,4 @@
-import nltk, os
+import nltk
 from nltk.stem import WordNetLemmatizer
 
 
@@ -102,7 +102,6 @@ class SPMLRCorpus:
                 # Associate the token with the sentence
                 sent.tokens.append(token)
 
-
         for sent in self.sentences:
             for mwe in sent.vMWEs:
                 mwe.isVerbal = self.isVerbalMwe(mwe)
@@ -114,7 +113,6 @@ class SPMLRCorpus:
         if printReport:
             for sent in self.sentences:
                 print sent
-
 
     def isVerbalMwe(self, mwe):
         isVerbal = False
@@ -128,7 +126,7 @@ class SPMLRCorpus:
         for token in sent.tokens:
             if token.dependencyLabel == 'dep_cpd':
                 tokenIndex = sent.tokens.index(token)
-                previousToken = sent.tokens[tokenIndex-1]
+                previousToken = sent.tokens[tokenIndex - 1]
                 if previousToken.dependencyLabel != 'dep_cpd':
                     mwe = VMWE(len(sent.vMWEs))
                     sent.vMWEs.append(mwe)
@@ -147,6 +145,7 @@ class Sentence:
         self.id = id
         self.tokens = []
         self.vMWEs = []
+        self.identifiedVMWEs = []
         self.text = ''
         self.initialTransition = None
 
@@ -221,12 +220,16 @@ class Sentence:
 
     def __str__(self):
 
-
         vMWEText = ''
         for vMWE in self.vMWEs:
             vMWEText += str(vMWE) + '\n'
+        identifiedMWE = ''
+        for mwe in self.identifiedVMWEs:
+            identifiedMWE += str(mwe) + '\n'
+
         return '##Sentence No. ' + str(
-            self.id) + '\n**Text:** ' + self.text + '\n###The Verbal MWEs: \n' + vMWEText
+            self.id) + '\n**Text:** ' + self.text + '\n###The Verbal MWEs: \n' + vMWEText + '\n' + str(
+            self.initialTransition)
 
 
 class Token:
@@ -269,13 +272,14 @@ class VMWE:
     """
         A class used to encapsulate the information of a verbal multi-word expression
     """
-    def __init__(self, id, token=None, type='', isEmbeded=False, isInterleaving=False):
+
+    def __init__(self, id, token=None, type=None, isEmbeded=False, isInterleaving=False):
         self.id = int(id)
         self.tokens = []
         if token is not None:
             self.tokens.append(token)
         self.type = ''
-        if type != '':
+        if type is not None:
             self.type = type
         self.isEmbeded = isEmbeded
         self.isInterleaving = isInterleaving
@@ -297,4 +301,8 @@ class VMWE:
             type = '**Type:** ' + self.type
         return '**MWE No.:** ' + str(self.id) + '\n**Text:** ' + tokensStr + '\n' + type + '\n'
 
-corpus = SPMLRCorpus('/Users/hazemalsaied/Parseme/MWEIdSys/Corpora/fr_SPMRL/pred/conll/train/train.French.pred.conll')
+    def getString(self):
+        result = ''
+        for token in self.tokens:
+            result += token.text + ' '
+        return result[:-1]

@@ -1,11 +1,13 @@
 from configuration import Configuration
-from trannsition import Transition
-from trannsition import TransitionType
 from corpus import Token
 from corpus import VMWE
+from trannsition import Transition
+from trannsition import TransitionType
 
 
 class Parser:
+
+
     IMPOSSIBLE_SHIFT_TRANSITION = "ERROR: It's impossible to apply a SHIFT transition, the BUFFER is empty!"
     IMPOSSIBLE_MERGE_TRANSITION = "ERROR: It's impossible to apply a MERGE transition, the STACK doesn't contain two elements!"
     IMPOSSIBLE_COMPLETE_TRANSITION = "ERROR: It's impossible to apply a COMPLETE transition, the head of the STACK doesn't contain any element!"
@@ -16,23 +18,31 @@ class Parser:
 
         initialTransition = Transition.createInitialTransition(sent)
         transition = initialTransition
-        while not transition.isTerminal():
+        while transition.configuration.isTerminalConf() == False:
             featDic = Parser.getConfigurationFeatures(transition.configuration, sent)
-            try:
-                transType = classifier.predict(dictVectorizer.transform(featDic))
-                if transType == 0:
+            transType = classifier.predict(dictVectorizer.transform(featDic))
+            config = transition.configuration
+            if len(config.buffer) == 0 and len(config.stack) == 1:
+                transition = Parser.applyComplete(transition, sent, parse=True)
+            elif transType == 0:
+                if len(config.buffer) > 0:
                     transition = Parser.applyShift(transition)
-                elif transType == 1:
-                    transition = Parser.applyMerge(transition)
-                elif transType == 2:
-                    transition = Parser.applyComplete(transition)
                 else:
-                    raise
-            except ValueError as e:
+                    transition = Parser.applyComplete(transition, sent, parse=True)
+            elif transType == 1:
+                if len(transition.configuration.stack) > 1:
+                    transition = Parser.applyMerge(transition)
+                else:
+                    transition = Parser.applyComplete(transition, sent, parse=True)
+            elif transType == 2:
+                transition = Parser.applyComplete(transition, sent, parse=True)
+            else:
                 print(Parser.NO_TRANSITION_TYPE)
+        sent.initialTransition = initialTransition
+        return sent
 
     @staticmethod
-    def staticParse(sent, printReport=True, binary=False):
+    def staticParse(sent, printReport=False, binary=False):
         sent = Parser.generateTransitions(sent, printReport=printReport, binary=binary)
         return Parser.extractFeatures(sent)
 
@@ -80,21 +90,21 @@ class Parser:
         initialTransition = Transition.createInitialTransition(sent)
         transition = initialTransition
         while not transition.isTerminal():
-            transition = Parser.getNextTransition(transition, binary)
+            transition = Parser.getNextTransition(transition, sent, binary)
         sent.initialTransition = initialTransition
         if printReport:
             print initialTransition
         return sent
 
     @staticmethod
-    def getNextTransition(transition, binary=False):
+    def getNextTransition(transition, sent, binary=False):
 
         config = transition.configuration
         if config.isInitial:
             return Parser.applyShift(transition)
 
         # Check for VMWE complete
-        newTransition = Parser.checkForComplete(config, transition, binary)
+        newTransition = Parser.checkForComplete(config, transition, sent)
         if newTransition is not None:
             return newTransition
 
@@ -105,20 +115,20 @@ class Parser:
         # Check again for one word COMPLETE
         if len(config.stack) > 0 and config.stack[-1] is not None and not isinstance(config.stack[-1], list):
             if (len(config.stack[-1].parentMWEs) == 0):
-                return Parser.applyComplete(transition, binary)
+                return Parser.applyComplete(transition, sent, parse=False)
 
             complete = True
             for parent in config.stack[-1].parentMWEs:
                 if not parent.isEmbeded and not parent.isInterleaving:
                     complete = False
             if complete:
-                return Parser.applyComplete(transition, binary)
+                return Parser.applyComplete(transition, sent, parse=False)
 
         # Apply the default transition: SHIFT
         return Parser.applyShift(transition)
 
     @staticmethod
-    def checkForComplete(config, transition, binary=False):
+    def checkForComplete(config, transition, sent):
         # Check up for a possible COMPLETE of MWE after a MERGE transition
         if transition.type == TransitionType.MERGE:
             if len(config.stack) == 1 and isinstance(config.stack[0], list):
@@ -143,7 +153,7 @@ class Parser:
                         raise
                     vMWE = parents[0]
                 if vMWE is not None and len(vMWE.tokens) == len(tokens):
-                    return Parser.applyComplete(transition, vMWE.id, vMWE.type, binary=binary)
+                    return Parser.applyComplete(transition, sent, vMWE.id, vMWE.type)
         return None
 
     @staticmethod
@@ -182,76 +192,94 @@ class Parser:
 
     @staticmethod
     def applyShift(transition):
-        try:
-            config = transition.configuration
-            if len(config.buffer) > 0:
+        # try:
+        config = transition.configuration
+        if len(config.buffer) > 0:
 
-                lastToken = config.buffer[0]
-                newBuffer = list(config.buffer)
-                newBuffer = newBuffer[1:]
-                newTokens = list(config.tokens)
-                newStack = list(config.stack)
-                newStack.append(lastToken)
+            lastToken = config.buffer[0]
+            newBuffer = list(config.buffer)
+            newBuffer = newBuffer[1:]
+            newTokens = list(config.tokens)
+            newStack = list(config.stack)
+            newStack.append(lastToken)
 
-                newConfig = Configuration(buffer=newBuffer, stack=newStack, tokens=newTokens)
+            newConfig = Configuration(buffer=newBuffer, stack=newStack, tokens=newTokens)
 
-                newTransition = Transition(TransitionType.SHIFT, newConfig, previous=transition)
-                transition.next = newTransition
-                return newTransition
+            newTransition = Transition(TransitionType.SHIFT, newConfig, previous=transition)
+            transition.next = newTransition
+            return newTransition
 
-            else:
-                raise Exception(Parser.IMPOSSIBLE_SHIFT_TRANSITION)
-        except ValueError as e:
+        else:
             print(Parser.IMPOSSIBLE_SHIFT_TRANSITION)
+            # raise Exception(Parser.IMPOSSIBLE_SHIFT_TRANSITION)
+            # except ValueError as e:
+            #     print(Parser.IMPOSSIBLE_SHIFT_TRANSITION)
+            #     pass
 
     @staticmethod
     def applyMerge(transition, binary=False):
-        try:
-            config = transition.configuration
-            if len(config.stack) > 1:
-                newBuffer = list(config.buffer)
-                if binary:
-                    newStack = list(config.stack)[:-2]
-                    newStack.append([config.stack[-2], config.stack[-1]])
-                else:
-                    newStack = [list(config.stack)]
-                newTokens = list(config.tokens)
-                newConfig = Configuration(stack=newStack, buffer=newBuffer, tokens=newTokens)
-                newTransition = Transition(TransitionType.MERGE, newConfig, previous=transition)
-                transition.next = newTransition
-                return newTransition
+        # try:
+        config = transition.configuration
+        if len(config.stack) > 1:
+            newBuffer = list(config.buffer)
+            if binary:
+                newStack = list(config.stack)[:-2]
+                newStack.append([config.stack[-2], config.stack[-1]])
             else:
-                raise
-        except ValueError as e:
+                newStack = [list(config.stack)]
+            newTokens = list(config.tokens)
+            newConfig = Configuration(stack=newStack, buffer=newBuffer, tokens=newTokens)
+            newTransition = Transition(TransitionType.MERGE, newConfig, previous=transition)
+            transition.next = newTransition
+            return newTransition
+        else:
             print(Parser.IMPOSSIBLE_MERGE_TRANSITION)
+            # raise
+            # except ValueError as e:
+            #    print(Parser.IMPOSSIBLE_MERGE_TRANSITION)
+            #    pass
 
     @staticmethod
-    def applyComplete(transition, vMWEId=None, vMWEType=None, binary=False):
-        try:
-            config = transition.configuration
-            if len(config.stack) > 0:
+    def applyComplete(transition, sent, vMWEId=None, vMWEType=None, parse=False):
+        # try:
+        config = transition.configuration
+        if len(config.stack) > 0:
 
-                newBuffer = list(config.buffer)
-                newStack = list(config.stack)
-                vMWETokens = Parser.getToken(newStack[0])
-                newStack = newStack[:-1]
-                newTokens = list(config.tokens)
-                if len(vMWETokens) > 1:
-                    vMWE = VMWE(vMWEId, vMWETokens[0], vMWEType)
-                    vMWE.tokens = vMWETokens
-                    newTokens.append(vMWE)
-                else:
-                    newTokens.append(vMWETokens[0])
-                newConfig = Configuration(stack=newStack, buffer=newBuffer, tokens=newTokens)
-
-                newTransition = Transition(TransitionType.COMPLETE, newConfig, previous=transition)
-                transition.next = newTransition
-                return newTransition
-
+            newBuffer = list(config.buffer)
+            newStack = list(config.stack)
+            vMWETokens = Parser.getToken(newStack[0])
+            newStack = newStack[:-1]
+            newTokens = list(config.tokens)
+            Parser.getVMWENumber(newTokens)
+            if len(vMWETokens) > 1:
+                if vMWEId is None:
+                    vMWEId = Parser.getVMWENumber(newTokens) + 1
+                vMWE = VMWE(vMWEId, vMWETokens[0], vMWEType)
+                if parse:
+                    sent.identifiedVMWEs.append(vMWE)
+                vMWE.tokens = vMWETokens
+                newTokens.append(vMWE)
             else:
-                raise
-        except ValueError as e:
+                newTokens.append(vMWETokens[0])
+            newConfig = Configuration(stack=newStack, buffer=newBuffer, tokens=newTokens)
+
+            newTransition = Transition(TransitionType.COMPLETE, newConfig, previous=transition)
+            transition.next = newTransition
+            return newTransition
+
+        else:
             print(Parser.IMPOSSIBLE_COMPLETE_TRANSITION)
+            # raise
+            # except ValueError as e:
+            #   print(Parser.IMPOSSIBLE_COMPLETE_TRANSITION)
+            #  pass
+    @staticmethod
+    def getVMWENumber(tokens):
+        result = 0
+        for token in tokens:
+            if isinstance(token,VMWE):
+                result += 1
+        return result
 
     @staticmethod
     def getToken(elemlist):
