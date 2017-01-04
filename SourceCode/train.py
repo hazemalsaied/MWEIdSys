@@ -8,7 +8,7 @@ from sklearn.multiclass import OutputCodeClassifier, OneVsRestClassifier
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.svm import LinearSVC
 
-from corpus import SPMLRCorpus
+from corpus import SPMLRCorpus, VMWE
 from evaluate import Evaluation
 from parser import Parser
 
@@ -28,7 +28,15 @@ class Train:
 
         for sent in testingSents:
             Parser.parse(cls[0], cls[1], sent)
+            #print sent
+
+        for sent in testingSents:
             print sent
+            for mwe in sent.identifiedVMWEs:
+                mwe.isVerbal = VMWE.isVerbalMwe(mwe)
+            sent.identifiedVMWEs = [x for x in sent.identifiedVMWEs if x.isVerbal]
+            print sent
+
         Evaluation.evaluate(testingSents, printReport=True)
 
     @staticmethod
@@ -168,5 +176,5 @@ class Train:
 
 corpusName = '/Users/hazemalsaied/Parseme/MWEIdSys/Corpora/fr_SPMRL/pred/conll/train/train.French.pred.conll'
 
-# Train.evaluateClassifiers(corpusName)
+#Train.evaluateClassifiers(corpusName)
 Train.train(corpusName,printReport=False)

@@ -73,16 +73,23 @@ class Parser:
             transDic[elemTitle + 'Token'] = elem.text
             transDic[elemTitle + 'POS'] = elem.posTag
             transDic[elemTitle + 'Lemma'] = elem.lemma
+
         # Features of first element of buffer
+        # idx = 0
+        # for element in configuration.buffer[0:3]:
+        #     transDic['B' + str(idx) + 'Token'] = element.text
+        #     transDic['B' + str(idx) + 'POS'] = element.posTag
+        #     transDic['B' + str(idx) + 'Lemma'] = element.lemma
+        #     idx +=1
         if len(configuration.buffer) > 0:
-            bufferElem = configuration.buffer[0]
-            transDic['BToken'] = bufferElem.text
-            transDic['BPOS'] = bufferElem.posTag
-            transDic['BLemma'] = bufferElem.lemma
-            # The distance between the first element of the stack and the buffer
-            if len(stackToken) > 0:
-                transDic['distance'] = str(
-                    sent.tokens.index(configuration.buffer[0]) - sent.tokens.index(stackToken[-1]))
+            element = configuration.buffer[0]
+            transDic['B0Token'] = element.text
+            transDic['B0POS'] = element.posTag
+            transDic['B0Lemma'] = element.lemma
+
+        if len(stackToken) > 0 and len(configuration.buffer) > 0:
+            transDic['distance'] = str(
+                sent.tokens.index(configuration.buffer[0]) - sent.tokens.index(stackToken[-1]))
         return transDic
 
     @staticmethod
