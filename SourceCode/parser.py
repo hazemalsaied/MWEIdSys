@@ -38,13 +38,16 @@ class Parser:
                 transition = Parser.applyComplete(transition, sent, parse=True)
             else:
                 print(Parser.NO_TRANSITION_TYPE)
+
         sent.initialTransition = initialTransition
         return sent
 
     @staticmethod
     def staticParse(sent, printReport=False, binary=False):
         sent = Parser.generateTransitions(sent, printReport=printReport, binary=binary)
-        return Parser.extractFeatures(sent)
+        if sent is not None:
+            return Parser.extractFeatures(sent)
+        return None
 
     @staticmethod
     def extractFeatures(sent):
@@ -94,14 +97,19 @@ class Parser:
 
     @staticmethod
     def generateTransitions(sent, printReport=True, binary=False):
+        print sent
         initialTransition = Transition.createInitialTransition(sent)
         transition = initialTransition
-        while not transition.isTerminal():
+        while transition is not None and not transition.isTerminal():
+            #print transition
             transition = Parser.getNextTransition(transition, sent, binary)
-        sent.initialTransition = initialTransition
-        if printReport:
-            print initialTransition
-        return sent
+        if transition is not None:
+            sent.initialTransition = initialTransition
+            if printReport:
+                print initialTransition
+            return sent
+        print sent
+        return None
 
     @staticmethod
     def getNextTransition(transition, sent, binary=False):
@@ -218,6 +226,7 @@ class Parser:
 
         else:
             print(Parser.IMPOSSIBLE_SHIFT_TRANSITION)
+            return None
             # raise Exception(Parser.IMPOSSIBLE_SHIFT_TRANSITION)
             # except ValueError as e:
             #     print(Parser.IMPOSSIBLE_SHIFT_TRANSITION)

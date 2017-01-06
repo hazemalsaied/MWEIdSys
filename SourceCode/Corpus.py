@@ -65,7 +65,7 @@ class Corpus:
 
 
 class SPMLRCorpus:
-    def __init__(self, path, printReport=True):
+    def __init__(self, path,verbalEx=True, printReport=True):
 
         self.sentences = []
         with open(path) as corpusFile:
@@ -102,10 +102,11 @@ class SPMLRCorpus:
                 # Associate the token with the sentence
                 sent.tokens.append(token)
 
-        for sent in self.sentences:
-            for mwe in sent.vMWEs:
-                mwe.isVerbal = self.isVerbalMwe(mwe)
-            sent.vMWEs = [x for x in sent.vMWEs if x.isVerbal]
+        if verbalEx:
+            for sent in self.sentences:
+                for mwe in sent.vMWEs:
+                    mwe.isVerbal = VMWE.isVerbalMwe(mwe)
+                sent.vMWEs = [x for x in sent.vMWEs if x.isVerbal]
 
         self.sentences = [x for x in self.sentences if (len(x.vMWEs) > 0)]
 
@@ -114,12 +115,17 @@ class SPMLRCorpus:
             for sent in self.sentences:
                 print sent
 
-    def isVerbalMwe(self, mwe):
-        isVerbal = False
-        for token in mwe.tokens:
-            if token.posTag.startswith('V'):
-                isVerbal = True
-        return isVerbal
+
+
+
+
+
+
+
+
+
+
+
 
     def recognizeMWE(self, sent):
         mwe = None
@@ -228,8 +234,8 @@ class Sentence:
             identifiedMWE += str(mwe) + '\n'
 
         return '##Sentence No. ' + str(
-            self.id) + '\n**Text:** ' + self.text + '\n###The Verbal MWEs: \n' + vMWEText + '\n' + str(
-            self.initialTransition)
+            self.id) + '\n**Text:** ' + self.text + '\n###Existing MWEs: \n' + vMWEText + '\n###Identified MWEs: \n' + identifiedMWE
+               #+ str(self.initialTransition)
 
 
 class Token:
@@ -290,6 +296,14 @@ class VMWE:
 
     def addToken(self, token):
         self.tokens.append(token)
+
+    @staticmethod
+    def isVerbalMwe(mwe):
+        isVerbal = False
+        for token in mwe.tokens:
+            if token.posTag.startswith('V'):
+                isVerbal = True
+        return isVerbal
 
     def __str__(self):
         tokensStr = ''

@@ -13,11 +13,17 @@ from evaluate import Evaluation
 from parser import Parser
 
 
+# from sklearn.linear_model import LogisticRegression
+# from sklearn.multioutput import MultiOutputRegressor
+# from sklearn.ensemble import GradientBoostingRegressor
+# from sklearn.datasets import make_regression
+# from sklearn.linear_model import LogisticRegression
+
 class Train:
     @staticmethod
-    def train(corpusName, binary=False, printReport=False):
+    def train(corpusName, binary=False, verbalEx=True, printReport=False):
         time = datetime.datetime.now()
-        corpus = SPMLRCorpus(corpusName, printReport=printReport)
+        corpus = SPMLRCorpus(corpusName, verbalEx=verbalEx, printReport=printReport)
         # corpus = Corpus(os.path.join(os.path.dirname(__file__), corpusName),printReport=printReport)
 
         sentenceNum = int(len(corpus.sentences) * 0.8)
@@ -28,15 +34,17 @@ class Train:
 
         for sent in testingSents:
             Parser.parse(cls[0], cls[1], sent)
-            #print sent
-
+            # print sent
+        # Eliminating non verbal expressions
+        if verbalEx:
+            for sent in testingSents:
+                print sent
+                for mwe in sent.identifiedVMWEs:
+                    mwe.isVerbal = VMWE.isVerbalMwe(mwe)
+                sent.identifiedVMWEs = [x for x in sent.identifiedVMWEs if x.isVerbal]
+                print sent
         for sent in testingSents:
             print sent
-            for mwe in sent.identifiedVMWEs:
-                mwe.isVerbal = VMWE.isVerbalMwe(mwe)
-            sent.identifiedVMWEs = [x for x in sent.identifiedVMWEs if x.isVerbal]
-            print sent
-
         Evaluation.evaluate(testingSents, printReport=True)
 
     @staticmethod
@@ -47,8 +55,9 @@ class Train:
         for sent in sents:
             # Parse the sentence
             trainingInfo = Parser.staticParse(sent, printReport=printReport, binary=binary)
-            trainDataLabel.extend(trainingInfo[0])
-            trainingData.extend(trainingInfo[1])
+            if trainingInfo is not None:
+                trainDataLabel.extend(trainingInfo[0])
+                trainingData.extend(trainingInfo[1])
         print 'Static parsing duration: ' + str(datetime.datetime.now() - time)
         vec = DictVectorizer()
         X = vec.fit_transform(trainingData)
@@ -56,10 +65,15 @@ class Train:
         # F = vec.get_feature_names()
         time = datetime.datetime.now()
 
+        # clf = LogisticRegression(multi_class='multinomial')
+
+        # clf = LogisticRegression()
         clf = MultinomialNB()
+        # clf = Perceptron()
+        # clf = svm.SVC(decision_function_shape='ovo')
         # #clf = OutputCodeClassifier(LinearSVC(random_state=0), code_size=2, random_state=0)
-        #clf = OneVsOneClassifier(LinearSVC(random_state=0))
-        #clf = OneVsRestClassifier(LinearSVC(random_state=0))
+        # clf = OneVsOneClassifier(LinearSVC(random_state=0))
+        # clf = OneVsRestClassifier(LinearSVC(random_state=0))
         clf.fit(X, Y)
         # svc.fit(X_train, Y_train)
         # svc.fit(X, Y)
@@ -176,5 +190,5 @@ class Train:
 
 corpusName = '/Users/hazemalsaied/Parseme/MWEIdSys/Corpora/fr_SPMRL/pred/conll/train/train.French.pred.conll'
 
-#Train.evaluateClassifiers(corpusName)
-Train.train(corpusName,printReport=False)
+# Train.evaluateClassifiers(corpusName)
+Train.train(corpusName, verbalEx=False, printReport=False)
