@@ -6,44 +6,55 @@ from trannsition import TransitionType
 
 
 class Parser:
-
-
     IMPOSSIBLE_SHIFT_TRANSITION = "ERROR: It's impossible to apply a SHIFT transition, the BUFFER is empty!"
     IMPOSSIBLE_MERGE_TRANSITION = "ERROR: It's impossible to apply a MERGE transition, the STACK doesn't contain two elements!"
     IMPOSSIBLE_COMPLETE_TRANSITION = "ERROR: It's impossible to apply a COMPLETE transition, the head of the STACK doesn't contain any element!"
     NO_TRANSITION_TYPE = "ERROR: No transition has been predicted by the classifier"
 
     @staticmethod
-    def parse(classifier, dictVectorizer, sent):
+    def parse(classifier, dictVectorizer, sent,  binary=True):
 
         initialTransition = Transition.createInitialTransition(sent)
         transition = initialTransition
-        while transition.configuration.isTerminalConf() == False:
-            featDic = Parser.getConfigurationFeatures(transition.configuration, sent)
+        transDicList = []
+        transLebelsList = []
+        while not transition.configuration.isTerminalConf():
+            featDic = Parser.getConfigurationFeatures(transition, sent)
+            transDicList.append(featDic)
             transType = classifier.predict(dictVectorizer.transform(featDic))
             config = transition.configuration
-            if len(config.buffer) == 0 and len(config.stack) == 1:
+            if len(config.stack) == 0 and len(config.buffer) > 0:
+                transition = Parser.applyShift(transition)
+                transLebelsList.append(0)
+            elif len(config.buffer) == 0 and len(config.stack) == 1:
                 transition = Parser.applyComplete(transition, sent, parse=True)
+                transLebelsList.append(2)
             elif transType == 0:
                 if len(config.buffer) > 0:
                     transition = Parser.applyShift(transition)
+                    transLebelsList.append(0)
                 else:
                     transition = Parser.applyComplete(transition, sent, parse=True)
+                    transLebelsList.append(2)
             elif transType == 1:
                 if len(transition.configuration.stack) > 1:
                     transition = Parser.applyMerge(transition)
+                    transLebelsList.append(1)
                 else:
                     transition = Parser.applyComplete(transition, sent, parse=True)
+                    transLebelsList.append(2)
             elif transType == 2:
                 transition = Parser.applyComplete(transition, sent, parse=True)
+                transLebelsList.append(2)
             else:
                 print(Parser.NO_TRANSITION_TYPE)
 
         sent.initialTransition = initialTransition
+        sent.featuresInfo = [transLebelsList, transDicList]
         return sent
 
     @staticmethod
-    def staticParse(sent, printReport=False, binary=False):
+    def staticParse(sent, printReport=False,  binary=True):
         sent = Parser.generateTransitions(sent, printReport=printReport, binary=binary)
         if sent is not None:
             return Parser.extractFeatures(sent)
@@ -60,59 +71,82 @@ class Parser:
                 break
             transLebelsList.append(transition.next.type.value)
             configuration = transition.configuration
-            stackToken = Configuration.getToken(configuration.stack)
-            transDic = Parser.getConfigurationFeatures(configuration, sent)
+            transDic = Parser.getConfigurationFeatures(transition, sent)
             transDicList.append(transDic)
             transition = transition.next
+        sent.featuresInfo = [transLebelsList, transDicList]
         return [transLebelsList, transDicList]
 
     @staticmethod
-    def getConfigurationFeatures(configuration, sent):
+    def getConfigurationFeatures(transition, sent):
         transDic = {}
-        stackToken = Configuration.getToken(configuration.stack)
-        for elem in stackToken:
-            elemIdx = len(stackToken) - int(stackToken.index(elem))
-            elemTitle = 'S' + str(elemIdx)
-            transDic[elemTitle + 'Token'] = elem.text
-            transDic[elemTitle + 'POS'] = elem.posTag
-            transDic[elemTitle + 'Lemma'] = elem.lemma
+        elemIdx = 0
+        configuration = transition.configuration
+        if len(configuration.stack) >= 2:
+            stackElements = [configuration.stack[-2], configuration.stack[-1]]
+        else: stackElements = configuration.stack
 
-        # Features of first element of buffer
-        # idx = 0
-        # for element in configuration.buffer[0:3]:
-        #     transDic['B' + str(idx) + 'Token'] = element.text
-        #     transDic['B' + str(idx) + 'POS'] = element.posTag
-        #     transDic['B' + str(idx) + 'Lemma'] = element.lemma
-        #     idx +=1
+        for elem in stackElements:
+            elemTitle = 'S' + str(elemIdx)
+            if isinstance(elem, Token):
+                transDic[elemTitle + 'Token'] = elem.text
+                transDic[elemTitle + 'POS'] = elem.posTag
+                transDic[elemTitle + 'Lemma'] = elem.lemma
+            elif isinstance(elem, list):
+                transDic[elemTitle + 'Token'] = ''
+                transDic[elemTitle + 'POS'] = ''
+                transDic[elemTitle + 'Lemma'] = ''
+                tokens = Configuration.getToken(elem)
+                for token in tokens:
+                    transDic[elemTitle + 'Token'] += token.text + '-'
+                    transDic[elemTitle + 'POS'] += token.posTag + '-'
+                    transDic[elemTitle + 'Lemma'] += token.lemma + '-'
+                transDic[elemTitle + 'Token'] = transDic[elemTitle + 'Token'][:-1]
+                transDic[elemTitle + 'POS'] = transDic[elemTitle + 'POS'][:-1]
+                transDic[elemTitle + 'Lemma'] = transDic[elemTitle + 'Lemma'][:-1]
+            elemIdx += 1
+
         if len(configuration.buffer) > 0:
             element = configuration.buffer[0]
             transDic['B0Token'] = element.text
             transDic['B0POS'] = element.posTag
             transDic['B0Lemma'] = element.lemma
 
-        if len(stackToken) > 0 and len(configuration.buffer) > 0:
+            if len(configuration.buffer) > 1:
+                element = configuration.buffer[1]
+                transDic['B1Token'] = element.text
+                transDic['B1POS'] = element.posTag
+                transDic['B1Lemma'] = element.lemma
+
+        if len(configuration.stack) > 0 and len(configuration.buffer) > 0:
+            stackTokens = Configuration.getToken(configuration.stack[-1])
             transDic['distance'] = str(
-                sent.tokens.index(configuration.buffer[0]) - sent.tokens.index(stackToken[-1]))
+                sent.tokens.index(configuration.buffer[0]) - sent.tokens.index(stackTokens[-1]))
+
+        if transition.previous is not None:
+            transDic['prevriousT'] = str(transition.previous.type)
+            if transition.previous.previous is not None:
+                transDic['antepenultimateT'] = str(transition.previous.previous.type)
+            else: transDic['antepenultimateT'] = '_'
+        else:
+            transDic['prevriousT'] = '_'
+            transDic['antepenultimateT'] = '_'
+
         return transDic
 
     @staticmethod
-    def generateTransitions(sent, printReport=True, binary=False):
-        print sent
+    def generateTransitions(sent, printReport=True,  binary=True):
         initialTransition = Transition.createInitialTransition(sent)
         transition = initialTransition
         while transition is not None and not transition.isTerminal():
-            #print transition
             transition = Parser.getNextTransition(transition, sent, binary)
         if transition is not None:
             sent.initialTransition = initialTransition
-            if printReport:
-                print initialTransition
             return sent
-        print sent
         return None
 
     @staticmethod
-    def getNextTransition(transition, sent, binary=False):
+    def getNextTransition(transition, sent,  binary=True):
 
         config = transition.configuration
         if config.isInitial:
@@ -163,16 +197,16 @@ class Parser:
                             if parent not in token.parentMWEs:
                                 parents.remove(parent)
                     if len(parents) > 1:
+                        print sent
                         print config
                         print 'unexpected Scenario: two VMWE with the same lenght and the same components!'
-                        raise
                     vMWE = parents[0]
                 if vMWE is not None and len(vMWE.tokens) == len(tokens):
                     return Parser.applyComplete(transition, sent, vMWE.id, vMWE.type)
         return None
 
     @staticmethod
-    def checkForMerge(config, transition, binary=False):
+    def checkForMerge(config, transition,  binary=True):
         # Check up of a possible MERGE
         if len(config.stack) > 1:
             hasParent = True
@@ -194,11 +228,13 @@ class Parser:
                 selectedParents = parents
                 for parent in list(parents):
                     if len(parent.tokens) != len(tokens):
-                        selectedParents.remove(parent)
+                        if parent in selectedParents:
+                            selectedParents.remove(parent)
                         continue
                     for token in tokens:
                         if parent not in token.parentMWEs:
-                            selectedParents.remove(parent)
+                            if parent in selectedParents:
+                                selectedParents.remove(parent)
                 if len(selectedParents) == 1 and not selectedParents[0].isEmbeded and not selectedParents[
                     0].isInterleaving and len(selectedParents[0].tokens) == len(tokens):
                     selectedParent = selectedParents[0]
@@ -207,7 +243,6 @@ class Parser:
 
     @staticmethod
     def applyShift(transition):
-        # try:
         config = transition.configuration
         if len(config.buffer) > 0:
 
@@ -225,6 +260,7 @@ class Parser:
             return newTransition
 
         else:
+            print config
             print(Parser.IMPOSSIBLE_SHIFT_TRANSITION)
             return None
             # raise Exception(Parser.IMPOSSIBLE_SHIFT_TRANSITION)
@@ -233,8 +269,7 @@ class Parser:
             #     pass
 
     @staticmethod
-    def applyMerge(transition, binary=False):
-        # try:
+    def applyMerge(transition,  binary=True):
         config = transition.configuration
         if len(config.stack) > 1:
             newBuffer = list(config.buffer)
@@ -249,15 +284,12 @@ class Parser:
             transition.next = newTransition
             return newTransition
         else:
+            print config
             print(Parser.IMPOSSIBLE_MERGE_TRANSITION)
-            # raise
-            # except ValueError as e:
-            #    print(Parser.IMPOSSIBLE_MERGE_TRANSITION)
-            #    pass
+            return None
 
     @staticmethod
     def applyComplete(transition, sent, vMWEId=None, vMWEType=None, parse=False):
-        # try:
         config = transition.configuration
         if len(config.stack) > 0:
 
@@ -284,16 +316,16 @@ class Parser:
             return newTransition
 
         else:
+            print sent
+            print config
             print(Parser.IMPOSSIBLE_COMPLETE_TRANSITION)
-            # raise
-            # except ValueError as e:
-            #   print(Parser.IMPOSSIBLE_COMPLETE_TRANSITION)
-            #  pass
+            return None
+
     @staticmethod
     def getVMWENumber(tokens):
         result = 0
         for token in tokens:
-            if isinstance(token,VMWE):
+            if isinstance(token, VMWE):
                 result += 1
         return result
 

@@ -1,5 +1,8 @@
+import os
+
 import nltk
-from nltk.stem import WordNetLemmatizer
+from nltk import WordNetLemmatizer
+from nltk.tokenize import WordPunctTokenizer
 
 
 class Corpus:
@@ -7,7 +10,7 @@ class Corpus:
         a class used to encapsulate all the information of the corpus
     """
 
-    def __init__(self, path, printReport=False):
+    def __init__(self, path, printReport=False, format='conllu'):
         """
             an initializer of the corpus, responsible of creating a structure of objects encapsulating all the information
             of the corpus, its sentences, tokens and MWEs.
@@ -15,57 +18,155 @@ class Corpus:
             This function iterate over the lines of corpus document to create the precedent ontology
         :param path: the physical path of the corpus document
         """
+        self.sentNum = 0
+        self.mweNum = 0
+        conlluFile = None
+        if os.path.isfile(os.path.join(path, 'train.conllu')):
+            conlluFile = os.path.join(path, 'train.conllu')
+        mweFile = os.path.join(path, 'train.parsemetsv')
         self.sentences = []
-        with open(path) as corpusFile:
-            # Read the corpus file
-            lines = corpusFile.readlines()
-            sent = None
-            senIdx = 1
-            for line in lines:
-                if len(line) > 0 and line.endswith('\n'):
-                    line = line[:-1]
-                if line.startswith('1\t'):
-                    if sent is not None:
-                        # Represent the sentence as a sequece of tokens and POS tags
-                        sent.setTextandPOS()
-                        sent.recognizeEmbededVMWEs()
-                        sent.recognizeInterleavingVMWEs()
-                    sent = Sentence(senIdx)
-                    senIdx += 1
-                    self.sentences.append(sent)
-                lineParts = line.split('\t')
-                # Empty line or lines of the form: "8-9	can't	_	_"
-                if len(lineParts) != 4 or '-' in lineParts[0]:
-                    continue
-                token = Token(lineParts[0], lineParts[1])
-                # Trait the MWE
-                if lineParts[3] != '_':
-                    vMWEids = lineParts[3].split(';')
-                    for vMWEid in vMWEids:
-                        id = int(vMWEid.split(':')[0])
-                        # New MWE captured
-                        if id not in sent.getWMWEIds():
-                            type = str(vMWEid.split(':')[1])
-                            vMWE = VMWE(id, token, type)
-                            sent.vMWEs.append(vMWE)
-                        # Another token of an under-processing MWE
-                        else:
-                            vMWE = sent.getVMWE(id)
-                            if vMWE is not None:
-                                vMWE.addToken(token)
-                        # associate the token with the MWE
-                        token.setParent(vMWE)
-                # Associate the token with the sentence
-                sent.tokens.append(token)
+        if conlluFile is not None:
 
-        # Generate a console in the format of .md file to summarize the corpus antology creation.
-        if printReport:
+            with open(conlluFile) as corpusFile:
+                # Read the corpus file
+                lines = corpusFile.readlines()
+                sent = None
+                senIdx = 1
+                for line in lines:
+                    if len(line) > 0 and line.endswith('\n'):
+                        line = line[:-1]
+                    if line.startswith('# sentid:'):
+                        sentId = line.split('# sentid:')[1].strip()
+                        sent = Sentence(senIdx, sentid=sentId)
+                        senIdx += 1
+                        self.sentences.append(sent)
+
+                    elif line.startswith('# sentence-text:'):
+                        sentText = ''
+                        if len(line.split(':')) > 1:
+                            sent.text = line.split('# sentence-text:')[1]
+
+                    else:
+                        lineParts = line.split('\t')
+
+                        if len(lineParts) != 10 or '-' in lineParts[0]:
+                            continue
+                        morpho = ''
+                        if lineParts[5] != '_':
+                            morpho = lineParts[5].split('|')
+                        token = Token(lineParts[0], lineParts[1], lemma=lineParts[2], posTag=lineParts[4],
+                                      abstractPosTag=lineParts[3], morphologicalInfo=morpho,
+                                      dependencyParent=int(lineParts[6]),
+                                      dependencyLabel=lineParts[7])
+
+                        # Associate the token with the sentence
+                        sent.tokens.append(token)
+
+            with open(mweFile) as corpusFile:
+                # Read the corpus file
+                lines = corpusFile.readlines()
+                noSentToAssign = False
+                for line in lines:
+                    if line == '\n' or line.startswith('# sentence-text:') or (
+                                not line.startswith('# sentid:') and noSentToAssign):
+                        continue
+                    if len(line) > 0 and line.endswith('\n'):
+                        line = line[:-1]
+                    if line.startswith('# sentid:'):
+                        sentId = line.split('# sentid:')[1].strip()
+                        sents = [s for s in self.sentences if s.sentid == sentId]
+                        if sents is not None and len(sents) > 0:
+                            sent = sents[0]
+                        if sent is None:
+                            noSentToAssign = True
+                        else:
+                            noSentToAssign = False
+                    else:
+                        lineParts = line.split('\t')
+
+                        if lineParts is not None and len(lineParts) == 4 and lineParts[3] != '_':
+                            tokens = [t for t in sent.tokens if t.position == int(lineParts[0])]
+                            if tokens is not None and len(tokens) > 0:
+                                token = tokens[0]
+                            if token == None:
+                                print 'Error: '
+                                print sent.text
+                            vMWEids = lineParts[3].split(';')
+                            for vMWEid in vMWEids:
+                                id = int(vMWEid.split(':')[0])
+                                # New MWE captured
+                                if id not in sent.getWMWEIds():
+                                    type = str(vMWEid.split(':')[1])
+                                    vMWE = VMWE(id, token, type)
+                                    self.mweNum += 1
+                                    sent.vMWEs.append(vMWE)
+                                # Another token of an under-processing MWE
+                                else:
+                                    vMWE = sent.getVMWE(id)
+                                    if vMWE is not None:
+                                        vMWE.addToken(token)
+                                # associate the token with the MWE
+                                token.setParent(vMWE)
+            self.sentNum = len(self.sentences)
             for sent in self.sentences:
-                print sent
+                sent.recognizeEmbededVMWEs()
+                sent.recognizeInterleavingVMWEs()
+        else:
+            with open(mweFile) as corpusFile:
+                # Read the corpus file
+                lines = corpusFile.readlines()
+                sent = None
+                senIdx = 1
+                for line in lines:
+                    if len(line) > 0 and line.endswith('\n'):
+                        line = line[:-1]
+                    if line.startswith('1\t'):
+                        # sentId = line.split('# sentid:')[1]
+                        if sent is not None:
+                            # Represent the sentence as a sequece of tokens and POS tags
+                            sent.setTextandPOS()
+                            sent.recognizeEmbededVMWEs()
+                            sent.recognizeInterleavingVMWEs()
+                        sent = Sentence(senIdx)
+                        senIdx += 1
+                        self.sentences.append(sent)
+
+                    elif line.startswith('# sentence-text:'):
+                        sentText = ''
+                        if len(line.split(':')) > 1:
+                            sent.text = line.split('# sentence-text:')[1]
+
+                    lineParts = line.split('\t')
+
+                    # Empty line or lines of the form: "8-9	can't	_	_"
+                    if len(lineParts) != 4 or '-' in lineParts[0]:
+                        continue
+                    token = Token(lineParts[0], lineParts[1])
+                    # Trait the MWE
+                    if lineParts[3] != '_':
+                        vMWEids = lineParts[3].split(';')
+                        for vMWEid in vMWEids:
+                            id = int(vMWEid.split(':')[0])
+                            # New MWE captured
+                            if id not in sent.getWMWEIds():
+                                type = str(vMWEid.split(':')[1])
+                                vMWE = VMWE(id, token, type)
+                                self.mweNum += 1
+                                sent.vMWEs.append(vMWE)
+                            # Another token of an under-processing MWE
+                            else:
+                                vMWE = sent.getVMWE(id)
+                                if vMWE is not None:
+                                    vMWE.addToken(token)
+                            # associate the token with the MWE
+                            token.setParent(vMWE)
+                    # Associate the token with the sentence
+                    sent.tokens.append(token)
+                self.sentNum = len(self.sentences)
 
 
 class SPMLRCorpus:
-    def __init__(self, path,verbalEx=True, printReport=True):
+    def __init__(self, path, verbalEx=True, printReport=True):
 
         self.sentences = []
         with open(path) as corpusFile:
@@ -111,21 +212,9 @@ class SPMLRCorpus:
         self.sentences = [x for x in self.sentences if (len(x.vMWEs) > 0)]
 
         # Generate a console in the format of .md file to summarize the corpus antology creation.
-        if printReport:
-            for sent in self.sentences:
-                print sent
-
-
-
-
-
-
-
-
-
-
-
-
+        # if printReport:
+        #     for sent in self.sentences:
+        #         print sent
 
     def recognizeMWE(self, sent):
         mwe = None
@@ -147,13 +236,32 @@ class Sentence:
        a class used to encapsulate all the information of a sentence
     """
 
-    def __init__(self, id):
+    def __init__(self, id, sentid=''):
+
+        self.sentid = sentid
         self.id = id
         self.tokens = []
         self.vMWEs = []
         self.identifiedVMWEs = []
         self.text = ''
         self.initialTransition = None
+        self.featuresInfo = []
+
+    @staticmethod
+    def fromTextToSent(text):
+
+        tokenizer = WordPunctTokenizer()
+        wordNetLemmatiser = WordNetLemmatizer()
+        sent = Sentence(0)
+        sent.text = text
+        tokenList = tokenizer.tokenize(text)
+        posTags = nltk.pos_tag(tokenList)
+        for token in tokenList:
+            tokenLemma = wordNetLemmatiser.lemmatize(token)
+            tokenPos = posTags[tokenList.index(token)][1]
+            tokenObj = Token(tokenList.index(token), token, lemma=tokenLemma, posTag=tokenPos)
+            sent.tokens.append(tokenObj)
+        return sent
 
     def getWMWEs(self):
         return self.vMWEs
@@ -178,11 +286,11 @@ class Sentence:
             self.text += token.text + ' '
             tokensTextList.append(token.text)
         self.text = self.text.strip()
-        posTags = nltk.pos_tag(tokensTextList)
-        idx = 0
-        for token in self.tokens:
-            token.addPosTag(posTags[idx][1])
-            idx += 1
+        # posTags = nltk.pos_tag(tokensTextList)
+        # idx = 0
+        # for token in self.tokens:
+        #     token.addPosTag(posTags[idx][1])
+        #     idx += 1
 
     def recognizeEmbededVMWEs(self):
         if len(self.vMWEs) <= 1:
@@ -224,34 +332,78 @@ class Sentence:
                             if parent != parents[0]:
                                 parent.isInterleaving = True
 
+    def getCorpusText(self, gold=True):
+        if gold:
+            mwes = self.vMWEs
+        else:
+            mwes = self.identifiedVMWEs
+        lines = ''
+        idx = 1
+        for token in self.tokens:
+            line = str(idx) + '\t' + token.text + '\t_\t'
+            idx += 1
+            for mwe in mwes:
+                if token in mwe.tokens:
+                    if line.endswith('\t'):
+                        line += str(mwe.id)
+                    else:
+                        line += ';' + str(mwe.id)
+            if line.endswith('\t'):
+                line += '_'
+            lines += line + '\n'
+        return lines
+
+    def printSummary(self):
+        vMWEText = ''
+        for vMWE in self.vMWEs:
+            vMWEText += str(vMWE) + '\n'
+        if len(self.identifiedVMWEs) > 0:
+            identifiedMWE = '###Identified MWEs: \n'
+            for mwe in self.identifiedVMWEs:
+                identifiedMWE += str(mwe) + '\n'
+        else:
+            identifiedMWE = ''
+
+        return '##Sentence No. ' + str(self.id) + ' - ' + self.sentid + '\n' + self.text + \
+               '\n###Existing MWEs: \n' + vMWEText + identifiedMWE
+
     def __str__(self):
 
         vMWEText = ''
         for vMWE in self.vMWEs:
             vMWEText += str(vMWE) + '\n'
-        identifiedMWE = ''
-        for mwe in self.identifiedVMWEs:
-            identifiedMWE += str(mwe) + '\n'
-
-        return '##Sentence No. ' + str(
-            self.id) + '\n**Text:** ' + self.text + '\n###Existing MWEs: \n' + vMWEText + '\n###Identified MWEs: \n' + identifiedMWE
-               #+ str(self.initialTransition)
+        if len(self.identifiedVMWEs) > 0:
+            identifiedMWE = '###Identified MWEs: \n'
+            for mwe in self.identifiedVMWEs:
+                identifiedMWE += str(mwe) + '\n'
+        else:
+            identifiedMWE = ''
+        featuresInfo = ''
+        if len(self.featuresInfo) == 2:
+            labels = self.featuresInfo[0]
+            features = self.featuresInfo[1]
+            for x in xrange(0, len(labels)):
+                featuresInfo += str(x) + '- ' + str(labels[x]) + ' : ' + str(features[x]) + '\n'
+        return '##Sentence No. ' + str(self.id) + ' - ' + self.sentid + '\n' + self.text + \
+               '\n###Existing MWEs: \n' + vMWEText + identifiedMWE \
+               + '\n' + str(self.initialTransition) + '\n###Features: \n' + featuresInfo
 
 
 class Token:
     """
         a class used to encapsulate all the information of a sentence tokens
     """
-    wordNetLemmatiser = WordNetLemmatizer()
+
+    # wordNetLemmatiser = WordNetLemmatizer()
 
     def __init__(self, position, txt, lemma='', posTag='', abstractPosTag='', morphologicalInfo=[], dependencyParent=0,
                  dependencyLabel=''):
         self.position = int(position)
         self.text = txt
-        if lemma == '':
-            self.lemma = Token.wordNetLemmatiser.lemmatize(txt)
-        else:
-            self.lemma = lemma
+        # if lemma == '':
+        #    self.lemma = Token.wordNetLemmatiser.lemmatize(txt)
+        # else:
+        self.lemma = lemma
         self.abstractPosTag = abstractPosTag
         self.posTag = posTag
         self.morphologicalInfo = morphologicalInfo
@@ -310,10 +462,16 @@ class VMWE:
         for token in self.tokens:
             tokensStr += token.text + ' '
         tokensStr = tokensStr.strip()
+        isInterleaving = ''
+        if self.isInterleaving:
+            isInterleaving = ', Interleaving '
+        isEmbedded = ''
+        if self.isEmbeded:
+            isEmbedded = ', Embedded'
         type = ''
         if self.type != '':
-            type = '**Type:** ' + self.type
-        return '**MWE No.:** ' + str(self.id) + '\n**Text:** ' + tokensStr + '\n' + type + '\n'
+            type = self.type
+        return str(self.id) + '- ' + '**' + tokensStr + '** (' + type + ')' + isEmbedded + isInterleaving
 
     def getString(self):
         result = ''

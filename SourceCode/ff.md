@@ -1,57 +1,85 @@
-##Sentence No. 9302
-**Text:** Errare humanum est , perseverare diabolicum ...
-###Existing MWEs: 
-**MWE No.:** 0
-**Text:** ... Errare humanum
-
-
-**MWE No.:** 1
-**Text:** , perseverare
-Traceback (most recent call last):
-
-
-  File "/Applications/PyCharm CE.app/Contents/helpers/pydev/pydevd.py", line 1531, in <module>
-
-###Identified MWEs: 
-
-Trans&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;Configuration
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [Errare .. ]
-
-
-Trans&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;Configuration
-SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [Errare]   ; buffer = [humanum .. ]
-
-
-Trans&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;Configuration
-SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [Errare, humanum]   ; buffer = [est .. ]
-
-
-Trans&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;Configuration
-SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [Errare, humanum, est]   ; buffer = [, .. ]
-
-
-Trans&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;Configuration
-COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [Errare, humanum]   ; buffer = [, .. ]
-
-
-Trans&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;Configuration
-SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [Errare, humanum, ,]   ; buffer = [perseverare .. ]
-
-
-Trans&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;Configuration
-SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [Errare, humanum, ,, perseverare]   ; buffer = [diabolicum .. ]
-
-
-Trans&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;Configuration
-SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [Errare, humanum, ,, perseverare, diabolicum]   ; buffer = [...]
-
-
-Trans&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;Configuration
-COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [Errare, humanum, ,, perseverare]   ; buffer = [...]
-
-
-Trans&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;Configuration
-SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [Errare, humanum, ,, perseverare, ...]   ; buffer = [ ]
-
-
-ERROR: It's impossible to apply a SHIFT transition, the BUFFER is empty!
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [Changer ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [Changer]   ; buffer = [et ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [et ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [et]   ; buffer = [ne ,.. ]
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [ne ,.. ]
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [ne]   ; buffer = [plus ,.. ]
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [plus ,.. ]
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [plus]   ; buffer = [être ,.. ]
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [être ,.. ]
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [être]   ; buffer = [sous ,.. ]
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [sous ,.. ]
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [sous]   ; buffer = [l' ,.. ]
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [l' ,.. ]
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [l']   ; buffer = [emprise ,.. ]
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [emprise ,.. ]
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [emprise]   ; buffer = [de ,.. ]
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [de ,.. ]
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [de]   ; buffer = [le ,.. ]
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [le ,.. ]
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [le]   ; buffer = [Makhzen ,.. ]
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [Makhzen ,.. ]
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [Makhzen]   ; buffer = [c' ,.. ]
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [c' ,.. ]
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [c']   ; buffer = [est ,.. ]
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [est ,.. ]
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [est]   ; buffer = [partir ,.. ]
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [partir ,.. ]
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [partir]   ; buffer = [, ,.. ]
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [, ,.. ]
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [,]   ; buffer = [et ,.. ]
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [et ,.. ]
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [et]   ; buffer = [s' ,.. ]
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [s' ,.. ]
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [s']   ; buffer = [en ,.. ]
+34- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [s', en]   ; buffer = [aller ,.. ]
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [s', en, aller]   ; buffer = [c' ,.. ]
+36- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [s', en, aller, c']   ; buffer = [est ,.. ]
+37- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [s', en, [aller, c']]   ; buffer = [est ,.. ]
+38- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [s', [en, [aller, c']]]   ; buffer = [est ,.. ]
+39- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [[s', [en, [aller, c']]]]   ; buffer = [est ,.. ]
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [est ,.. ]
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [est]   ; buffer = [traverser ,.. ]
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [traverser ,.. ]
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [traverser]   ; buffer = [la ,.. ]
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [la ,.. ]
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [la]   ; buffer = [méditerranée ,.. ]
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [méditerranée ,.. ]
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [méditerranée]   ; buffer = [sans ,.. ]
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [sans ,.. ]
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [sans]   ; buffer = [conditions ,.. ]
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [conditions ,.. ]
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [conditions]   ; buffer = [d' ,.. ]
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [d' ,.. ]
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [d']   ; buffer = [âge ,.. ]
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [âge ,.. ]
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [âge]   ; buffer = [et ,.. ]
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [et ,.. ]
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [et]   ; buffer = [de ,.. ]
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [de ,.. ]
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [de]   ; buffer = [sexe ,.. ]
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [sexe ,.. ]
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [sexe]   ; buffer = [car ,.. ]
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [car ,.. ]
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [car]   ; buffer = [à ,.. ]
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [à ,.. ]
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [à]   ; buffer = [le ,.. ]
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [le ,.. ]
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [le]   ; buffer = [fond ,.. ]
+68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [fond ,.. ]
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [fond]   ; buffer = [tout ,.. ]
+70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [tout ,.. ]
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [tout]   ; buffer = [le ,.. ]
+72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [le ,.. ]
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [le]   ; buffer = [monde ,.. ]
+74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [monde ,.. ]
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [monde]   ; buffer = [veut ,.. ]
+76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [veut ,.. ]
+77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [veut]   ; buffer = [s' ,.. ]
+78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [s' ,.. ]
+79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [s']   ; buffer = [enfuir ,.. ]
+80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [enfuir ,.. ]
+81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [enfuir]   ; buffer = [.]
+82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [.]
+83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = [.]   ; buffer = [ ]
+84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; stack = []   ; buffer = [ ]

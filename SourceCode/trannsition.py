@@ -9,6 +9,10 @@ class Transition:
         self.configuration = config
         self.previous = previous
         self.next = next
+        if self.previous is None:
+            self.id = 0
+        else:
+            self.id = self.previous.id + 1
 
     @staticmethod
     def createInitialTransition(sent):
@@ -29,7 +33,7 @@ class Transition:
         return False
 
     def __str__(self):
-        result = 'Trans&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;Configuration\n'
+        result = ''
         transition = self
         while True:
             type = ''
@@ -43,7 +47,7 @@ class Transition:
                 type = '**MERGE**&nbsp;&nbsp;&nbsp;'
             if len(type) == 'SHIFT':
                 type = type + '&nbsp;&nbsp;&nbsp;'
-            result += type + '&nbsp;&nbsp;&nbsp;' + '>' +'&nbsp;&nbsp;&nbsp;' + configuration + '\n\n'
+            result += str(transition.id) + '- ' + type + '&nbsp;&nbsp;&nbsp;' + '>' +'&nbsp;&nbsp;&nbsp;' + configuration + '\n'
             if transition.next is None:
                 break
             transition = transition.next

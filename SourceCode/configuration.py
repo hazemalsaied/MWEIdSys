@@ -1,5 +1,4 @@
 from corpus import Token
-from corpus import VMWE
 
 
 class Configuration:
@@ -19,30 +18,14 @@ class Configuration:
     def __str__(self):
 
         stackStr = Configuration.printStack(self.stack)
-        # buffStr = '[  '
-        # for token in self.buffer:
-        #     buffStr += str(token.text) + ', '
-        # buffStr = buffStr[:-2] + '] '
-        buffStr = ''
         if len(self.buffer) > 0:
             buffStr = '[' + self.buffer[0].text
             if len(self.buffer) > 1:
-                buffStr += ' .. '
+                buffStr += ' ,.. '
             buffStr += ']'
         else:
             buffStr = '[ ]'
-        # tokensStr = '[  '
-        # for token in self.tokens:
-        #     if isinstance(token, VMWE):
-        #         tokenStr = '[  '
-        #         for elem in token.tokens:
-        #             tokenStr += elem.text + ', '
-        #         tokenStr += '] '
-        #         tokensStr += tokenStr + ', '
-        #
-        # tokensStr = tokensStr[:-2] + '] '
-
-        return ' stack = ' + stackStr + ' ; buffer = ' + buffStr #+ ' ; VMWEs = ' + tokensStr
+        return  stackStr + ' -|||- ' + buffStr  # + ' ; VMWEs = ' + tokensStr
 
     @staticmethod
     def printStack(elemlist):
@@ -56,6 +39,28 @@ class Configuration:
         if result == '[':
             return result + ']  '
         return result[:-2] + ']  '
+
+    @staticmethod
+    def getStackFeatures(elem, pos):
+        transDic = {}
+        elemTitle = 'S' + pos
+        if isinstance(elem, Token):
+
+            transDic[elemTitle + 'Token'] = elem.text
+            transDic[elemTitle + 'POS'] = elem.posTag
+            transDic[elemTitle + 'Lemma'] = elem.lemma
+            return transDic
+        elif isinstance(elem, list):
+            tokens = Configuration.getToken(elem)
+            transDic[elemTitle + 'Token'] = ''
+            transDic[elemTitle + 'POS'] = ''
+            transDic[elemTitle + 'Lemma'] = ''
+            for token in tokens:
+                transDic[elemTitle + 'Token'] += token.text + '-'
+                transDic[elemTitle + 'POS'] += token.posTag + '-'
+                transDic[elemTitle + 'Lemma'] += token.lemma + '-'
+
+        return transDic
 
     @staticmethod
     def getToken(elemlist):
