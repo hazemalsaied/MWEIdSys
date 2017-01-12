@@ -251,7 +251,7 @@ class Train:
         printingPath = os.path.join(Evaluation.resultsPath, 'Parsing-long.md')
         staticParsingFile = codecs.open(printingPath, 'w', "utf-8")
         result = ''
-        for sent in sentsForPrinting[random:random + 30]:
+        for sent in sentsForPrinting: #[random:random + 30]:
             result += sent.printSummary()
         staticParsingFile.write(result)
 
