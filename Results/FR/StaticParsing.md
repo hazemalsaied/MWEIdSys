@@ -1,945 +1,1093 @@
-##Sentence No. 11927 - fr-ud-train_10496
- Plusieurs de ses romans ont été traduits dans une quinzaine de langues, et deux d'entre eux ont fait l'objet d'adaptations télévisuelles.
+##Sentence No. 1723 - fr-ud-train_00291
+ Ce fleuve est censé couler six jours et rester à sec le septième, d'où son nom « sabbatique », Pline l'Ancien se contente d'y faire allusion.
 ###Existing MWEs: 
-1- **fait l' objet** (ID)
-2- **fait l' objet adaptations** (LVC), Interleaving 
+1- **se contente** (IReflV)
+2- **faire allusion** (LVC)
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Plusieurs ,.. ]
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Plusieurs]   -|||- [de ,.. ]
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [de ,.. ]
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[de]   -|||- [ses ,.. ]
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [ses ,.. ]
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[ses]   -|||- [romans ,.. ]
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [romans ,.. ]
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[romans]   -|||- [ont ,.. ]
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [ont ,.. ]
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[ont]   -|||- [été ,.. ]
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [été ,.. ]
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[été]   -|||- [traduits ,.. ]
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [traduits ,.. ]
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[traduits]   -|||- [dans ,.. ]
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [dans ,.. ]
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[dans]   -|||- [une ,.. ]
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [une ,.. ]
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[une]   -|||- [quinzaine ,.. ]
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [quinzaine ,.. ]
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[quinzaine]   -|||- [de ,.. ]
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [de ,.. ]
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[de]   -|||- [langues ,.. ]
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [langues ,.. ]
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[langues]   -|||- [, ,.. ]
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [, ,.. ]
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[,]   -|||- [et ,.. ]
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [et ,.. ]
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[et]   -|||- [deux ,.. ]
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [deux ,.. ]
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[deux]   -|||- [d' ,.. ]
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [d' ,.. ]
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[d']   -|||- [entre ,.. ]
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [entre ,.. ]
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[entre]   -|||- [eux ,.. ]
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [eux ,.. ]
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[eux]   -|||- [ont ,.. ]
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [ont ,.. ]
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[ont]   -|||- [fait ,.. ]
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [fait ,.. ]
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[fait]   -|||- [l' ,.. ]
-40- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[fait, l']   -|||- [objet ,.. ]
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[fait, l', objet]   -|||- [d' ,.. ]
-42- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[fait, [l', objet]]   -|||- [d' ,.. ]
-43- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[[fait, [l', objet]]]   -|||- [d' ,.. ]
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [d' ,.. ]
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[d']   -|||- [adaptations ,.. ]
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [adaptations ,.. ]
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[adaptations]   -|||- [télévisuelles ,.. ]
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [télévisuelles ,.. ]
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[télévisuelles]   -|||- [.]
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [.]
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[.]   -|||- [ ]
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [ ]
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Ce ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Ce]   -|||- [fleuve ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [fleuve ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[fleuve]   -|||- [est ,.. ]
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [est ,.. ]
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[est]   -|||- [censé ,.. ]
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [censé ,.. ]
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[censé]   -|||- [couler ,.. ]
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [couler ,.. ]
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[couler]   -|||- [six ,.. ]
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [six ,.. ]
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[six]   -|||- [jours ,.. ]
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [jours ,.. ]
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[jours]   -|||- [et ,.. ]
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [et ,.. ]
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[et]   -|||- [rester ,.. ]
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [rester ,.. ]
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[rester]   -|||- [à ,.. ]
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [à ,.. ]
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[à]   -|||- [sec ,.. ]
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [sec ,.. ]
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[sec]   -|||- [le ,.. ]
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [le ,.. ]
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[le]   -|||- [septième ,.. ]
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [septième ,.. ]
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[septième]   -|||- [, ,.. ]
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [, ,.. ]
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[,]   -|||- [d' ,.. ]
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [d' ,.. ]
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[d']   -|||- [où ,.. ]
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [où ,.. ]
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[où]   -|||- [son ,.. ]
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [son ,.. ]
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[son]   -|||- [nom ,.. ]
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [nom ,.. ]
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[nom]   -|||- [« ,.. ]
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [« ,.. ]
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[«]   -|||- [sabbatique ,.. ]
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [sabbatique ,.. ]
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[sabbatique]   -|||- [» ,.. ]
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [» ,.. ]
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[»]   -|||- [, ,.. ]
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [, ,.. ]
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[,]   -|||- [Pline ,.. ]
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Pline ,.. ]
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Pline]   -|||- [l' ,.. ]
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [l' ,.. ]
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[l']   -|||- [Ancien ,.. ]
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Ancien ,.. ]
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Ancien]   -|||- [se ,.. ]
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [se ,.. ]
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[se]   -|||- [contente ,.. ]
+52- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[se, contente]   -|||- [d' ,.. ]
+53- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[[se, contente]]   -|||- [d' ,.. ]
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [d' ,.. ]
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[d']   -|||- [y ,.. ]
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [y ,.. ]
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[y]   -|||- [faire ,.. ]
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [faire ,.. ]
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[faire]   -|||- [allusion ,.. ]
+60- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[faire, allusion]   -|||- [.]
+61- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[[faire, allusion]]   -|||- [.]
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [.]
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[.]   -|||- [ ]
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [ ]
 
 ###Features: 
-0- 0 : {'B0Lemma': 'plusieurs', 'antepenultimateT': '_', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'Plusieurs', 'prevriousT': '_', 'B0POS': '_', 'B1Lemma': 'de'}
-1- 2 : {'B0Lemma': 'de', 'antepenultimateT': '_', 'B1POS': '_', 'B1Token': 'ses', 'B0Token': 'de', 'prevriousT': 'None', 'S0Token': 'Plusieurs', 'S0Lemma': 'plusieurs', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'son', 'distance': '1'}
-2- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'None', 'B1POS': '_', 'B1Token': 'ses', 'B0Token': 'de', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'son'}
-3- 2 : {'B0Lemma': 'son', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'romans', 'B0Token': 'ses', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'de', 'S0Lemma': 'de', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'roman', 'distance': '1'}
-4- 0 : {'B0Lemma': 'son', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'romans', 'B0Token': 'ses', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'roman'}
-5- 2 : {'B0Lemma': 'roman', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'ont', 'B0Token': 'romans', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'ses', 'S0Lemma': 'son', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'avoir', 'distance': '1'}
-6- 0 : {'B0Lemma': 'roman', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'ont', 'B0Token': 'romans', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'avoir'}
-7- 2 : {'B0Lemma': 'avoir', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '\xc3\xa9t\xc3\xa9', 'B0Token': 'ont', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'romans', 'S0Lemma': 'roman', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': '\xc3\xaatre', 'distance': '1'}
-8- 0 : {'B0Lemma': 'avoir', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '\xc3\xa9t\xc3\xa9', 'B0Token': 'ont', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': '\xc3\xaatre'}
-9- 2 : {'B0Lemma': '\xc3\xaatre', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'traduits', 'B0Token': '\xc3\xa9t\xc3\xa9', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'ont', 'S0Lemma': 'avoir', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'traduire', 'distance': '1'}
-10- 0 : {'B0Lemma': '\xc3\xaatre', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'traduits', 'B0Token': '\xc3\xa9t\xc3\xa9', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'traduire'}
-11- 2 : {'B0Lemma': 'traduire', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'dans', 'B0Token': 'traduits', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': '\xc3\xa9t\xc3\xa9', 'S0Lemma': '\xc3\xaatre', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'dans', 'distance': '1'}
-12- 0 : {'B0Lemma': 'traduire', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'dans', 'B0Token': 'traduits', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'dans'}
-13- 2 : {'B0Lemma': 'dans', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'une', 'B0Token': 'dans', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'traduits', 'S0Lemma': 'traduire', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'un', 'distance': '1'}
-14- 0 : {'B0Lemma': 'dans', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'une', 'B0Token': 'dans', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'un'}
-15- 2 : {'B0Lemma': 'un', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'quinzaine', 'B0Token': 'une', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'dans', 'S0Lemma': 'dans', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'quinzaine', 'distance': '1'}
-16- 0 : {'B0Lemma': 'un', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'quinzaine', 'B0Token': 'une', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'quinzaine'}
-17- 2 : {'B0Lemma': 'quinzaine', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'quinzaine', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'une', 'S0Lemma': 'un', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
-18- 0 : {'B0Lemma': 'quinzaine', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'quinzaine', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'de'}
-19- 2 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'langues', 'B0Token': 'de', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'quinzaine', 'S0Lemma': 'quinzaine', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'langue', 'distance': '1'}
-20- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'langues', 'B0Token': 'de', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'langue'}
-21- 2 : {'B0Lemma': 'langue', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'langues', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'de', 'S0Lemma': 'de', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': ',', 'distance': '1'}
-22- 0 : {'B0Lemma': 'langue', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'langues', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': ','}
-23- 2 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'et', 'B0Token': ',', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'langues', 'S0Lemma': 'langue', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'et', 'distance': '1'}
-24- 0 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'et', 'B0Token': ',', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'et'}
-25- 2 : {'B0Lemma': 'et', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'deux', 'B0Token': 'et', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': ',', 'S0Lemma': ',', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'deux', 'distance': '1'}
-26- 0 : {'B0Lemma': 'et', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'deux', 'B0Token': 'et', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'deux'}
-27- 2 : {'B0Lemma': 'deux', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "d'", 'B0Token': 'deux', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'et', 'S0Lemma': 'et', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
-28- 0 : {'B0Lemma': 'deux', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': "d'", 'B0Token': 'deux', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'de'}
-29- 2 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'entre', 'B0Token': "d'", 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'deux', 'S0Lemma': 'deux', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'entre', 'distance': '1'}
-30- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'entre', 'B0Token': "d'", 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'entre'}
-31- 2 : {'B0Lemma': 'entre', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'eux', 'B0Token': 'entre', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': "d'", 'S0Lemma': 'de', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'soi', 'distance': '1'}
-32- 0 : {'B0Lemma': 'entre', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'eux', 'B0Token': 'entre', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'soi'}
-33- 2 : {'B0Lemma': 'soi', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'ont', 'B0Token': 'eux', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'entre', 'S0Lemma': 'entre', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'avoir', 'distance': '1'}
-34- 0 : {'B0Lemma': 'soi', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'ont', 'B0Token': 'eux', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'avoir'}
-35- 2 : {'B0Lemma': 'avoir', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'fait', 'B0Token': 'ont', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'eux', 'S0Lemma': 'soi', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'faire', 'distance': '1'}
-36- 0 : {'B0Lemma': 'avoir', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'fait', 'B0Token': 'ont', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'faire'}
-37- 2 : {'B0Lemma': 'faire', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "l'", 'B0Token': 'fait', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'ont', 'S0Lemma': 'avoir', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
-38- 0 : {'B0Lemma': 'faire', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': "l'", 'B0Token': 'fait', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'le'}
-39- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'objet', 'B0Token': "l'", 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'fait', 'S0Lemma': 'faire', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'objet', 'distance': '1'}
-40- 0 : {'B0Lemma': 'objet', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': "d'", 'B0Token': 'objet', 'prevriousT': 'TransitionType.SHIFT', 'S0Token': 'fait', 'S1Token': "l'", 'S1POS': '_', 'S0Lemma': 'faire', 'S1Lemma': 'le', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
-41- 1 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'adaptations', 'B0Token': "d'", 'prevriousT': 'TransitionType.SHIFT', 'S0Token': "l'", 'S1Token': 'objet', 'S1POS': '_', 'S0Lemma': 'le', 'S1Lemma': 'objet', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'adaptation', 'distance': '1'}
-42- 1 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'adaptations', 'B0Token': "d'", 'prevriousT': 'TransitionType.SHIFT', 'S0Token': 'fait', 'S1Token': "l'-objet", 'S1POS': '_-_', 'S0Lemma': 'faire', 'S1Lemma': 'le-objet', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'adaptation', 'distance': '1'}
-43- 2 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'adaptations', 'B0Token': "d'", 'prevriousT': 'TransitionType.MERGE', 'S0Token': "fait-l'-objet", 'S0Lemma': 'faire-le-objet', 'S0POS': '_-_-_', 'B0POS': '_', 'B1Lemma': 'adaptation', 'distance': '1'}
-44- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.MERGE', 'B1POS': '_', 'B1Token': 'adaptations', 'B0Token': "d'", 'prevriousT': 'TransitionType.MERGE', 'B0POS': '_', 'B1Lemma': 'adaptation'}
-45- 2 : {'B0Lemma': 'adaptation', 'antepenultimateT': 'TransitionType.MERGE', 'B1POS': '_', 'B1Token': 't\xc3\xa9l\xc3\xa9visuelles', 'B0Token': 'adaptations', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': "d'", 'S0Lemma': 'de', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 't\xc3\xa9l\xc3\xa9visuel', 'distance': '1'}
-46- 0 : {'B0Lemma': 'adaptation', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 't\xc3\xa9l\xc3\xa9visuelles', 'B0Token': 'adaptations', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 't\xc3\xa9l\xc3\xa9visuel'}
-47- 2 : {'B0Lemma': 't\xc3\xa9l\xc3\xa9visuel', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '.', 'B0Token': 't\xc3\xa9l\xc3\xa9visuelles', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'adaptations', 'S0Lemma': 'adaptation', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': '.', 'distance': '1'}
-48- 0 : {'B0Lemma': 't\xc3\xa9l\xc3\xa9visuel', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '.', 'B0Token': 't\xc3\xa9l\xc3\xa9visuelles', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': '.'}
-49- 2 : {'B0Lemma': '.', 'antepenultimateT': 'TransitionType.SHIFT', 'distance': '1', 'B0Token': '.', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 't\xc3\xa9l\xc3\xa9visuelles', 'S0Lemma': 't\xc3\xa9l\xc3\xa9visuel', 'S0POS': '_', 'B0POS': '_'}
-50- 0 : {'B0Lemma': '.', 'B0Token': '.', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.COMPLETE', 'B0POS': '_'}
-51- 2 : {'S0Lemma': '.', 'antepenultimateT': 'TransitionType.SHIFT', 'prevriousT': 'TransitionType.COMPLETE', 'S0POS': '_', 'S0Token': '.'}
-##Sentence No. 11961 - fr-ud-train_10530
- Les pays qui ont droit au véto au sein du Conseil de sécurité des Nations-Unis semblent disposés à ne pas exiger qu'il y ait contrôle des Droits de l'Homme dans le territoire, tout comme l'ont demandé certains pays comme L'Afrique du Sud, La Russie, Le Nigéria ou le Brésil et des organisations internationales telles que Amnistie internationale ou Human Right Watch.
+0- 0 : {'B0Lemma': 'ce', 'antepenultimateT': '_', 'B1POS': '_', 'B1Token': 'fleuve', 'B0Token': 'Ce', 'prevriousT': '_', 'transitionHistory': '__', 'B0POS': '_', 'B1Lemma': 'fleuve'}
+1- 2 : {'B0Lemma': 'fleuve', 'prevriousT': 'None', 'antepenultimateT': '_', 'B1POS': '_', 'B1Token': 'est', 'S0POS': '_', 'B0Token': 'fleuve', 'S0B0Token': 'Ce_fleuve', 'transitionHistory': 'None_', 'S0Token': 'Ce', 'S0B0POS': '___', 'S0B0POSLemma': '__fleuve', 'S0Lemma': 'ce', 'S0B0LemmaPOS': 'ce__', 'S0B0Lemma': 'ce_fleuve', 'B0POS': '_', 'B1Lemma': '\xc3\xaatre', 'distance': '1'}
+2- 0 : {'B0Lemma': 'fleuve', 'antepenultimateT': 'None', 'B1POS': '_', 'B1Token': 'est', 'B0Token': 'fleuve', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTNone', 'B0POS': '_', 'B1Lemma': '\xc3\xaatre'}
+3- 2 : {'B0Lemma': '\xc3\xaatre', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'cens\xc3\xa9', 'S0POS': '_', 'B0Token': 'est', 'S0B0Token': 'fleuve_est', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'fleuve', 'S0B0POS': '___', 'S0B0POSLemma': '__\xc3\xaatre', 'S0Lemma': 'fleuve', 'S0B0LemmaPOS': 'fleuve__', 'S0B0Lemma': 'fleuve_\xc3\xaatre', 'B0POS': '_', 'B1Lemma': 'cens\xc3\xa9', 'distance': '1'}
+4- 0 : {'B0Lemma': '\xc3\xaatre', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'cens\xc3\xa9', 'B0Token': 'est', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'cens\xc3\xa9'}
+5- 2 : {'B0Lemma': 'cens\xc3\xa9', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'couler', 'S0POS': '_', 'B0Token': 'cens\xc3\xa9', 'S0B0Token': 'est_cens\xc3\xa9', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'est', 'S0B0POS': '___', 'S0B0POSLemma': '__cens\xc3\xa9', 'S0Lemma': '\xc3\xaatre', 'S0B0LemmaPOS': '\xc3\xaatre__', 'S0B0Lemma': '\xc3\xaatre_cens\xc3\xa9', 'B0POS': '_', 'B1Lemma': 'couler', 'distance': '1'}
+6- 0 : {'B0Lemma': 'cens\xc3\xa9', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'couler', 'B0Token': 'cens\xc3\xa9', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'couler'}
+7- 2 : {'B0Lemma': 'couler', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'six', 'S0POS': '_', 'B0Token': 'couler', 'S0B0Token': 'cens\xc3\xa9_couler', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'cens\xc3\xa9', 'S0B0POS': '___', 'S0B0POSLemma': '__couler', 'S0Lemma': 'cens\xc3\xa9', 'S0B0LemmaPOS': 'cens\xc3\xa9__', 'S0B0Lemma': 'cens\xc3\xa9_couler', 'B0POS': '_', 'B1Lemma': 'six', 'distance': '1'}
+8- 0 : {'B0Lemma': 'couler', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'six', 'B0Token': 'couler', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'six'}
+9- 2 : {'B0Lemma': 'six', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'jours', 'S0POS': '_', 'B0Token': 'six', 'S0B0Token': 'couler_six', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'couler', 'S0B0POS': '___', 'S0B0POSLemma': '__six', 'S0Lemma': 'couler', 'S0B0LemmaPOS': 'couler__', 'S0B0Lemma': 'couler_six', 'B0POS': '_', 'B1Lemma': 'jour', 'distance': '1'}
+10- 0 : {'B0Lemma': 'six', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'jours', 'B0Token': 'six', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'jour'}
+11- 2 : {'B0Lemma': 'jour', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'et', 'S0POS': '_', 'B0Token': 'jours', 'S0B0Token': 'six_jours', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'six', 'S0B0POS': '___', 'S0B0POSLemma': '__jour', 'S0Lemma': 'six', 'S0B0LemmaPOS': 'six__', 'S0B0Lemma': 'six_jour', 'B0POS': '_', 'B1Lemma': 'et', 'distance': '1'}
+12- 0 : {'B0Lemma': 'jour', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'et', 'B0Token': 'jours', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'et'}
+13- 2 : {'B0Lemma': 'et', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'rester', 'S0POS': '_', 'B0Token': 'et', 'S0B0Token': 'jours_et', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'jours', 'S0B0POS': '___', 'S0B0POSLemma': '__et', 'S0Lemma': 'jour', 'S0B0LemmaPOS': 'jour__', 'S0B0Lemma': 'jour_et', 'B0POS': '_', 'B1Lemma': 'rester', 'distance': '1'}
+14- 0 : {'B0Lemma': 'et', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'rester', 'B0Token': 'et', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'rester'}
+15- 2 : {'B0Lemma': 'rester', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '\xc3\xa0', 'S0POS': '_', 'B0Token': 'rester', 'S0B0Token': 'et_rester', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'et', 'S0B0POS': '___', 'S0B0POSLemma': '__rester', 'S0Lemma': 'et', 'S0B0LemmaPOS': 'et__', 'S0B0Lemma': 'et_rester', 'B0POS': '_', 'B1Lemma': '\xc3\xa0', 'distance': '1'}
+16- 0 : {'B0Lemma': 'rester', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '\xc3\xa0', 'B0Token': 'rester', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': '\xc3\xa0'}
+17- 2 : {'B0Lemma': '\xc3\xa0', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'sec', 'S0POS': '_', 'B0Token': '\xc3\xa0', 'S0B0Token': 'rester_\xc3\xa0', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'rester', 'S0B0POS': '___', 'S0B0POSLemma': '__\xc3\xa0', 'S0Lemma': 'rester', 'S0B0LemmaPOS': 'rester__', 'S0B0Lemma': 'rester_\xc3\xa0', 'B0POS': '_', 'B1Lemma': 'sec', 'distance': '1'}
+18- 0 : {'B0Lemma': '\xc3\xa0', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'sec', 'B0Token': '\xc3\xa0', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'sec'}
+19- 2 : {'B0Lemma': 'sec', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'le', 'S0POS': '_', 'B0Token': 'sec', 'S0B0Token': '\xc3\xa0_sec', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': '\xc3\xa0', 'S0B0POS': '___', 'S0B0POSLemma': '__sec', 'S0Lemma': '\xc3\xa0', 'S0B0LemmaPOS': '\xc3\xa0__', 'S0B0Lemma': '\xc3\xa0_sec', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+20- 0 : {'B0Lemma': 'sec', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'le', 'B0Token': 'sec', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'le'}
+21- 2 : {'B0Lemma': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'septi\xc3\xa8me', 'S0POS': '_', 'B0Token': 'le', 'S0B0Token': 'sec_le', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'sec', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': 'sec', 'S0B0LemmaPOS': 'sec__', 'S0B0Lemma': 'sec_le', 'B0POS': '_', 'B1Lemma': 'septi\xc3\xa8me', 'distance': '1'}
+22- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'septi\xc3\xa8me', 'B0Token': 'le', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'septi\xc3\xa8me'}
+23- 2 : {'B0Lemma': 'septi\xc3\xa8me', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': ',', 'S0POS': '_', 'B0Token': 'septi\xc3\xa8me', 'S0B0Token': 'le_septi\xc3\xa8me', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'le', 'S0B0POS': '___', 'S0B0POSLemma': '__septi\xc3\xa8me', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_septi\xc3\xa8me', 'B0POS': '_', 'B1Lemma': ',', 'distance': '1'}
+24- 0 : {'B0Lemma': 'septi\xc3\xa8me', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'septi\xc3\xa8me', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': ','}
+25- 2 : {'B0Lemma': ',', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "d'", 'S0POS': '_', 'B0Token': ',', 'S0B0Token': 'septi\xc3\xa8me_,', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'septi\xc3\xa8me', 'S0B0POS': '___', 'S0B0POSLemma': '__,', 'S0Lemma': 'septi\xc3\xa8me', 'S0B0LemmaPOS': 'septi\xc3\xa8me__', 'S0B0Lemma': 'septi\xc3\xa8me_,', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
+26- 0 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': "d'", 'B0Token': ',', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'de'}
+27- 2 : {'B0Lemma': 'de', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'o\xc3\xb9', 'S0POS': '_', 'B0Token': "d'", 'S0B0Token': ",_d'", 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': ',', 'S0B0POS': '___', 'S0B0POSLemma': '__de', 'S0Lemma': ',', 'S0B0LemmaPOS': ',__', 'S0B0Lemma': ',_de', 'B0POS': '_', 'B1Lemma': 'o\xc3\xb9', 'distance': '1'}
+28- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'o\xc3\xb9', 'B0Token': "d'", 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'o\xc3\xb9'}
+29- 2 : {'B0Lemma': 'o\xc3\xb9', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'son', 'S0POS': '_', 'B0Token': 'o\xc3\xb9', 'S0B0Token': "d'_o\xc3\xb9", 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': "d'", 'S0B0POS': '___', 'S0B0POSLemma': '__o\xc3\xb9', 'S0Lemma': 'de', 'S0B0LemmaPOS': 'de__', 'S0B0Lemma': 'de_o\xc3\xb9', 'B0POS': '_', 'B1Lemma': 'son', 'distance': '1'}
+30- 0 : {'B0Lemma': 'o\xc3\xb9', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'son', 'B0Token': 'o\xc3\xb9', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'son'}
+31- 2 : {'B0Lemma': 'son', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'nom', 'S0POS': '_', 'B0Token': 'son', 'S0B0Token': 'o\xc3\xb9_son', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'o\xc3\xb9', 'S0B0POS': '___', 'S0B0POSLemma': '__son', 'S0Lemma': 'o\xc3\xb9', 'S0B0LemmaPOS': 'o\xc3\xb9__', 'S0B0Lemma': 'o\xc3\xb9_son', 'B0POS': '_', 'B1Lemma': 'nom', 'distance': '1'}
+32- 0 : {'B0Lemma': 'son', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'nom', 'B0Token': 'son', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'nom'}
+33- 2 : {'B0Lemma': 'nom', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '\xc2\xab', 'S0POS': '_', 'B0Token': 'nom', 'S0B0Token': 'son_nom', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'son', 'S0B0POS': '___', 'S0B0POSLemma': '__nom', 'S0Lemma': 'son', 'S0B0LemmaPOS': 'son__', 'S0B0Lemma': 'son_nom', 'B0POS': '_', 'B1Lemma': '\xc2\xab', 'distance': '1'}
+34- 0 : {'B0Lemma': 'nom', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '\xc2\xab', 'B0Token': 'nom', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': '\xc2\xab'}
+35- 2 : {'B0Lemma': '\xc2\xab', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'sabbatique', 'S0POS': '_', 'B0Token': '\xc2\xab', 'S0B0Token': 'nom_\xc2\xab', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'nom', 'S0B0POS': '___', 'S0B0POSLemma': '__\xc2\xab', 'S0Lemma': 'nom', 'S0B0LemmaPOS': 'nom__', 'S0B0Lemma': 'nom_\xc2\xab', 'B0POS': '_', 'B1Lemma': 'sabbatique', 'distance': '1'}
+36- 0 : {'B0Lemma': '\xc2\xab', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'sabbatique', 'B0Token': '\xc2\xab', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'sabbatique'}
+37- 2 : {'B0Lemma': 'sabbatique', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '\xc2\xbb', 'S0POS': '_', 'B0Token': 'sabbatique', 'S0B0Token': '\xc2\xab_sabbatique', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': '\xc2\xab', 'S0B0POS': '___', 'S0B0POSLemma': '__sabbatique', 'S0Lemma': '\xc2\xab', 'S0B0LemmaPOS': '\xc2\xab__', 'S0B0Lemma': '\xc2\xab_sabbatique', 'B0POS': '_', 'B1Lemma': '\xc2\xbb', 'distance': '1'}
+38- 0 : {'B0Lemma': 'sabbatique', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '\xc2\xbb', 'B0Token': 'sabbatique', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': '\xc2\xbb'}
+39- 2 : {'B0Lemma': '\xc2\xbb', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': ',', 'S0POS': '_', 'B0Token': '\xc2\xbb', 'S0B0Token': 'sabbatique_\xc2\xbb', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'sabbatique', 'S0B0POS': '___', 'S0B0POSLemma': '__\xc2\xbb', 'S0Lemma': 'sabbatique', 'S0B0LemmaPOS': 'sabbatique__', 'S0B0Lemma': 'sabbatique_\xc2\xbb', 'B0POS': '_', 'B1Lemma': ',', 'distance': '1'}
+40- 0 : {'B0Lemma': '\xc2\xbb', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': ',', 'B0Token': '\xc2\xbb', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': ','}
+41- 2 : {'B0Lemma': ',', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Pline', 'S0POS': '_', 'B0Token': ',', 'S0B0Token': '\xc2\xbb_,', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': '\xc2\xbb', 'S0B0POS': '___', 'S0B0POSLemma': '__,', 'S0Lemma': '\xc2\xbb', 'S0B0LemmaPOS': '\xc2\xbb__', 'S0B0Lemma': '\xc2\xbb_,', 'B0POS': '_', 'B1Lemma': 'Pline', 'distance': '1'}
+42- 0 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Pline', 'B0Token': ',', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'Pline'}
+43- 2 : {'B0Lemma': 'Pline', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "l'", 'S0POS': '_', 'B0Token': 'Pline', 'S0B0Token': ',_Pline', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': ',', 'S0B0POS': '___', 'S0B0POSLemma': '__Pline', 'S0Lemma': ',', 'S0B0LemmaPOS': ',__', 'S0B0Lemma': ',_Pline', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+44- 0 : {'B0Lemma': 'Pline', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': "l'", 'B0Token': 'Pline', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'le'}
+45- 2 : {'B0Lemma': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Ancien', 'S0POS': '_', 'B0Token': "l'", 'S0B0Token': "Pline_l'", 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'Pline', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': 'Pline', 'S0B0LemmaPOS': 'Pline__', 'S0B0Lemma': 'Pline_le', 'B0POS': '_', 'B1Lemma': 'Ancien', 'distance': '1'}
+46- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Ancien', 'B0Token': "l'", 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'Ancien'}
+47- 2 : {'B0Lemma': 'Ancien', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'se', 'S0POS': '_', 'B0Token': 'Ancien', 'S0B0Token': "l'_Ancien", 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': "l'", 'S0B0POS': '___', 'S0B0POSLemma': '__Ancien', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_Ancien', 'B0POS': '_', 'B1Lemma': 'se', 'distance': '1'}
+48- 0 : {'B0Lemma': 'Ancien', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'se', 'B0Token': 'Ancien', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'se'}
+49- 2 : {'B0Lemma': 'se', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'contente', 'S0POS': '_', 'B0Token': 'se', 'S0B0Token': 'Ancien_se', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'Ancien', 'S0B0POS': '___', 'S0B0POSLemma': '__se', 'S0Lemma': 'Ancien', 'S0B0LemmaPOS': 'Ancien__', 'S0B0Lemma': 'Ancien_se', 'B0POS': '_', 'B1Lemma': 'contenter', 'distance': '1'}
+50- 0 : {'B0Lemma': 'se', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'contente', 'B0Token': 'se', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'contenter'}
+51- 0 : {'B0Lemma': 'contenter', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "d'", 'S0POS': '_', 'B0Token': 'contente', 'S0B0Token': 'se_contente', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'se', 'S0B0POS': '___', 'S0B0POSLemma': '__contenter', 'S0Lemma': 'se', 'S0B0LemmaPOS': 'se__', 'S0B0Lemma': 'se_contenter', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
+52- 1 : {'B0Lemma': 'de', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'y', 'S0B0Lemma': 'contenter_de', 'B0Token': "d'", 'S0B0Token': "contente_d'", 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'S0Token': 'se', 'S0B0POS': '___', 'S1Token': 'contente', 'S1POS': '_', 'S0B0POSLemma': '__de', 'S0Lemma': 'se', 'S0B0LemmaPOS': 'contenter__', 'S1Lemma': 'contenter', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'y', 'distance': '1'}
+53- 2 : {'B0Lemma': 'de', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'y', 'S0POS': '___', 'B0Token': "d'", 'S0B0Token': "se_contente_d'", 'transitionHistory': 'TransitionType.SHIFTTransitionType.SHIFT', 'S0Token': 'se_contente', 'S0B0POS': '_____', 'S0B0POSLemma': '____de', 'S0Lemma': 'se_contenter', 'S0B0LemmaPOS': 'se_contenter__', 'S0B0Lemma': 'se_contenter_de', 'B0POS': '_', 'B1Lemma': 'y', 'distance': '1'}
+54- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'y', 'B0Token': "d'", 'prevriousT': 'TransitionType.MERGE', 'transitionHistory': 'TransitionType.MERGETransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'y'}
+55- 2 : {'B0Lemma': 'y', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.MERGE', 'B1POS': '_', 'B1Token': 'faire', 'S0POS': '_', 'B0Token': 'y', 'S0B0Token': "d'_y", 'transitionHistory': 'TransitionType.COMPLETETransitionType.MERGE', 'S0Token': "d'", 'S0B0POS': '___', 'S0B0POSLemma': '__y', 'S0Lemma': 'de', 'S0B0LemmaPOS': 'de__', 'S0B0Lemma': 'de_y', 'B0POS': '_', 'B1Lemma': 'faire', 'distance': '1'}
+56- 0 : {'B0Lemma': 'y', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'faire', 'B0Token': 'y', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'faire'}
+57- 2 : {'B0Lemma': 'faire', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'allusion', 'S0POS': '_', 'B0Token': 'faire', 'S0B0Token': 'y_faire', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'y', 'S0B0POS': '___', 'S0B0POSLemma': '__faire', 'S0Lemma': 'y', 'S0B0LemmaPOS': 'y__', 'S0B0Lemma': 'y_faire', 'B0POS': '_', 'B1Lemma': 'allusion', 'distance': '1'}
+58- 0 : {'B0Lemma': 'faire', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'allusion', 'B0Token': 'faire', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'allusion'}
+59- 0 : {'B0Lemma': 'allusion', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '.', 'S0POS': '_', 'B0Token': 'allusion', 'S0B0Token': 'faire_allusion', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'faire', 'S0B0POS': '___', 'S0B0POSLemma': '__allusion', 'S0Lemma': 'faire', 'S0B0LemmaPOS': 'faire__', 'S0B0Lemma': 'faire_allusion', 'B0POS': '_', 'B1Lemma': '.', 'distance': '1'}
+60- 1 : {'B0Lemma': '.', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.COMPLETE', 'distance': '1', 'S0B0Lemma': 'allusion_.', 'B0Token': '.', 'S0B0Token': 'allusion_.', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'S0Token': 'faire', 'S0B0POS': '___', 'S1Token': 'allusion', 'S1POS': '_', 'S0B0POSLemma': '__.', 'S0Lemma': 'faire', 'S0B0LemmaPOS': 'allusion__', 'S1Lemma': 'allusion', 'S0POS': '_', 'B0POS': '_'}
+61- 2 : {'B0Lemma': '.', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.SHIFT', 'distance': '1', 'S0POS': '___', 'B0Token': '.', 'S0B0Token': 'faire_allusion_.', 'transitionHistory': 'TransitionType.SHIFTTransitionType.SHIFT', 'S0Token': 'faire_allusion', 'S0B0POS': '_____', 'S0B0POSLemma': '____.', 'S0Lemma': 'faire_allusion', 'S0B0LemmaPOS': 'faire_allusion__', 'S0B0Lemma': 'faire_allusion_.', 'B0POS': '_'}
+62- 0 : {'B0Lemma': '.', 'antepenultimateT': 'TransitionType.SHIFT', 'B0Token': '.', 'prevriousT': 'TransitionType.MERGE', 'transitionHistory': 'TransitionType.MERGETransitionType.SHIFT', 'B0POS': '_'}
+63- 2 : {'antepenultimateT': 'TransitionType.MERGE', 'prevriousT': 'TransitionType.COMPLETE', 'transitionHistory': 'TransitionType.COMPLETETransitionType.MERGE', 'S0Token': '.', 'S0Lemma': '.', 'S0POS': '_'}
+##Sentence No. 1730 - fr-ud-train_00298
+ De fait, en octobre dernier, la « diplomatie du football » avait eu pour résultat un rapprochement entre l'Arménie et la Turquie : à l'occasion d'un match entre la Turquie et l'Arménie, Ankara et Erevan avaient signé deux protocoles (que les deux parlements tardent toutefois à ratifier) permettant le rétablissement et la normalisation des relations diplomatiques entre les deux pays, après un siècle d'hostilité.
 ###Existing MWEs: 
-1- **ont droit** (LVC)
-2- **il y ait** (ID)
+2- **eu résultat** (LVC)
+1- **signé protocoles** (LVC)
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Les ,.. ]
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Les]   -|||- [pays ,.. ]
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [pays ,.. ]
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[pays]   -|||- [qui ,.. ]
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [qui ,.. ]
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[qui]   -|||- [ont ,.. ]
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [ont ,.. ]
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[ont]   -|||- [droit ,.. ]
-8- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[ont, droit]   -|||- [à ,.. ]
-9- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[[ont, droit]]   -|||- [à ,.. ]
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [à ,.. ]
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[à]   -|||- [le ,.. ]
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [le ,.. ]
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[le]   -|||- [véto ,.. ]
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [véto ,.. ]
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[véto]   -|||- [à ,.. ]
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [à ,.. ]
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[à]   -|||- [le ,.. ]
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [le ,.. ]
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[le]   -|||- [sein ,.. ]
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [sein ,.. ]
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[sein]   -|||- [de ,.. ]
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [de ,.. ]
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[de]   -|||- [le ,.. ]
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [le ,.. ]
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[le]   -|||- [Conseil ,.. ]
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Conseil ,.. ]
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Conseil]   -|||- [de ,.. ]
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [de ,.. ]
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[de]   -|||- [sécurité ,.. ]
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [sécurité ,.. ]
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[sécurité]   -|||- [de ,.. ]
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [De ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[De]   -|||- [fait ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [fait ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[fait]   -|||- [, ,.. ]
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [, ,.. ]
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[,]   -|||- [en ,.. ]
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [en ,.. ]
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[en]   -|||- [octobre ,.. ]
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [octobre ,.. ]
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[octobre]   -|||- [dernier ,.. ]
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [dernier ,.. ]
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[dernier]   -|||- [, ,.. ]
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [, ,.. ]
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[,]   -|||- [la ,.. ]
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [la ,.. ]
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[la]   -|||- [« ,.. ]
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [« ,.. ]
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[«]   -|||- [diplomatie ,.. ]
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [diplomatie ,.. ]
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[diplomatie]   -|||- [de ,.. ]
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [de ,.. ]
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[de]   -|||- [le ,.. ]
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [le ,.. ]
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[le]   -|||- [football ,.. ]
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [football ,.. ]
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[football]   -|||- [» ,.. ]
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [» ,.. ]
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[»]   -|||- [avait ,.. ]
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [avait ,.. ]
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[avait]   -|||- [eu ,.. ]
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [eu ,.. ]
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[eu]   -|||- [pour ,.. ]
+32- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[eu, pour]   -|||- [résultat ,.. ]
+33- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[eu]   -|||- [résultat ,.. ]
+34- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[eu, résultat]   -|||- [un ,.. ]
+35- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[[eu, résultat]]   -|||- [un ,.. ]
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [un ,.. ]
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[un]   -|||- [rapprochement ,.. ]
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [rapprochement ,.. ]
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[rapprochement]   -|||- [entre ,.. ]
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [entre ,.. ]
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[entre]   -|||- [l' ,.. ]
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [l' ,.. ]
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[l']   -|||- [Arménie ,.. ]
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Arménie ,.. ]
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Arménie]   -|||- [et ,.. ]
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [et ,.. ]
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[et]   -|||- [la ,.. ]
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [la ,.. ]
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[la]   -|||- [Turquie ,.. ]
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Turquie ,.. ]
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Turquie]   -|||- [: ,.. ]
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [: ,.. ]
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[:]   -|||- [à ,.. ]
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [à ,.. ]
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[à]   -|||- [l' ,.. ]
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [l' ,.. ]
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[l']   -|||- [occasion ,.. ]
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [occasion ,.. ]
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[occasion]   -|||- [d' ,.. ]
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [d' ,.. ]
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[d']   -|||- [un ,.. ]
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [un ,.. ]
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[un]   -|||- [match ,.. ]
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [match ,.. ]
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[match]   -|||- [entre ,.. ]
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [entre ,.. ]
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[entre]   -|||- [la ,.. ]
+68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [la ,.. ]
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[la]   -|||- [Turquie ,.. ]
+70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Turquie ,.. ]
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Turquie]   -|||- [et ,.. ]
+72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [et ,.. ]
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[et]   -|||- [l' ,.. ]
+74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [l' ,.. ]
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[l']   -|||- [Arménie ,.. ]
+76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Arménie ,.. ]
+77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Arménie]   -|||- [, ,.. ]
+78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [, ,.. ]
+79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[,]   -|||- [Ankara ,.. ]
+80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Ankara ,.. ]
+81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Ankara]   -|||- [et ,.. ]
+82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [et ,.. ]
+83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[et]   -|||- [Erevan ,.. ]
+84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Erevan ,.. ]
+85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Erevan]   -|||- [avaient ,.. ]
+86- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [avaient ,.. ]
+87- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[avaient]   -|||- [signé ,.. ]
+88- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [signé ,.. ]
+89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[signé]   -|||- [deux ,.. ]
+90- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[signé, deux]   -|||- [protocoles ,.. ]
+91- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[signé]   -|||- [protocoles ,.. ]
+92- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[signé, protocoles]   -|||- [( ,.. ]
+93- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[[signé, protocoles]]   -|||- [( ,.. ]
+94- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [( ,.. ]
+95- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[(]   -|||- [que ,.. ]
+96- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [que ,.. ]
+97- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[que]   -|||- [les ,.. ]
+98- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [les ,.. ]
+99- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[les]   -|||- [deux ,.. ]
+100- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [deux ,.. ]
+101- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[deux]   -|||- [parlements ,.. ]
+102- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [parlements ,.. ]
+103- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[parlements]   -|||- [tardent ,.. ]
+104- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [tardent ,.. ]
+105- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[tardent]   -|||- [toutefois ,.. ]
+106- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [toutefois ,.. ]
+107- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[toutefois]   -|||- [à ,.. ]
+108- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [à ,.. ]
+109- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[à]   -|||- [ratifier ,.. ]
+110- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [ratifier ,.. ]
+111- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[ratifier]   -|||- [) ,.. ]
+112- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [) ,.. ]
+113- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[)]   -|||- [permettant ,.. ]
+114- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [permettant ,.. ]
+115- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[permettant]   -|||- [le ,.. ]
+116- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [le ,.. ]
+117- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[le]   -|||- [rétablissement ,.. ]
+118- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [rétablissement ,.. ]
+119- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[rétablissement]   -|||- [et ,.. ]
+120- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [et ,.. ]
+121- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[et]   -|||- [la ,.. ]
+122- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [la ,.. ]
+123- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[la]   -|||- [normalisation ,.. ]
+124- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [normalisation ,.. ]
+125- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[normalisation]   -|||- [de ,.. ]
+126- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [de ,.. ]
+127- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[de]   -|||- [les ,.. ]
+128- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [les ,.. ]
+129- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[les]   -|||- [relations ,.. ]
+130- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [relations ,.. ]
+131- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[relations]   -|||- [diplomatiques ,.. ]
+132- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [diplomatiques ,.. ]
+133- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[diplomatiques]   -|||- [entre ,.. ]
+134- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [entre ,.. ]
+135- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[entre]   -|||- [les ,.. ]
+136- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [les ,.. ]
+137- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[les]   -|||- [deux ,.. ]
+138- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [deux ,.. ]
+139- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[deux]   -|||- [pays ,.. ]
+140- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [pays ,.. ]
+141- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[pays]   -|||- [, ,.. ]
+142- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [, ,.. ]
+143- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[,]   -|||- [après ,.. ]
+144- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [après ,.. ]
+145- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[après]   -|||- [un ,.. ]
+146- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [un ,.. ]
+147- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[un]   -|||- [siècle ,.. ]
+148- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [siècle ,.. ]
+149- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[siècle]   -|||- [d' ,.. ]
+150- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [d' ,.. ]
+151- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[d']   -|||- [hostilité ,.. ]
+152- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [hostilité ,.. ]
+153- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[hostilité]   -|||- [.]
+154- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [.]
+155- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[.]   -|||- [ ]
+156- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [ ]
+
+###Features: 
+0- 0 : {'B0Lemma': 'de', 'antepenultimateT': '_', 'B1POS': '_', 'B1Token': 'fait', 'B0Token': 'De', 'prevriousT': '_', 'transitionHistory': '__', 'B0POS': '_', 'B1Lemma': 'fait'}
+1- 2 : {'B0Lemma': 'fait', 'prevriousT': 'None', 'antepenultimateT': '_', 'B1POS': '_', 'B1Token': ',', 'S0POS': '_', 'B0Token': 'fait', 'S0B0Token': 'De_fait', 'transitionHistory': 'None_', 'S0Token': 'De', 'S0B0POS': '___', 'S0B0POSLemma': '__fait', 'S0Lemma': 'de', 'S0B0LemmaPOS': 'de__', 'S0B0Lemma': 'de_fait', 'B0POS': '_', 'B1Lemma': ',', 'distance': '1'}
+2- 0 : {'B0Lemma': 'fait', 'antepenultimateT': 'None', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'fait', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTNone', 'B0POS': '_', 'B1Lemma': ','}
+3- 2 : {'B0Lemma': ',', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'en', 'S0POS': '_', 'B0Token': ',', 'S0B0Token': 'fait_,', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'fait', 'S0B0POS': '___', 'S0B0POSLemma': '__,', 'S0Lemma': 'fait', 'S0B0LemmaPOS': 'fait__', 'S0B0Lemma': 'fait_,', 'B0POS': '_', 'B1Lemma': 'en', 'distance': '1'}
+4- 0 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'en', 'B0Token': ',', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'en'}
+5- 2 : {'B0Lemma': 'en', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'octobre', 'S0POS': '_', 'B0Token': 'en', 'S0B0Token': ',_en', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': ',', 'S0B0POS': '___', 'S0B0POSLemma': '__en', 'S0Lemma': ',', 'S0B0LemmaPOS': ',__', 'S0B0Lemma': ',_en', 'B0POS': '_', 'B1Lemma': 'octobre', 'distance': '1'}
+6- 0 : {'B0Lemma': 'en', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'octobre', 'B0Token': 'en', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'octobre'}
+7- 2 : {'B0Lemma': 'octobre', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'dernier', 'S0POS': '_', 'B0Token': 'octobre', 'S0B0Token': 'en_octobre', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'en', 'S0B0POS': '___', 'S0B0POSLemma': '__octobre', 'S0Lemma': 'en', 'S0B0LemmaPOS': 'en__', 'S0B0Lemma': 'en_octobre', 'B0POS': '_', 'B1Lemma': 'dernier', 'distance': '1'}
+8- 0 : {'B0Lemma': 'octobre', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'dernier', 'B0Token': 'octobre', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'dernier'}
+9- 2 : {'B0Lemma': 'dernier', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': ',', 'S0POS': '_', 'B0Token': 'dernier', 'S0B0Token': 'octobre_dernier', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'octobre', 'S0B0POS': '___', 'S0B0POSLemma': '__dernier', 'S0Lemma': 'octobre', 'S0B0LemmaPOS': 'octobre__', 'S0B0Lemma': 'octobre_dernier', 'B0POS': '_', 'B1Lemma': ',', 'distance': '1'}
+10- 0 : {'B0Lemma': 'dernier', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'dernier', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': ','}
+11- 2 : {'B0Lemma': ',', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'la', 'S0POS': '_', 'B0Token': ',', 'S0B0Token': 'dernier_,', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'dernier', 'S0B0POS': '___', 'S0B0POSLemma': '__,', 'S0Lemma': 'dernier', 'S0B0LemmaPOS': 'dernier__', 'S0B0Lemma': 'dernier_,', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+12- 0 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'la', 'B0Token': ',', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'le'}
+13- 2 : {'B0Lemma': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '\xc2\xab', 'S0POS': '_', 'B0Token': 'la', 'S0B0Token': ',_la', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': ',', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': ',', 'S0B0LemmaPOS': ',__', 'S0B0Lemma': ',_le', 'B0POS': '_', 'B1Lemma': '\xc2\xab', 'distance': '1'}
+14- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '\xc2\xab', 'B0Token': 'la', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': '\xc2\xab'}
+15- 2 : {'B0Lemma': '\xc2\xab', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'diplomatie', 'S0POS': '_', 'B0Token': '\xc2\xab', 'S0B0Token': 'la_\xc2\xab', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'la', 'S0B0POS': '___', 'S0B0POSLemma': '__\xc2\xab', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_\xc2\xab', 'B0POS': '_', 'B1Lemma': 'diplomatie', 'distance': '1'}
+16- 0 : {'B0Lemma': '\xc2\xab', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'diplomatie', 'B0Token': '\xc2\xab', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'diplomatie'}
+17- 2 : {'B0Lemma': 'diplomatie', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'de', 'S0POS': '_', 'B0Token': 'diplomatie', 'S0B0Token': '\xc2\xab_diplomatie', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': '\xc2\xab', 'S0B0POS': '___', 'S0B0POSLemma': '__diplomatie', 'S0Lemma': '\xc2\xab', 'S0B0LemmaPOS': '\xc2\xab__', 'S0B0Lemma': '\xc2\xab_diplomatie', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
+18- 0 : {'B0Lemma': 'diplomatie', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'diplomatie', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'de'}
+19- 2 : {'B0Lemma': 'de', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'le', 'S0POS': '_', 'B0Token': 'de', 'S0B0Token': 'diplomatie_de', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'diplomatie', 'S0B0POS': '___', 'S0B0POSLemma': '__de', 'S0Lemma': 'diplomatie', 'S0B0LemmaPOS': 'diplomatie__', 'S0B0Lemma': 'diplomatie_de', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+20- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'le', 'B0Token': 'de', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'le'}
+21- 2 : {'B0Lemma': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'football', 'S0POS': '_', 'B0Token': 'le', 'S0B0Token': 'de_le', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'de', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': 'de', 'S0B0LemmaPOS': 'de__', 'S0B0Lemma': 'de_le', 'B0POS': '_', 'B1Lemma': 'football', 'distance': '1'}
+22- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'football', 'B0Token': 'le', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'football'}
+23- 2 : {'B0Lemma': 'football', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '\xc2\xbb', 'S0POS': '_', 'B0Token': 'football', 'S0B0Token': 'le_football', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'le', 'S0B0POS': '___', 'S0B0POSLemma': '__football', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_football', 'B0POS': '_', 'B1Lemma': '\xc2\xbb', 'distance': '1'}
+24- 0 : {'B0Lemma': 'football', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '\xc2\xbb', 'B0Token': 'football', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': '\xc2\xbb'}
+25- 2 : {'B0Lemma': '\xc2\xbb', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'avait', 'S0POS': '_', 'B0Token': '\xc2\xbb', 'S0B0Token': 'football_\xc2\xbb', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'football', 'S0B0POS': '___', 'S0B0POSLemma': '__\xc2\xbb', 'S0Lemma': 'football', 'S0B0LemmaPOS': 'football__', 'S0B0Lemma': 'football_\xc2\xbb', 'B0POS': '_', 'B1Lemma': 'avoir', 'distance': '1'}
+26- 0 : {'B0Lemma': '\xc2\xbb', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'avait', 'B0Token': '\xc2\xbb', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'avoir'}
+27- 2 : {'B0Lemma': 'avoir', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'eu', 'S0POS': '_', 'B0Token': 'avait', 'S0B0Token': '\xc2\xbb_avait', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': '\xc2\xbb', 'S0B0POS': '___', 'S0B0POSLemma': '__avoir', 'S0Lemma': '\xc2\xbb', 'S0B0LemmaPOS': '\xc2\xbb__', 'S0B0Lemma': '\xc2\xbb_avoir', 'B0POS': '_', 'B1Lemma': 'avoir', 'distance': '1'}
+28- 0 : {'B0Lemma': 'avoir', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'eu', 'B0Token': 'avait', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'avoir'}
+29- 2 : {'B0Lemma': 'avoir', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'pour', 'S0POS': '_', 'B0Token': 'eu', 'S0B0Token': 'avait_eu', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'avait', 'S0B0POS': '___', 'S0B0POSLemma': '__avoir', 'S0Lemma': 'avoir', 'S0B0LemmaPOS': 'avoir__', 'S0B0Lemma': 'avoir_avoir', 'B0POS': '_', 'B1Lemma': 'pour', 'distance': '1'}
+30- 0 : {'B0Lemma': 'avoir', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'pour', 'B0Token': 'eu', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'pour'}
+31- 0 : {'B0Lemma': 'pour', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'r\xc3\xa9sultat', 'S0POS': '_', 'B0Token': 'pour', 'S0B0Token': 'eu_pour', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'eu', 'S0B0POS': '___', 'S0B0POSLemma': '__pour', 'S0Lemma': 'avoir', 'S0B0LemmaPOS': 'avoir__', 'S0B0Lemma': 'avoir_pour', 'B0POS': '_', 'B1Lemma': 'r\xc3\xa9sultat', 'distance': '1'}
+32- 2 : {'B0Lemma': 'r\xc3\xa9sultat', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'un', 'S0B0Lemma': 'pour_r\xc3\xa9sultat', 'B0Token': 'r\xc3\xa9sultat', 'S0B0Token': 'pour_r\xc3\xa9sultat', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'S0Token': 'eu', 'S0B0POS': '___', 'S1Token': 'pour', 'S1POS': '_', 'S0B0POSLemma': '__r\xc3\xa9sultat', 'S0Lemma': 'avoir', 'S0B0LemmaPOS': 'pour__', 'S1Lemma': 'pour', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'un', 'distance': '1'}
+33- 0 : {'B0Lemma': 'r\xc3\xa9sultat', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'un', 'S0POS': '_', 'B0Token': 'r\xc3\xa9sultat', 'S0B0Token': 'eu_r\xc3\xa9sultat', 'transitionHistory': 'TransitionType.SHIFTTransitionType.SHIFT', 'S0Token': 'eu', 'S0B0POS': '___', 'S0B0POSLemma': '__r\xc3\xa9sultat', 'S0Lemma': 'avoir', 'S0B0LemmaPOS': 'avoir__', 'S0B0Lemma': 'avoir_r\xc3\xa9sultat', 'B0POS': '_', 'B1Lemma': 'un', 'distance': '2'}
+34- 1 : {'B0Lemma': 'un', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'rapprochement', 'S0B0Lemma': 'r\xc3\xa9sultat_un', 'B0Token': 'un', 'S0B0Token': 'r\xc3\xa9sultat_un', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'eu', 'S0B0POS': '___', 'S1Token': 'r\xc3\xa9sultat', 'S1POS': '_', 'S0B0POSLemma': '__un', 'S0Lemma': 'avoir', 'S0B0LemmaPOS': 'r\xc3\xa9sultat__', 'S1Lemma': 'r\xc3\xa9sultat', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'rapprochement', 'distance': '1'}
+35- 2 : {'B0Lemma': 'un', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'rapprochement', 'S0POS': '___', 'B0Token': 'un', 'S0B0Token': 'eu_r\xc3\xa9sultat_un', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'S0Token': 'eu_r\xc3\xa9sultat', 'S0B0POS': '_____', 'S0B0POSLemma': '____un', 'S0Lemma': 'avoir_r\xc3\xa9sultat', 'S0B0LemmaPOS': 'avoir_r\xc3\xa9sultat__', 'S0B0Lemma': 'avoir_r\xc3\xa9sultat_un', 'B0POS': '_', 'B1Lemma': 'rapprochement', 'distance': '1'}
+36- 0 : {'B0Lemma': 'un', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'rapprochement', 'B0Token': 'un', 'prevriousT': 'TransitionType.MERGE', 'transitionHistory': 'TransitionType.MERGETransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'rapprochement'}
+37- 2 : {'B0Lemma': 'rapprochement', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.MERGE', 'B1POS': '_', 'B1Token': 'entre', 'S0POS': '_', 'B0Token': 'rapprochement', 'S0B0Token': 'un_rapprochement', 'transitionHistory': 'TransitionType.COMPLETETransitionType.MERGE', 'S0Token': 'un', 'S0B0POS': '___', 'S0B0POSLemma': '__rapprochement', 'S0Lemma': 'un', 'S0B0LemmaPOS': 'un__', 'S0B0Lemma': 'un_rapprochement', 'B0POS': '_', 'B1Lemma': 'entre', 'distance': '1'}
+38- 0 : {'B0Lemma': 'rapprochement', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'entre', 'B0Token': 'rapprochement', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'entre'}
+39- 2 : {'B0Lemma': 'entre', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "l'", 'S0POS': '_', 'B0Token': 'entre', 'S0B0Token': 'rapprochement_entre', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'rapprochement', 'S0B0POS': '___', 'S0B0POSLemma': '__entre', 'S0Lemma': 'rapprochement', 'S0B0LemmaPOS': 'rapprochement__', 'S0B0Lemma': 'rapprochement_entre', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+40- 0 : {'B0Lemma': 'entre', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': "l'", 'B0Token': 'entre', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'le'}
+41- 2 : {'B0Lemma': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Arm\xc3\xa9nie', 'S0POS': '_', 'B0Token': "l'", 'S0B0Token': "entre_l'", 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'entre', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': 'entre', 'S0B0LemmaPOS': 'entre__', 'S0B0Lemma': 'entre_le', 'B0POS': '_', 'B1Lemma': 'Arm\xc3\xa9nie', 'distance': '1'}
+42- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Arm\xc3\xa9nie', 'B0Token': "l'", 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'Arm\xc3\xa9nie'}
+43- 2 : {'B0Lemma': 'Arm\xc3\xa9nie', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'et', 'S0POS': '_', 'B0Token': 'Arm\xc3\xa9nie', 'S0B0Token': "l'_Arm\xc3\xa9nie", 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': "l'", 'S0B0POS': '___', 'S0B0POSLemma': '__Arm\xc3\xa9nie', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_Arm\xc3\xa9nie', 'B0POS': '_', 'B1Lemma': 'et', 'distance': '1'}
+44- 0 : {'B0Lemma': 'Arm\xc3\xa9nie', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'et', 'B0Token': 'Arm\xc3\xa9nie', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'et'}
+45- 2 : {'B0Lemma': 'et', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'la', 'S0POS': '_', 'B0Token': 'et', 'S0B0Token': 'Arm\xc3\xa9nie_et', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'Arm\xc3\xa9nie', 'S0B0POS': '___', 'S0B0POSLemma': '__et', 'S0Lemma': 'Arm\xc3\xa9nie', 'S0B0LemmaPOS': 'Arm\xc3\xa9nie__', 'S0B0Lemma': 'Arm\xc3\xa9nie_et', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+46- 0 : {'B0Lemma': 'et', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'la', 'B0Token': 'et', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'le'}
+47- 2 : {'B0Lemma': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Turquie', 'S0POS': '_', 'B0Token': 'la', 'S0B0Token': 'et_la', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'et', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': 'et', 'S0B0LemmaPOS': 'et__', 'S0B0Lemma': 'et_le', 'B0POS': '_', 'B1Lemma': 'Turquie', 'distance': '1'}
+48- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Turquie', 'B0Token': 'la', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'Turquie'}
+49- 2 : {'B0Lemma': 'Turquie', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': ':', 'S0POS': '_', 'B0Token': 'Turquie', 'S0B0Token': 'la_Turquie', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'la', 'S0B0POS': '___', 'S0B0POSLemma': '__Turquie', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_Turquie', 'B0POS': '_', 'B1Lemma': ':', 'distance': '1'}
+50- 0 : {'B0Lemma': 'Turquie', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': ':', 'B0Token': 'Turquie', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': ':'}
+51- 2 : {'B0Lemma': ':', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '\xc3\xa0', 'S0POS': '_', 'B0Token': ':', 'S0B0Token': 'Turquie_:', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'Turquie', 'S0B0POS': '___', 'S0B0POSLemma': '__:', 'S0Lemma': 'Turquie', 'S0B0LemmaPOS': 'Turquie__', 'S0B0Lemma': 'Turquie_:', 'B0POS': '_', 'B1Lemma': '\xc3\xa0', 'distance': '1'}
+52- 0 : {'B0Lemma': ':', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '\xc3\xa0', 'B0Token': ':', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': '\xc3\xa0'}
+53- 2 : {'B0Lemma': '\xc3\xa0', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "l'", 'S0POS': '_', 'B0Token': '\xc3\xa0', 'S0B0Token': ':_\xc3\xa0', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': ':', 'S0B0POS': '___', 'S0B0POSLemma': '__\xc3\xa0', 'S0Lemma': ':', 'S0B0LemmaPOS': ':__', 'S0B0Lemma': ':_\xc3\xa0', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+54- 0 : {'B0Lemma': '\xc3\xa0', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': "l'", 'B0Token': '\xc3\xa0', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'le'}
+55- 2 : {'B0Lemma': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'occasion', 'S0POS': '_', 'B0Token': "l'", 'S0B0Token': "\xc3\xa0_l'", 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': '\xc3\xa0', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': '\xc3\xa0', 'S0B0LemmaPOS': '\xc3\xa0__', 'S0B0Lemma': '\xc3\xa0_le', 'B0POS': '_', 'B1Lemma': 'occasion', 'distance': '1'}
+56- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'occasion', 'B0Token': "l'", 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'occasion'}
+57- 2 : {'B0Lemma': 'occasion', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "d'", 'S0POS': '_', 'B0Token': 'occasion', 'S0B0Token': "l'_occasion", 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': "l'", 'S0B0POS': '___', 'S0B0POSLemma': '__occasion', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_occasion', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
+58- 0 : {'B0Lemma': 'occasion', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': "d'", 'B0Token': 'occasion', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'de'}
+59- 2 : {'B0Lemma': 'de', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'un', 'S0POS': '_', 'B0Token': "d'", 'S0B0Token': "occasion_d'", 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'occasion', 'S0B0POS': '___', 'S0B0POSLemma': '__de', 'S0Lemma': 'occasion', 'S0B0LemmaPOS': 'occasion__', 'S0B0Lemma': 'occasion_de', 'B0POS': '_', 'B1Lemma': 'un', 'distance': '1'}
+60- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'un', 'B0Token': "d'", 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'un'}
+61- 2 : {'B0Lemma': 'un', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'match', 'S0POS': '_', 'B0Token': 'un', 'S0B0Token': "d'_un", 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': "d'", 'S0B0POS': '___', 'S0B0POSLemma': '__un', 'S0Lemma': 'de', 'S0B0LemmaPOS': 'de__', 'S0B0Lemma': 'de_un', 'B0POS': '_', 'B1Lemma': 'match', 'distance': '1'}
+62- 0 : {'B0Lemma': 'un', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'match', 'B0Token': 'un', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'match'}
+63- 2 : {'B0Lemma': 'match', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'entre', 'S0POS': '_', 'B0Token': 'match', 'S0B0Token': 'un_match', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'un', 'S0B0POS': '___', 'S0B0POSLemma': '__match', 'S0Lemma': 'un', 'S0B0LemmaPOS': 'un__', 'S0B0Lemma': 'un_match', 'B0POS': '_', 'B1Lemma': 'entre', 'distance': '1'}
+64- 0 : {'B0Lemma': 'match', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'entre', 'B0Token': 'match', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'entre'}
+65- 2 : {'B0Lemma': 'entre', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'la', 'S0POS': '_', 'B0Token': 'entre', 'S0B0Token': 'match_entre', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'match', 'S0B0POS': '___', 'S0B0POSLemma': '__entre', 'S0Lemma': 'match', 'S0B0LemmaPOS': 'match__', 'S0B0Lemma': 'match_entre', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+66- 0 : {'B0Lemma': 'entre', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'la', 'B0Token': 'entre', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'le'}
+67- 2 : {'B0Lemma': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Turquie', 'S0POS': '_', 'B0Token': 'la', 'S0B0Token': 'entre_la', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'entre', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': 'entre', 'S0B0LemmaPOS': 'entre__', 'S0B0Lemma': 'entre_le', 'B0POS': '_', 'B1Lemma': 'Turquie', 'distance': '1'}
+68- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Turquie', 'B0Token': 'la', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'Turquie'}
+69- 2 : {'B0Lemma': 'Turquie', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'et', 'S0POS': '_', 'B0Token': 'Turquie', 'S0B0Token': 'la_Turquie', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'la', 'S0B0POS': '___', 'S0B0POSLemma': '__Turquie', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_Turquie', 'B0POS': '_', 'B1Lemma': 'et', 'distance': '1'}
+70- 0 : {'B0Lemma': 'Turquie', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'et', 'B0Token': 'Turquie', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'et'}
+71- 2 : {'B0Lemma': 'et', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "l'", 'S0POS': '_', 'B0Token': 'et', 'S0B0Token': 'Turquie_et', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'Turquie', 'S0B0POS': '___', 'S0B0POSLemma': '__et', 'S0Lemma': 'Turquie', 'S0B0LemmaPOS': 'Turquie__', 'S0B0Lemma': 'Turquie_et', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+72- 0 : {'B0Lemma': 'et', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': "l'", 'B0Token': 'et', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'le'}
+73- 2 : {'B0Lemma': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Arm\xc3\xa9nie', 'S0POS': '_', 'B0Token': "l'", 'S0B0Token': "et_l'", 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'et', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': 'et', 'S0B0LemmaPOS': 'et__', 'S0B0Lemma': 'et_le', 'B0POS': '_', 'B1Lemma': 'Arm\xc3\xa9nie', 'distance': '1'}
+74- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Arm\xc3\xa9nie', 'B0Token': "l'", 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'Arm\xc3\xa9nie'}
+75- 2 : {'B0Lemma': 'Arm\xc3\xa9nie', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': ',', 'S0POS': '_', 'B0Token': 'Arm\xc3\xa9nie', 'S0B0Token': "l'_Arm\xc3\xa9nie", 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': "l'", 'S0B0POS': '___', 'S0B0POSLemma': '__Arm\xc3\xa9nie', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_Arm\xc3\xa9nie', 'B0POS': '_', 'B1Lemma': ',', 'distance': '1'}
+76- 0 : {'B0Lemma': 'Arm\xc3\xa9nie', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'Arm\xc3\xa9nie', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': ','}
+77- 2 : {'B0Lemma': ',', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Ankara', 'S0POS': '_', 'B0Token': ',', 'S0B0Token': 'Arm\xc3\xa9nie_,', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'Arm\xc3\xa9nie', 'S0B0POS': '___', 'S0B0POSLemma': '__,', 'S0Lemma': 'Arm\xc3\xa9nie', 'S0B0LemmaPOS': 'Arm\xc3\xa9nie__', 'S0B0Lemma': 'Arm\xc3\xa9nie_,', 'B0POS': '_', 'B1Lemma': 'Ankara', 'distance': '1'}
+78- 0 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Ankara', 'B0Token': ',', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'Ankara'}
+79- 2 : {'B0Lemma': 'Ankara', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'et', 'S0POS': '_', 'B0Token': 'Ankara', 'S0B0Token': ',_Ankara', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': ',', 'S0B0POS': '___', 'S0B0POSLemma': '__Ankara', 'S0Lemma': ',', 'S0B0LemmaPOS': ',__', 'S0B0Lemma': ',_Ankara', 'B0POS': '_', 'B1Lemma': 'et', 'distance': '1'}
+80- 0 : {'B0Lemma': 'Ankara', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'et', 'B0Token': 'Ankara', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'et'}
+81- 2 : {'B0Lemma': 'et', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Erevan', 'S0POS': '_', 'B0Token': 'et', 'S0B0Token': 'Ankara_et', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'Ankara', 'S0B0POS': '___', 'S0B0POSLemma': '__et', 'S0Lemma': 'Ankara', 'S0B0LemmaPOS': 'Ankara__', 'S0B0Lemma': 'Ankara_et', 'B0POS': '_', 'B1Lemma': 'Erevan', 'distance': '1'}
+82- 0 : {'B0Lemma': 'et', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Erevan', 'B0Token': 'et', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'Erevan'}
+83- 2 : {'B0Lemma': 'Erevan', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'avaient', 'S0POS': '_', 'B0Token': 'Erevan', 'S0B0Token': 'et_Erevan', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'et', 'S0B0POS': '___', 'S0B0POSLemma': '__Erevan', 'S0Lemma': 'et', 'S0B0LemmaPOS': 'et__', 'S0B0Lemma': 'et_Erevan', 'B0POS': '_', 'B1Lemma': 'avoir', 'distance': '1'}
+84- 0 : {'B0Lemma': 'Erevan', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'avaient', 'B0Token': 'Erevan', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'avoir'}
+85- 2 : {'B0Lemma': 'avoir', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'sign\xc3\xa9', 'S0POS': '_', 'B0Token': 'avaient', 'S0B0Token': 'Erevan_avaient', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'Erevan', 'S0B0POS': '___', 'S0B0POSLemma': '__avoir', 'S0Lemma': 'Erevan', 'S0B0LemmaPOS': 'Erevan__', 'S0B0Lemma': 'Erevan_avoir', 'B0POS': '_', 'B1Lemma': 'signer', 'distance': '1'}
+86- 0 : {'B0Lemma': 'avoir', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'sign\xc3\xa9', 'B0Token': 'avaient', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'signer'}
+87- 2 : {'B0Lemma': 'signer', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'deux', 'S0POS': '_', 'B0Token': 'sign\xc3\xa9', 'S0B0Token': 'avaient_sign\xc3\xa9', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'avaient', 'S0B0POS': '___', 'S0B0POSLemma': '__signer', 'S0Lemma': 'avoir', 'S0B0LemmaPOS': 'avoir__', 'S0B0Lemma': 'avoir_signer', 'B0POS': '_', 'B1Lemma': 'deux', 'distance': '1'}
+88- 0 : {'B0Lemma': 'signer', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'deux', 'B0Token': 'sign\xc3\xa9', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'deux'}
+89- 0 : {'B0Lemma': 'deux', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'protocoles', 'S0POS': '_', 'B0Token': 'deux', 'S0B0Token': 'sign\xc3\xa9_deux', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'sign\xc3\xa9', 'S0B0POS': '___', 'S0B0POSLemma': '__deux', 'S0Lemma': 'signer', 'S0B0LemmaPOS': 'signer__', 'S0B0Lemma': 'signer_deux', 'B0POS': '_', 'B1Lemma': 'protocole', 'distance': '1'}
+90- 2 : {'B0Lemma': 'protocole', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '(', 'S0B0Lemma': 'deux_protocole', 'B0Token': 'protocoles', 'S0B0Token': 'deux_protocoles', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'S0Token': 'sign\xc3\xa9', 'S0B0POS': '___', 'S1Token': 'deux', 'S1POS': '_', 'S0B0POSLemma': '__protocole', 'S0Lemma': 'signer', 'S0B0LemmaPOS': 'deux__', 'S1Lemma': 'deux', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': '(', 'distance': '1'}
+91- 0 : {'B0Lemma': 'protocole', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '(', 'S0POS': '_', 'B0Token': 'protocoles', 'S0B0Token': 'sign\xc3\xa9_protocoles', 'transitionHistory': 'TransitionType.SHIFTTransitionType.SHIFT', 'S0Token': 'sign\xc3\xa9', 'S0B0POS': '___', 'S0B0POSLemma': '__protocole', 'S0Lemma': 'signer', 'S0B0LemmaPOS': 'signer__', 'S0B0Lemma': 'signer_protocole', 'B0POS': '_', 'B1Lemma': '(', 'distance': '2'}
+92- 1 : {'B0Lemma': '(', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'que', 'S0B0Lemma': 'protocole_(', 'B0Token': '(', 'S0B0Token': 'protocoles_(', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'sign\xc3\xa9', 'S0B0POS': '___', 'S1Token': 'protocoles', 'S1POS': '_', 'S0B0POSLemma': '__(', 'S0Lemma': 'signer', 'S0B0LemmaPOS': 'protocole__', 'S1Lemma': 'protocole', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'que', 'distance': '1'}
+93- 2 : {'B0Lemma': '(', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'que', 'S0POS': '___', 'B0Token': '(', 'S0B0Token': 'sign\xc3\xa9_protocoles_(', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'S0Token': 'sign\xc3\xa9_protocoles', 'S0B0POS': '_____', 'S0B0POSLemma': '____(', 'S0Lemma': 'signer_protocole', 'S0B0LemmaPOS': 'signer_protocole__', 'S0B0Lemma': 'signer_protocole_(', 'B0POS': '_', 'B1Lemma': 'que', 'distance': '1'}
+94- 0 : {'B0Lemma': '(', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'que', 'B0Token': '(', 'prevriousT': 'TransitionType.MERGE', 'transitionHistory': 'TransitionType.MERGETransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'que'}
+95- 2 : {'B0Lemma': 'que', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.MERGE', 'B1POS': '_', 'B1Token': 'les', 'S0POS': '_', 'B0Token': 'que', 'S0B0Token': '(_que', 'transitionHistory': 'TransitionType.COMPLETETransitionType.MERGE', 'S0Token': '(', 'S0B0POS': '___', 'S0B0POSLemma': '__que', 'S0Lemma': '(', 'S0B0LemmaPOS': '(__', 'S0B0Lemma': '(_que', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+96- 0 : {'B0Lemma': 'que', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'les', 'B0Token': 'que', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'le'}
+97- 2 : {'B0Lemma': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'deux', 'S0POS': '_', 'B0Token': 'les', 'S0B0Token': 'que_les', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'que', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': 'que', 'S0B0LemmaPOS': 'que__', 'S0B0Lemma': 'que_le', 'B0POS': '_', 'B1Lemma': 'deux', 'distance': '1'}
+98- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'deux', 'B0Token': 'les', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'deux'}
+99- 2 : {'B0Lemma': 'deux', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'parlements', 'S0POS': '_', 'B0Token': 'deux', 'S0B0Token': 'les_deux', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'les', 'S0B0POS': '___', 'S0B0POSLemma': '__deux', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_deux', 'B0POS': '_', 'B1Lemma': 'parlement', 'distance': '1'}
+100- 0 : {'B0Lemma': 'deux', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'parlements', 'B0Token': 'deux', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'parlement'}
+101- 2 : {'B0Lemma': 'parlement', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'tardent', 'S0POS': '_', 'B0Token': 'parlements', 'S0B0Token': 'deux_parlements', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'deux', 'S0B0POS': '___', 'S0B0POSLemma': '__parlement', 'S0Lemma': 'deux', 'S0B0LemmaPOS': 'deux__', 'S0B0Lemma': 'deux_parlement', 'B0POS': '_', 'B1Lemma': 'tarder', 'distance': '1'}
+102- 0 : {'B0Lemma': 'parlement', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'tardent', 'B0Token': 'parlements', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'tarder'}
+103- 2 : {'B0Lemma': 'tarder', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'toutefois', 'S0POS': '_', 'B0Token': 'tardent', 'S0B0Token': 'parlements_tardent', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'parlements', 'S0B0POS': '___', 'S0B0POSLemma': '__tarder', 'S0Lemma': 'parlement', 'S0B0LemmaPOS': 'parlement__', 'S0B0Lemma': 'parlement_tarder', 'B0POS': '_', 'B1Lemma': 'toutefois', 'distance': '1'}
+104- 0 : {'B0Lemma': 'tarder', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'toutefois', 'B0Token': 'tardent', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'toutefois'}
+105- 2 : {'B0Lemma': 'toutefois', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '\xc3\xa0', 'S0POS': '_', 'B0Token': 'toutefois', 'S0B0Token': 'tardent_toutefois', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'tardent', 'S0B0POS': '___', 'S0B0POSLemma': '__toutefois', 'S0Lemma': 'tarder', 'S0B0LemmaPOS': 'tarder__', 'S0B0Lemma': 'tarder_toutefois', 'B0POS': '_', 'B1Lemma': '\xc3\xa0', 'distance': '1'}
+106- 0 : {'B0Lemma': 'toutefois', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '\xc3\xa0', 'B0Token': 'toutefois', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': '\xc3\xa0'}
+107- 2 : {'B0Lemma': '\xc3\xa0', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'ratifier', 'S0POS': '_', 'B0Token': '\xc3\xa0', 'S0B0Token': 'toutefois_\xc3\xa0', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'toutefois', 'S0B0POS': '___', 'S0B0POSLemma': '__\xc3\xa0', 'S0Lemma': 'toutefois', 'S0B0LemmaPOS': 'toutefois__', 'S0B0Lemma': 'toutefois_\xc3\xa0', 'B0POS': '_', 'B1Lemma': 'ratifier', 'distance': '1'}
+108- 0 : {'B0Lemma': '\xc3\xa0', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'ratifier', 'B0Token': '\xc3\xa0', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'ratifier'}
+109- 2 : {'B0Lemma': 'ratifier', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': ')', 'S0POS': '_', 'B0Token': 'ratifier', 'S0B0Token': '\xc3\xa0_ratifier', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': '\xc3\xa0', 'S0B0POS': '___', 'S0B0POSLemma': '__ratifier', 'S0Lemma': '\xc3\xa0', 'S0B0LemmaPOS': '\xc3\xa0__', 'S0B0Lemma': '\xc3\xa0_ratifier', 'B0POS': '_', 'B1Lemma': ')', 'distance': '1'}
+110- 0 : {'B0Lemma': 'ratifier', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': ')', 'B0Token': 'ratifier', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': ')'}
+111- 2 : {'B0Lemma': ')', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'permettant', 'S0POS': '_', 'B0Token': ')', 'S0B0Token': 'ratifier_)', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'ratifier', 'S0B0POS': '___', 'S0B0POSLemma': '__)', 'S0Lemma': 'ratifier', 'S0B0LemmaPOS': 'ratifier__', 'S0B0Lemma': 'ratifier_)', 'B0POS': '_', 'B1Lemma': 'permettre', 'distance': '1'}
+112- 0 : {'B0Lemma': ')', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'permettant', 'B0Token': ')', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'permettre'}
+113- 2 : {'B0Lemma': 'permettre', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'le', 'S0POS': '_', 'B0Token': 'permettant', 'S0B0Token': ')_permettant', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': ')', 'S0B0POS': '___', 'S0B0POSLemma': '__permettre', 'S0Lemma': ')', 'S0B0LemmaPOS': ')__', 'S0B0Lemma': ')_permettre', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+114- 0 : {'B0Lemma': 'permettre', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'le', 'B0Token': 'permettant', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'le'}
+115- 2 : {'B0Lemma': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'r\xc3\xa9tablissement', 'S0POS': '_', 'B0Token': 'le', 'S0B0Token': 'permettant_le', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'permettant', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': 'permettre', 'S0B0LemmaPOS': 'permettre__', 'S0B0Lemma': 'permettre_le', 'B0POS': '_', 'B1Lemma': 'r\xc3\xa9tablissement', 'distance': '1'}
+116- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'r\xc3\xa9tablissement', 'B0Token': 'le', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'r\xc3\xa9tablissement'}
+117- 2 : {'B0Lemma': 'r\xc3\xa9tablissement', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'et', 'S0POS': '_', 'B0Token': 'r\xc3\xa9tablissement', 'S0B0Token': 'le_r\xc3\xa9tablissement', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'le', 'S0B0POS': '___', 'S0B0POSLemma': '__r\xc3\xa9tablissement', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_r\xc3\xa9tablissement', 'B0POS': '_', 'B1Lemma': 'et', 'distance': '1'}
+118- 0 : {'B0Lemma': 'r\xc3\xa9tablissement', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'et', 'B0Token': 'r\xc3\xa9tablissement', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'et'}
+119- 2 : {'B0Lemma': 'et', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'la', 'S0POS': '_', 'B0Token': 'et', 'S0B0Token': 'r\xc3\xa9tablissement_et', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'r\xc3\xa9tablissement', 'S0B0POS': '___', 'S0B0POSLemma': '__et', 'S0Lemma': 'r\xc3\xa9tablissement', 'S0B0LemmaPOS': 'r\xc3\xa9tablissement__', 'S0B0Lemma': 'r\xc3\xa9tablissement_et', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+120- 0 : {'B0Lemma': 'et', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'la', 'B0Token': 'et', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'le'}
+121- 2 : {'B0Lemma': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'normalisation', 'S0POS': '_', 'B0Token': 'la', 'S0B0Token': 'et_la', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'et', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': 'et', 'S0B0LemmaPOS': 'et__', 'S0B0Lemma': 'et_le', 'B0POS': '_', 'B1Lemma': 'normalisation', 'distance': '1'}
+122- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'normalisation', 'B0Token': 'la', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'normalisation'}
+123- 2 : {'B0Lemma': 'normalisation', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'de', 'S0POS': '_', 'B0Token': 'normalisation', 'S0B0Token': 'la_normalisation', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'la', 'S0B0POS': '___', 'S0B0POSLemma': '__normalisation', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_normalisation', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
+124- 0 : {'B0Lemma': 'normalisation', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'normalisation', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'de'}
+125- 2 : {'B0Lemma': 'de', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'les', 'S0POS': '_', 'B0Token': 'de', 'S0B0Token': 'normalisation_de', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'normalisation', 'S0B0POS': '___', 'S0B0POSLemma': '__de', 'S0Lemma': 'normalisation', 'S0B0LemmaPOS': 'normalisation__', 'S0B0Lemma': 'normalisation_de', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+126- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'les', 'B0Token': 'de', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'le'}
+127- 2 : {'B0Lemma': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'relations', 'S0POS': '_', 'B0Token': 'les', 'S0B0Token': 'de_les', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'de', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': 'de', 'S0B0LemmaPOS': 'de__', 'S0B0Lemma': 'de_le', 'B0POS': '_', 'B1Lemma': 'relation', 'distance': '1'}
+128- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'relations', 'B0Token': 'les', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'relation'}
+129- 2 : {'B0Lemma': 'relation', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'diplomatiques', 'S0POS': '_', 'B0Token': 'relations', 'S0B0Token': 'les_relations', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'les', 'S0B0POS': '___', 'S0B0POSLemma': '__relation', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_relation', 'B0POS': '_', 'B1Lemma': 'diplomatique', 'distance': '1'}
+130- 0 : {'B0Lemma': 'relation', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'diplomatiques', 'B0Token': 'relations', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'diplomatique'}
+131- 2 : {'B0Lemma': 'diplomatique', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'entre', 'S0POS': '_', 'B0Token': 'diplomatiques', 'S0B0Token': 'relations_diplomatiques', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'relations', 'S0B0POS': '___', 'S0B0POSLemma': '__diplomatique', 'S0Lemma': 'relation', 'S0B0LemmaPOS': 'relation__', 'S0B0Lemma': 'relation_diplomatique', 'B0POS': '_', 'B1Lemma': 'entre', 'distance': '1'}
+132- 0 : {'B0Lemma': 'diplomatique', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'entre', 'B0Token': 'diplomatiques', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'entre'}
+133- 2 : {'B0Lemma': 'entre', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'les', 'S0POS': '_', 'B0Token': 'entre', 'S0B0Token': 'diplomatiques_entre', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'diplomatiques', 'S0B0POS': '___', 'S0B0POSLemma': '__entre', 'S0Lemma': 'diplomatique', 'S0B0LemmaPOS': 'diplomatique__', 'S0B0Lemma': 'diplomatique_entre', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+134- 0 : {'B0Lemma': 'entre', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'les', 'B0Token': 'entre', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'le'}
+135- 2 : {'B0Lemma': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'deux', 'S0POS': '_', 'B0Token': 'les', 'S0B0Token': 'entre_les', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'entre', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': 'entre', 'S0B0LemmaPOS': 'entre__', 'S0B0Lemma': 'entre_le', 'B0POS': '_', 'B1Lemma': 'deux', 'distance': '1'}
+136- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'deux', 'B0Token': 'les', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'deux'}
+137- 2 : {'B0Lemma': 'deux', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'pays', 'S0POS': '_', 'B0Token': 'deux', 'S0B0Token': 'les_deux', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'les', 'S0B0POS': '___', 'S0B0POSLemma': '__deux', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_deux', 'B0POS': '_', 'B1Lemma': 'pays', 'distance': '1'}
+138- 0 : {'B0Lemma': 'deux', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'pays', 'B0Token': 'deux', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'pays'}
+139- 2 : {'B0Lemma': 'pays', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': ',', 'S0POS': '_', 'B0Token': 'pays', 'S0B0Token': 'deux_pays', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'deux', 'S0B0POS': '___', 'S0B0POSLemma': '__pays', 'S0Lemma': 'deux', 'S0B0LemmaPOS': 'deux__', 'S0B0Lemma': 'deux_pays', 'B0POS': '_', 'B1Lemma': ',', 'distance': '1'}
+140- 0 : {'B0Lemma': 'pays', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'pays', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': ','}
+141- 2 : {'B0Lemma': ',', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'apr\xc3\xa8s', 'S0POS': '_', 'B0Token': ',', 'S0B0Token': 'pays_,', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'pays', 'S0B0POS': '___', 'S0B0POSLemma': '__,', 'S0Lemma': 'pays', 'S0B0LemmaPOS': 'pays__', 'S0B0Lemma': 'pays_,', 'B0POS': '_', 'B1Lemma': 'apr\xc3\xa8s', 'distance': '1'}
+142- 0 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'apr\xc3\xa8s', 'B0Token': ',', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'apr\xc3\xa8s'}
+143- 2 : {'B0Lemma': 'apr\xc3\xa8s', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'un', 'S0POS': '_', 'B0Token': 'apr\xc3\xa8s', 'S0B0Token': ',_apr\xc3\xa8s', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': ',', 'S0B0POS': '___', 'S0B0POSLemma': '__apr\xc3\xa8s', 'S0Lemma': ',', 'S0B0LemmaPOS': ',__', 'S0B0Lemma': ',_apr\xc3\xa8s', 'B0POS': '_', 'B1Lemma': 'un', 'distance': '1'}
+144- 0 : {'B0Lemma': 'apr\xc3\xa8s', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'un', 'B0Token': 'apr\xc3\xa8s', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'un'}
+145- 2 : {'B0Lemma': 'un', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'si\xc3\xa8cle', 'S0POS': '_', 'B0Token': 'un', 'S0B0Token': 'apr\xc3\xa8s_un', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'apr\xc3\xa8s', 'S0B0POS': '___', 'S0B0POSLemma': '__un', 'S0Lemma': 'apr\xc3\xa8s', 'S0B0LemmaPOS': 'apr\xc3\xa8s__', 'S0B0Lemma': 'apr\xc3\xa8s_un', 'B0POS': '_', 'B1Lemma': 'si\xc3\xa8cle', 'distance': '1'}
+146- 0 : {'B0Lemma': 'un', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'si\xc3\xa8cle', 'B0Token': 'un', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'si\xc3\xa8cle'}
+147- 2 : {'B0Lemma': 'si\xc3\xa8cle', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "d'", 'S0POS': '_', 'B0Token': 'si\xc3\xa8cle', 'S0B0Token': 'un_si\xc3\xa8cle', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'un', 'S0B0POS': '___', 'S0B0POSLemma': '__si\xc3\xa8cle', 'S0Lemma': 'un', 'S0B0LemmaPOS': 'un__', 'S0B0Lemma': 'un_si\xc3\xa8cle', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
+148- 0 : {'B0Lemma': 'si\xc3\xa8cle', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': "d'", 'B0Token': 'si\xc3\xa8cle', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'de'}
+149- 2 : {'B0Lemma': 'de', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'hostilit\xc3\xa9', 'S0POS': '_', 'B0Token': "d'", 'S0B0Token': "si\xc3\xa8cle_d'", 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'si\xc3\xa8cle', 'S0B0POS': '___', 'S0B0POSLemma': '__de', 'S0Lemma': 'si\xc3\xa8cle', 'S0B0LemmaPOS': 'si\xc3\xa8cle__', 'S0B0Lemma': 'si\xc3\xa8cle_de', 'B0POS': '_', 'B1Lemma': 'hostilit\xc3\xa9', 'distance': '1'}
+150- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'hostilit\xc3\xa9', 'B0Token': "d'", 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'hostilit\xc3\xa9'}
+151- 2 : {'B0Lemma': 'hostilit\xc3\xa9', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '.', 'S0POS': '_', 'B0Token': 'hostilit\xc3\xa9', 'S0B0Token': "d'_hostilit\xc3\xa9", 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': "d'", 'S0B0POS': '___', 'S0B0POSLemma': '__hostilit\xc3\xa9', 'S0Lemma': 'de', 'S0B0LemmaPOS': 'de__', 'S0B0Lemma': 'de_hostilit\xc3\xa9', 'B0POS': '_', 'B1Lemma': '.', 'distance': '1'}
+152- 0 : {'B0Lemma': 'hostilit\xc3\xa9', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '.', 'B0Token': 'hostilit\xc3\xa9', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': '.'}
+153- 2 : {'B0Lemma': '.', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'distance': '1', 'S0POS': '_', 'B0Token': '.', 'S0B0Token': 'hostilit\xc3\xa9_.', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'hostilit\xc3\xa9', 'S0B0POS': '___', 'S0B0POSLemma': '__.', 'S0Lemma': 'hostilit\xc3\xa9', 'S0B0LemmaPOS': 'hostilit\xc3\xa9__', 'S0B0Lemma': 'hostilit\xc3\xa9_.', 'B0POS': '_'}
+154- 0 : {'B0Lemma': '.', 'antepenultimateT': 'TransitionType.COMPLETE', 'B0Token': '.', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_'}
+155- 2 : {'antepenultimateT': 'TransitionType.SHIFT', 'prevriousT': 'TransitionType.COMPLETE', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': '.', 'S0Lemma': '.', 'S0POS': '_'}
+##Sentence No. 1740 - fr-ud-train_00308
+ Pour préserver l'emploi, dans un contexte où les exportations vers l'Europe pourraient souffrir des difficultés du vieux continent, nous devrions faire plus d'affaires avec l'Afrique, où il y a encore des niveaux substantiels de croissance, a pour sa part indiqué le ministre des Finances, Pravin Gordhan, de retour de la réunion annuelle du Fonds monétaire international (FMI).
+###Existing MWEs: 
+1- **faire affaires** (LVC)
+2- **il y a** (ID)
+
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Pour ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Pour]   -|||- [préserver ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [préserver ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[préserver]   -|||- [l' ,.. ]
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [l' ,.. ]
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[l']   -|||- [emploi ,.. ]
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [emploi ,.. ]
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[emploi]   -|||- [, ,.. ]
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [, ,.. ]
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[,]   -|||- [dans ,.. ]
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [dans ,.. ]
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[dans]   -|||- [un ,.. ]
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [un ,.. ]
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[un]   -|||- [contexte ,.. ]
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [contexte ,.. ]
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[contexte]   -|||- [où ,.. ]
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [où ,.. ]
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[où]   -|||- [les ,.. ]
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [les ,.. ]
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[les]   -|||- [exportations ,.. ]
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [exportations ,.. ]
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[exportations]   -|||- [vers ,.. ]
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [vers ,.. ]
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[vers]   -|||- [l' ,.. ]
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [l' ,.. ]
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[l']   -|||- [Europe ,.. ]
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Europe ,.. ]
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Europe]   -|||- [pourraient ,.. ]
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [pourraient ,.. ]
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[pourraient]   -|||- [souffrir ,.. ]
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [souffrir ,.. ]
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[souffrir]   -|||- [de ,.. ]
 32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [de ,.. ]
 33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[de]   -|||- [les ,.. ]
 34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [les ,.. ]
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[les]   -|||- [Nations-Unis ,.. ]
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Nations-Unis ,.. ]
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Nations-Unis]   -|||- [semblent ,.. ]
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [semblent ,.. ]
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[semblent]   -|||- [disposés ,.. ]
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [disposés ,.. ]
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[disposés]   -|||- [à ,.. ]
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [à ,.. ]
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[à]   -|||- [ne ,.. ]
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [ne ,.. ]
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[ne]   -|||- [pas ,.. ]
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [pas ,.. ]
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[pas]   -|||- [exiger ,.. ]
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [exiger ,.. ]
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[exiger]   -|||- [qu' ,.. ]
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [qu' ,.. ]
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[qu']   -|||- [il ,.. ]
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [il ,.. ]
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[il]   -|||- [y ,.. ]
-54- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[il, y]   -|||- [ait ,.. ]
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[il, y, ait]   -|||- [contrôle ,.. ]
-56- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[il, [y, ait]]   -|||- [contrôle ,.. ]
-57- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[[il, [y, ait]]]   -|||- [contrôle ,.. ]
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [contrôle ,.. ]
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[contrôle]   -|||- [de ,.. ]
-60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [de ,.. ]
-61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[de]   -|||- [les ,.. ]
-62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [les ,.. ]
-63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[les]   -|||- [Droits ,.. ]
-64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Droits ,.. ]
-65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Droits]   -|||- [de ,.. ]
-66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [de ,.. ]
-67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[de]   -|||- [l' ,.. ]
-68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [l' ,.. ]
-69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[l']   -|||- [Homme ,.. ]
-70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Homme ,.. ]
-71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Homme]   -|||- [dans ,.. ]
-72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [dans ,.. ]
-73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[dans]   -|||- [le ,.. ]
-74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [le ,.. ]
-75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[le]   -|||- [territoire ,.. ]
-76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [territoire ,.. ]
-77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[territoire]   -|||- [, ,.. ]
-78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [, ,.. ]
-79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[,]   -|||- [tout ,.. ]
-80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [tout ,.. ]
-81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[tout]   -|||- [comme ,.. ]
-82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [comme ,.. ]
-83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[comme]   -|||- [l' ,.. ]
-84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [l' ,.. ]
-85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[l']   -|||- [ont ,.. ]
-86- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [ont ,.. ]
-87- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[ont]   -|||- [demandé ,.. ]
-88- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [demandé ,.. ]
-89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[demandé]   -|||- [certains ,.. ]
-90- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [certains ,.. ]
-91- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[certains]   -|||- [pays ,.. ]
-92- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [pays ,.. ]
-93- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[pays]   -|||- [comme ,.. ]
-94- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [comme ,.. ]
-95- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[comme]   -|||- [L' ,.. ]
-96- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [L' ,.. ]
-97- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[L']   -|||- [Afrique ,.. ]
-98- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Afrique ,.. ]
-99- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Afrique]   -|||- [de ,.. ]
-100- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [de ,.. ]
-101- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[de]   -|||- [le ,.. ]
-102- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [le ,.. ]
-103- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[le]   -|||- [Sud ,.. ]
-104- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Sud ,.. ]
-105- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Sud]   -|||- [, ,.. ]
-106- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [, ,.. ]
-107- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[,]   -|||- [La ,.. ]
-108- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [La ,.. ]
-109- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[La]   -|||- [Russie ,.. ]
-110- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Russie ,.. ]
-111- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Russie]   -|||- [, ,.. ]
-112- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [, ,.. ]
-113- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[,]   -|||- [Le ,.. ]
-114- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Le ,.. ]
-115- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Le]   -|||- [Nigéria ,.. ]
-116- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Nigéria ,.. ]
-117- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Nigéria]   -|||- [ou ,.. ]
-118- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [ou ,.. ]
-119- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[ou]   -|||- [le ,.. ]
-120- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [le ,.. ]
-121- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[le]   -|||- [Brésil ,.. ]
-122- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Brésil ,.. ]
-123- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Brésil]   -|||- [et ,.. ]
-124- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [et ,.. ]
-125- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[et]   -|||- [des ,.. ]
-126- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [des ,.. ]
-127- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[des]   -|||- [organisations ,.. ]
-128- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [organisations ,.. ]
-129- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[organisations]   -|||- [internationales ,.. ]
-130- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [internationales ,.. ]
-131- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[internationales]   -|||- [telles ,.. ]
-132- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [telles ,.. ]
-133- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[telles]   -|||- [que ,.. ]
-134- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [que ,.. ]
-135- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[que]   -|||- [Amnistie ,.. ]
-136- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Amnistie ,.. ]
-137- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Amnistie]   -|||- [internationale ,.. ]
-138- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [internationale ,.. ]
-139- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[internationale]   -|||- [ou ,.. ]
-140- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [ou ,.. ]
-141- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[ou]   -|||- [Human ,.. ]
-142- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Human ,.. ]
-143- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Human]   -|||- [Right ,.. ]
-144- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Right ,.. ]
-145- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Right]   -|||- [Watch ,.. ]
-146- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Watch ,.. ]
-147- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Watch]   -|||- [.]
-148- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [.]
-149- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[.]   -|||- [ ]
-150- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [ ]
-
-###Features: 
-0- 0 : {'B0Lemma': 'le', 'antepenultimateT': '_', 'B1POS': '_', 'B1Token': 'pays', 'B0Token': 'Les', 'prevriousT': '_', 'B0POS': '_', 'B1Lemma': 'pays'}
-1- 2 : {'B0Lemma': 'pays', 'antepenultimateT': '_', 'B1POS': '_', 'B1Token': 'qui', 'B0Token': 'pays', 'prevriousT': 'None', 'S0Token': 'Les', 'S0Lemma': 'le', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'qui', 'distance': '1'}
-2- 0 : {'B0Lemma': 'pays', 'antepenultimateT': 'None', 'B1POS': '_', 'B1Token': 'qui', 'B0Token': 'pays', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'qui'}
-3- 2 : {'B0Lemma': 'qui', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'ont', 'B0Token': 'qui', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'pays', 'S0Lemma': 'pays', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'avoir', 'distance': '1'}
-4- 0 : {'B0Lemma': 'qui', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'ont', 'B0Token': 'qui', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'avoir'}
-5- 2 : {'B0Lemma': 'avoir', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'droit', 'B0Token': 'ont', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'qui', 'S0Lemma': 'qui', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'droit', 'distance': '1'}
-6- 0 : {'B0Lemma': 'avoir', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'droit', 'B0Token': 'ont', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'droit'}
-7- 0 : {'B0Lemma': 'droit', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '\xc3\xa0', 'B0Token': 'droit', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'ont', 'S0Lemma': 'avoir', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': '\xc3\xa0', 'distance': '1'}
-8- 1 : {'B0Lemma': '\xc3\xa0', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'le', 'B0Token': '\xc3\xa0', 'prevriousT': 'TransitionType.SHIFT', 'S0Token': 'ont', 'S1Token': 'droit', 'S1POS': '_', 'S0Lemma': 'avoir', 'S1Lemma': 'droit', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
-9- 2 : {'B0Lemma': '\xc3\xa0', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'le', 'B0Token': '\xc3\xa0', 'prevriousT': 'TransitionType.SHIFT', 'S0Token': 'ont-droit', 'S0Lemma': 'avoir-droit', 'S0POS': '_-_', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
-10- 0 : {'B0Lemma': '\xc3\xa0', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'le', 'B0Token': '\xc3\xa0', 'prevriousT': 'TransitionType.MERGE', 'B0POS': '_', 'B1Lemma': 'le'}
-11- 2 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.MERGE', 'B1POS': '_', 'B1Token': 'v\xc3\xa9to', 'B0Token': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': '\xc3\xa0', 'S0Lemma': '\xc3\xa0', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'veto', 'distance': '1'}
-12- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'v\xc3\xa9to', 'B0Token': 'le', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'veto'}
-13- 2 : {'B0Lemma': 'veto', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '\xc3\xa0', 'B0Token': 'v\xc3\xa9to', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'le', 'S0Lemma': 'le', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': '\xc3\xa0', 'distance': '1'}
-14- 0 : {'B0Lemma': 'veto', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '\xc3\xa0', 'B0Token': 'v\xc3\xa9to', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': '\xc3\xa0'}
-15- 2 : {'B0Lemma': '\xc3\xa0', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'le', 'B0Token': '\xc3\xa0', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'v\xc3\xa9to', 'S0Lemma': 'veto', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
-16- 0 : {'B0Lemma': '\xc3\xa0', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'le', 'B0Token': '\xc3\xa0', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'le'}
-17- 2 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'sein', 'B0Token': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': '\xc3\xa0', 'S0Lemma': '\xc3\xa0', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'sein', 'distance': '1'}
-18- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'sein', 'B0Token': 'le', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'sein'}
-19- 2 : {'B0Lemma': 'sein', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'sein', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'le', 'S0Lemma': 'le', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
-20- 0 : {'B0Lemma': 'sein', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'sein', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'de'}
-21- 2 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'le', 'B0Token': 'de', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'sein', 'S0Lemma': 'sein', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
-22- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'le', 'B0Token': 'de', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'le'}
-23- 2 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Conseil', 'B0Token': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'de', 'S0Lemma': 'de', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'conseil', 'distance': '1'}
-24- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Conseil', 'B0Token': 'le', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'conseil'}
-25- 2 : {'B0Lemma': 'conseil', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'Conseil', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'le', 'S0Lemma': 'le', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
-26- 0 : {'B0Lemma': 'conseil', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'Conseil', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'de'}
-27- 2 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 's\xc3\xa9curit\xc3\xa9', 'B0Token': 'de', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'Conseil', 'S0Lemma': 'conseil', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 's\xc3\xa9curit\xc3\xa9', 'distance': '1'}
-28- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 's\xc3\xa9curit\xc3\xa9', 'B0Token': 'de', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 's\xc3\xa9curit\xc3\xa9'}
-29- 2 : {'B0Lemma': 's\xc3\xa9curit\xc3\xa9', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 's\xc3\xa9curit\xc3\xa9', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'de', 'S0Lemma': 'de', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
-30- 0 : {'B0Lemma': 's\xc3\xa9curit\xc3\xa9', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 's\xc3\xa9curit\xc3\xa9', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'de'}
-31- 2 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'les', 'B0Token': 'de', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 's\xc3\xa9curit\xc3\xa9', 'S0Lemma': 's\xc3\xa9curit\xc3\xa9', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
-32- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'les', 'B0Token': 'de', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'le'}
-33- 2 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Nations-Unis', 'B0Token': 'les', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'de', 'S0Lemma': 'de', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'Nations-Unis', 'distance': '1'}
-34- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Nations-Unis', 'B0Token': 'les', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'Nations-Unis'}
-35- 2 : {'B0Lemma': 'Nations-Unis', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'semblent', 'B0Token': 'Nations-Unis', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'les', 'S0Lemma': 'le', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'sembler', 'distance': '1'}
-36- 0 : {'B0Lemma': 'Nations-Unis', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'semblent', 'B0Token': 'Nations-Unis', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'sembler'}
-37- 2 : {'B0Lemma': 'sembler', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'dispos\xc3\xa9s', 'B0Token': 'semblent', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'Nations-Unis', 'S0Lemma': 'Nations-Unis', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'disposer', 'distance': '1'}
-38- 0 : {'B0Lemma': 'sembler', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'dispos\xc3\xa9s', 'B0Token': 'semblent', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'disposer'}
-39- 2 : {'B0Lemma': 'disposer', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '\xc3\xa0', 'B0Token': 'dispos\xc3\xa9s', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'semblent', 'S0Lemma': 'sembler', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': '\xc3\xa0', 'distance': '1'}
-40- 0 : {'B0Lemma': 'disposer', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '\xc3\xa0', 'B0Token': 'dispos\xc3\xa9s', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': '\xc3\xa0'}
-41- 2 : {'B0Lemma': '\xc3\xa0', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'ne', 'B0Token': '\xc3\xa0', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'dispos\xc3\xa9s', 'S0Lemma': 'disposer', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'ne', 'distance': '1'}
-42- 0 : {'B0Lemma': '\xc3\xa0', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'ne', 'B0Token': '\xc3\xa0', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'ne'}
-43- 2 : {'B0Lemma': 'ne', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'pas', 'B0Token': 'ne', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': '\xc3\xa0', 'S0Lemma': '\xc3\xa0', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'pas', 'distance': '1'}
-44- 0 : {'B0Lemma': 'ne', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'pas', 'B0Token': 'ne', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'pas'}
-45- 2 : {'B0Lemma': 'pas', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'exiger', 'B0Token': 'pas', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'ne', 'S0Lemma': 'ne', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'exiger', 'distance': '1'}
-46- 0 : {'B0Lemma': 'pas', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'exiger', 'B0Token': 'pas', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'exiger'}
-47- 2 : {'B0Lemma': 'exiger', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "qu'", 'B0Token': 'exiger', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'pas', 'S0Lemma': 'pas', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'que', 'distance': '1'}
-48- 0 : {'B0Lemma': 'exiger', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': "qu'", 'B0Token': 'exiger', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'que'}
-49- 2 : {'B0Lemma': 'que', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'il', 'B0Token': "qu'", 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'exiger', 'S0Lemma': 'exiger', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'il', 'distance': '1'}
-50- 0 : {'B0Lemma': 'que', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'il', 'B0Token': "qu'", 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'il'}
-51- 2 : {'B0Lemma': 'il', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'y', 'B0Token': 'il', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': "qu'", 'S0Lemma': 'que', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'y', 'distance': '1'}
-52- 0 : {'B0Lemma': 'il', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'y', 'B0Token': 'il', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'y'}
-53- 0 : {'B0Lemma': 'y', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'ait', 'B0Token': 'y', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'il', 'S0Lemma': 'il', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'avoir', 'distance': '1'}
-54- 0 : {'B0Lemma': 'avoir', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'contr\xc3\xb4le', 'B0Token': 'ait', 'prevriousT': 'TransitionType.SHIFT', 'S0Token': 'il', 'S1Token': 'y', 'S1POS': '_', 'S0Lemma': 'il', 'S1Lemma': 'y', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'contr\xc3\xb4le', 'distance': '1'}
-55- 1 : {'B0Lemma': 'contr\xc3\xb4le', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'contr\xc3\xb4le', 'prevriousT': 'TransitionType.SHIFT', 'S0Token': 'y', 'S1Token': 'ait', 'S1POS': '_', 'S0Lemma': 'y', 'S1Lemma': 'avoir', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
-56- 1 : {'B0Lemma': 'contr\xc3\xb4le', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'contr\xc3\xb4le', 'prevriousT': 'TransitionType.SHIFT', 'S0Token': 'il', 'S1Token': 'y-ait', 'S1POS': '_-_', 'S0Lemma': 'il', 'S1Lemma': 'y-avoir', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
-57- 2 : {'B0Lemma': 'contr\xc3\xb4le', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'contr\xc3\xb4le', 'prevriousT': 'TransitionType.MERGE', 'S0Token': 'il-y-ait', 'S0Lemma': 'il-y-avoir', 'S0POS': '_-_-_', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
-58- 0 : {'B0Lemma': 'contr\xc3\xb4le', 'antepenultimateT': 'TransitionType.MERGE', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'contr\xc3\xb4le', 'prevriousT': 'TransitionType.MERGE', 'B0POS': '_', 'B1Lemma': 'de'}
-59- 2 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.MERGE', 'B1POS': '_', 'B1Token': 'les', 'B0Token': 'de', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'contr\xc3\xb4le', 'S0Lemma': 'contr\xc3\xb4le', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
-60- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'les', 'B0Token': 'de', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'le'}
-61- 2 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Droits', 'B0Token': 'les', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'de', 'S0Lemma': 'de', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'droit', 'distance': '1'}
-62- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Droits', 'B0Token': 'les', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'droit'}
-63- 2 : {'B0Lemma': 'droit', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'Droits', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'les', 'S0Lemma': 'le', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
-64- 0 : {'B0Lemma': 'droit', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'Droits', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'de'}
-65- 2 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "l'", 'B0Token': 'de', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'Droits', 'S0Lemma': 'droit', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
-66- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': "l'", 'B0Token': 'de', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'le'}
-67- 2 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Homme', 'B0Token': "l'", 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'de', 'S0Lemma': 'de', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'homme', 'distance': '1'}
-68- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Homme', 'B0Token': "l'", 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'homme'}
-69- 2 : {'B0Lemma': 'homme', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'dans', 'B0Token': 'Homme', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': "l'", 'S0Lemma': 'le', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'dans', 'distance': '1'}
-70- 0 : {'B0Lemma': 'homme', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'dans', 'B0Token': 'Homme', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'dans'}
-71- 2 : {'B0Lemma': 'dans', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'le', 'B0Token': 'dans', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'Homme', 'S0Lemma': 'homme', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
-72- 0 : {'B0Lemma': 'dans', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'le', 'B0Token': 'dans', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'le'}
-73- 2 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'territoire', 'B0Token': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'dans', 'S0Lemma': 'dans', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'territoire', 'distance': '1'}
-74- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'territoire', 'B0Token': 'le', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'territoire'}
-75- 2 : {'B0Lemma': 'territoire', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'territoire', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'le', 'S0Lemma': 'le', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': ',', 'distance': '1'}
-76- 0 : {'B0Lemma': 'territoire', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'territoire', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': ','}
-77- 2 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'tout', 'B0Token': ',', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'territoire', 'S0Lemma': 'territoire', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'tout', 'distance': '1'}
-78- 0 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'tout', 'B0Token': ',', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'tout'}
-79- 2 : {'B0Lemma': 'tout', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'comme', 'B0Token': 'tout', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': ',', 'S0Lemma': ',', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'comme', 'distance': '1'}
-80- 0 : {'B0Lemma': 'tout', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'comme', 'B0Token': 'tout', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'comme'}
-81- 2 : {'B0Lemma': 'comme', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "l'", 'B0Token': 'comme', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'tout', 'S0Lemma': 'tout', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
-82- 0 : {'B0Lemma': 'comme', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': "l'", 'B0Token': 'comme', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'le'}
-83- 2 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'ont', 'B0Token': "l'", 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'comme', 'S0Lemma': 'comme', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'avoir', 'distance': '1'}
-84- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'ont', 'B0Token': "l'", 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'avoir'}
-85- 2 : {'B0Lemma': 'avoir', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'demand\xc3\xa9', 'B0Token': 'ont', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': "l'", 'S0Lemma': 'le', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'demander', 'distance': '1'}
-86- 0 : {'B0Lemma': 'avoir', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'demand\xc3\xa9', 'B0Token': 'ont', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'demander'}
-87- 2 : {'B0Lemma': 'demander', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'certains', 'B0Token': 'demand\xc3\xa9', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'ont', 'S0Lemma': 'avoir', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'certain', 'distance': '1'}
-88- 0 : {'B0Lemma': 'demander', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'certains', 'B0Token': 'demand\xc3\xa9', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'certain'}
-89- 2 : {'B0Lemma': 'certain', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'pays', 'B0Token': 'certains', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'demand\xc3\xa9', 'S0Lemma': 'demander', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'pays', 'distance': '1'}
-90- 0 : {'B0Lemma': 'certain', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'pays', 'B0Token': 'certains', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'pays'}
-91- 2 : {'B0Lemma': 'pays', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'comme', 'B0Token': 'pays', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'certains', 'S0Lemma': 'certain', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'comme', 'distance': '1'}
-92- 0 : {'B0Lemma': 'pays', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'comme', 'B0Token': 'pays', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'comme'}
-93- 2 : {'B0Lemma': 'comme', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "L'", 'B0Token': 'comme', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'pays', 'S0Lemma': 'pays', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
-94- 0 : {'B0Lemma': 'comme', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': "L'", 'B0Token': 'comme', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'le'}
-95- 2 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Afrique', 'B0Token': "L'", 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'comme', 'S0Lemma': 'comme', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'Afrique', 'distance': '1'}
-96- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Afrique', 'B0Token': "L'", 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'Afrique'}
-97- 2 : {'B0Lemma': 'Afrique', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'Afrique', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': "L'", 'S0Lemma': 'le', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
-98- 0 : {'B0Lemma': 'Afrique', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'Afrique', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'de'}
-99- 2 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'le', 'B0Token': 'de', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'Afrique', 'S0Lemma': 'Afrique', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
-100- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'le', 'B0Token': 'de', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'le'}
-101- 2 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Sud', 'B0Token': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'de', 'S0Lemma': 'de', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'sud', 'distance': '1'}
-102- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Sud', 'B0Token': 'le', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'sud'}
-103- 2 : {'B0Lemma': 'sud', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'Sud', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'le', 'S0Lemma': 'le', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': ',', 'distance': '1'}
-104- 0 : {'B0Lemma': 'sud', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'Sud', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': ','}
-105- 2 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'La', 'B0Token': ',', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'Sud', 'S0Lemma': 'sud', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
-106- 0 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'La', 'B0Token': ',', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'le'}
-107- 2 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Russie', 'B0Token': 'La', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': ',', 'S0Lemma': ',', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'Russie', 'distance': '1'}
-108- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Russie', 'B0Token': 'La', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'Russie'}
-109- 2 : {'B0Lemma': 'Russie', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'Russie', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'La', 'S0Lemma': 'le', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': ',', 'distance': '1'}
-110- 0 : {'B0Lemma': 'Russie', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'Russie', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': ','}
-111- 2 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Le', 'B0Token': ',', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'Russie', 'S0Lemma': 'Russie', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
-112- 0 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Le', 'B0Token': ',', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'le'}
-113- 2 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Nig\xc3\xa9ria', 'B0Token': 'Le', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': ',', 'S0Lemma': ',', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'Nig\xc3\xa9ria', 'distance': '1'}
-114- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Nig\xc3\xa9ria', 'B0Token': 'Le', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'Nig\xc3\xa9ria'}
-115- 2 : {'B0Lemma': 'Nig\xc3\xa9ria', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'ou', 'B0Token': 'Nig\xc3\xa9ria', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'Le', 'S0Lemma': 'le', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'ou', 'distance': '1'}
-116- 0 : {'B0Lemma': 'Nig\xc3\xa9ria', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'ou', 'B0Token': 'Nig\xc3\xa9ria', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'ou'}
-117- 2 : {'B0Lemma': 'ou', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'le', 'B0Token': 'ou', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'Nig\xc3\xa9ria', 'S0Lemma': 'Nig\xc3\xa9ria', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
-118- 0 : {'B0Lemma': 'ou', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'le', 'B0Token': 'ou', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'le'}
-119- 2 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Br\xc3\xa9sil', 'B0Token': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'ou', 'S0Lemma': 'ou', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'Br\xc3\xa9sil', 'distance': '1'}
-120- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Br\xc3\xa9sil', 'B0Token': 'le', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'Br\xc3\xa9sil'}
-121- 2 : {'B0Lemma': 'Br\xc3\xa9sil', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'et', 'B0Token': 'Br\xc3\xa9sil', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'le', 'S0Lemma': 'le', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'et', 'distance': '1'}
-122- 0 : {'B0Lemma': 'Br\xc3\xa9sil', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'et', 'B0Token': 'Br\xc3\xa9sil', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'et'}
-123- 2 : {'B0Lemma': 'et', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'des', 'B0Token': 'et', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'Br\xc3\xa9sil', 'S0Lemma': 'Br\xc3\xa9sil', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'un', 'distance': '1'}
-124- 0 : {'B0Lemma': 'et', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'des', 'B0Token': 'et', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'un'}
-125- 2 : {'B0Lemma': 'un', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'organisations', 'B0Token': 'des', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'et', 'S0Lemma': 'et', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'organisation', 'distance': '1'}
-126- 0 : {'B0Lemma': 'un', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'organisations', 'B0Token': 'des', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'organisation'}
-127- 2 : {'B0Lemma': 'organisation', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'internationales', 'B0Token': 'organisations', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'des', 'S0Lemma': 'un', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'international', 'distance': '1'}
-128- 0 : {'B0Lemma': 'organisation', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'internationales', 'B0Token': 'organisations', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'international'}
-129- 2 : {'B0Lemma': 'international', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'telles', 'B0Token': 'internationales', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'organisations', 'S0Lemma': 'organisation', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'tel', 'distance': '1'}
-130- 0 : {'B0Lemma': 'international', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'telles', 'B0Token': 'internationales', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'tel'}
-131- 2 : {'B0Lemma': 'tel', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'que', 'B0Token': 'telles', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'internationales', 'S0Lemma': 'international', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'que', 'distance': '1'}
-132- 0 : {'B0Lemma': 'tel', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'que', 'B0Token': 'telles', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'que'}
-133- 2 : {'B0Lemma': 'que', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Amnistie', 'B0Token': 'que', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'telles', 'S0Lemma': 'tel', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'amnistie', 'distance': '1'}
-134- 0 : {'B0Lemma': 'que', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Amnistie', 'B0Token': 'que', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'amnistie'}
-135- 2 : {'B0Lemma': 'amnistie', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'internationale', 'B0Token': 'Amnistie', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'que', 'S0Lemma': 'que', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'international', 'distance': '1'}
-136- 0 : {'B0Lemma': 'amnistie', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'internationale', 'B0Token': 'Amnistie', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'international'}
-137- 2 : {'B0Lemma': 'international', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'ou', 'B0Token': 'internationale', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'Amnistie', 'S0Lemma': 'amnistie', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'ou', 'distance': '1'}
-138- 0 : {'B0Lemma': 'international', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'ou', 'B0Token': 'internationale', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'ou'}
-139- 2 : {'B0Lemma': 'ou', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Human', 'B0Token': 'ou', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'internationale', 'S0Lemma': 'international', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'Human', 'distance': '1'}
-140- 0 : {'B0Lemma': 'ou', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Human', 'B0Token': 'ou', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'Human'}
-141- 2 : {'B0Lemma': 'Human', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Right', 'B0Token': 'Human', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'ou', 'S0Lemma': 'ou', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'Right', 'distance': '1'}
-142- 0 : {'B0Lemma': 'Human', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Right', 'B0Token': 'Human', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'Right'}
-143- 2 : {'B0Lemma': 'Right', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Watch', 'B0Token': 'Right', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'Human', 'S0Lemma': 'Human', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'Watch', 'distance': '1'}
-144- 0 : {'B0Lemma': 'Right', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Watch', 'B0Token': 'Right', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'Watch'}
-145- 2 : {'B0Lemma': 'Watch', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '.', 'B0Token': 'Watch', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'Right', 'S0Lemma': 'Right', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': '.', 'distance': '1'}
-146- 0 : {'B0Lemma': 'Watch', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '.', 'B0Token': 'Watch', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': '.'}
-147- 2 : {'B0Lemma': '.', 'antepenultimateT': 'TransitionType.SHIFT', 'distance': '1', 'B0Token': '.', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'Watch', 'S0Lemma': 'Watch', 'S0POS': '_', 'B0POS': '_'}
-148- 0 : {'B0Lemma': '.', 'B0Token': '.', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.COMPLETE', 'B0POS': '_'}
-149- 2 : {'S0Lemma': '.', 'antepenultimateT': 'TransitionType.SHIFT', 'prevriousT': 'TransitionType.COMPLETE', 'S0POS': '_', 'S0Token': '.'}
-##Sentence No. 12026 - fr-ud-train_10595
- Moshé considère que « l'homme s'élève vers Dieu par les questions qu'il Lui pose » et que « toute question possède un pouvoir qui ne repose pas dans la réponse ».
-###Existing MWEs: 
-2- **s' élève** (IReflV)
-1- **questions pose** (LVC)
-
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Moshé ,.. ]
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Moshé]   -|||- [considère ,.. ]
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [considère ,.. ]
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[considère]   -|||- [que ,.. ]
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [que ,.. ]
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[que]   -|||- [« ,.. ]
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [« ,.. ]
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[«]   -|||- [l' ,.. ]
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [l' ,.. ]
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[l']   -|||- [homme ,.. ]
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [homme ,.. ]
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[homme]   -|||- [s' ,.. ]
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [s' ,.. ]
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[s']   -|||- [élève ,.. ]
-14- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[s', élève]   -|||- [vers ,.. ]
-15- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[[s', élève]]   -|||- [vers ,.. ]
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [vers ,.. ]
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[vers]   -|||- [Dieu ,.. ]
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Dieu ,.. ]
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Dieu]   -|||- [par ,.. ]
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [par ,.. ]
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[par]   -|||- [les ,.. ]
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [les ,.. ]
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[les]   -|||- [questions ,.. ]
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [questions ,.. ]
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[questions]   -|||- [qu' ,.. ]
-26- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[questions, qu']   -|||- [il ,.. ]
-27- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[questions]   -|||- [il ,.. ]
-28- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[questions, il]   -|||- [Lui ,.. ]
-29- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[questions]   -|||- [Lui ,.. ]
-30- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[questions, Lui]   -|||- [pose ,.. ]
-31- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[questions]   -|||- [pose ,.. ]
-32- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[questions, pose]   -|||- [» ,.. ]
-33- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[[questions, pose]]   -|||- [» ,.. ]
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [» ,.. ]
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[»]   -|||- [et ,.. ]
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [et ,.. ]
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[et]   -|||- [que ,.. ]
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [que ,.. ]
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[que]   -|||- [« ,.. ]
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [« ,.. ]
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[«]   -|||- [toute ,.. ]
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [toute ,.. ]
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[toute]   -|||- [question ,.. ]
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [question ,.. ]
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[question]   -|||- [possède ,.. ]
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [possède ,.. ]
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[possède]   -|||- [un ,.. ]
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [un ,.. ]
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[un]   -|||- [pouvoir ,.. ]
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [pouvoir ,.. ]
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[pouvoir]   -|||- [qui ,.. ]
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [qui ,.. ]
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[qui]   -|||- [ne ,.. ]
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [ne ,.. ]
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[ne]   -|||- [repose ,.. ]
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [repose ,.. ]
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[repose]   -|||- [pas ,.. ]
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [pas ,.. ]
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[pas]   -|||- [dans ,.. ]
-60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [dans ,.. ]
-61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[dans]   -|||- [la ,.. ]
-62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [la ,.. ]
-63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[la]   -|||- [réponse ,.. ]
-64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [réponse ,.. ]
-65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[réponse]   -|||- [» ,.. ]
-66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [» ,.. ]
-67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[»]   -|||- [.]
-68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [.]
-69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[.]   -|||- [ ]
-70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [ ]
-
-###Features: 
-0- 0 : {'B0Lemma': 'Mosh\xc3\xa9', 'antepenultimateT': '_', 'B1POS': '_', 'B1Token': 'consid\xc3\xa8re', 'B0Token': 'Mosh\xc3\xa9', 'prevriousT': '_', 'B0POS': '_', 'B1Lemma': 'consid\xc3\xa9rer'}
-1- 2 : {'B0Lemma': 'consid\xc3\xa9rer', 'antepenultimateT': '_', 'B1POS': '_', 'B1Token': 'que', 'B0Token': 'consid\xc3\xa8re', 'prevriousT': 'None', 'S0Token': 'Mosh\xc3\xa9', 'S0Lemma': 'Mosh\xc3\xa9', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'que', 'distance': '1'}
-2- 0 : {'B0Lemma': 'consid\xc3\xa9rer', 'antepenultimateT': 'None', 'B1POS': '_', 'B1Token': 'que', 'B0Token': 'consid\xc3\xa8re', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'que'}
-3- 2 : {'B0Lemma': 'que', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '\xc2\xab', 'B0Token': 'que', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'consid\xc3\xa8re', 'S0Lemma': 'consid\xc3\xa9rer', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': '\xc2\xab', 'distance': '1'}
-4- 0 : {'B0Lemma': 'que', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '\xc2\xab', 'B0Token': 'que', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': '\xc2\xab'}
-5- 2 : {'B0Lemma': '\xc2\xab', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "l'", 'B0Token': '\xc2\xab', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'que', 'S0Lemma': 'que', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
-6- 0 : {'B0Lemma': '\xc2\xab', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': "l'", 'B0Token': '\xc2\xab', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'le'}
-7- 2 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'homme', 'B0Token': "l'", 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': '\xc2\xab', 'S0Lemma': '\xc2\xab', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'homme', 'distance': '1'}
-8- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'homme', 'B0Token': "l'", 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'homme'}
-9- 2 : {'B0Lemma': 'homme', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "s'", 'B0Token': 'homme', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': "l'", 'S0Lemma': 'le', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'se', 'distance': '1'}
-10- 0 : {'B0Lemma': 'homme', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': "s'", 'B0Token': 'homme', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'se'}
-11- 2 : {'B0Lemma': 'se', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '\xc3\xa9l\xc3\xa8ve', 'B0Token': "s'", 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'homme', 'S0Lemma': 'homme', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': '\xc3\xa9lever', 'distance': '1'}
-12- 0 : {'B0Lemma': 'se', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '\xc3\xa9l\xc3\xa8ve', 'B0Token': "s'", 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': '\xc3\xa9lever'}
-13- 0 : {'B0Lemma': '\xc3\xa9lever', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'vers', 'B0Token': '\xc3\xa9l\xc3\xa8ve', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': "s'", 'S0Lemma': 'se', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'vers', 'distance': '1'}
-14- 1 : {'B0Lemma': 'vers', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Dieu', 'B0Token': 'vers', 'prevriousT': 'TransitionType.SHIFT', 'S0Token': "s'", 'S1Token': '\xc3\xa9l\xc3\xa8ve', 'S1POS': '_', 'S0Lemma': 'se', 'S1Lemma': '\xc3\xa9lever', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'Dieu', 'distance': '1'}
-15- 2 : {'B0Lemma': 'vers', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Dieu', 'B0Token': 'vers', 'prevriousT': 'TransitionType.SHIFT', 'S0Token': "s'-\xc3\xa9l\xc3\xa8ve", 'S0Lemma': 'se-\xc3\xa9lever', 'S0POS': '_-_', 'B0POS': '_', 'B1Lemma': 'Dieu', 'distance': '1'}
-16- 0 : {'B0Lemma': 'vers', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Dieu', 'B0Token': 'vers', 'prevriousT': 'TransitionType.MERGE', 'B0POS': '_', 'B1Lemma': 'Dieu'}
-17- 2 : {'B0Lemma': 'Dieu', 'antepenultimateT': 'TransitionType.MERGE', 'B1POS': '_', 'B1Token': 'par', 'B0Token': 'Dieu', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'vers', 'S0Lemma': 'vers', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'par', 'distance': '1'}
-18- 0 : {'B0Lemma': 'Dieu', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'par', 'B0Token': 'Dieu', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'par'}
-19- 2 : {'B0Lemma': 'par', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'les', 'B0Token': 'par', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'Dieu', 'S0Lemma': 'Dieu', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
-20- 0 : {'B0Lemma': 'par', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'les', 'B0Token': 'par', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'le'}
-21- 2 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'questions', 'B0Token': 'les', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'par', 'S0Lemma': 'par', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'question', 'distance': '1'}
-22- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'questions', 'B0Token': 'les', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'question'}
-23- 2 : {'B0Lemma': 'question', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "qu'", 'B0Token': 'questions', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'les', 'S0Lemma': 'le', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'que', 'distance': '1'}
-24- 0 : {'B0Lemma': 'question', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': "qu'", 'B0Token': 'questions', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'que'}
-25- 0 : {'B0Lemma': 'que', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'il', 'B0Token': "qu'", 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'questions', 'S0Lemma': 'question', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'il', 'distance': '1'}
-26- 2 : {'B0Lemma': 'il', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Lui', 'B0Token': 'il', 'prevriousT': 'TransitionType.SHIFT', 'S0Token': 'questions', 'S1Token': "qu'", 'S1POS': '_', 'S0Lemma': 'question', 'S1Lemma': 'que', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'lui', 'distance': '1'}
-27- 0 : {'B0Lemma': 'il', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Lui', 'B0Token': 'il', 'prevriousT': 'TransitionType.SHIFT', 'S0Token': 'questions', 'S0Lemma': 'question', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'lui', 'distance': '2'}
-28- 2 : {'B0Lemma': 'lui', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'pose', 'B0Token': 'Lui', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'questions', 'S1Token': 'il', 'S1POS': '_', 'S0Lemma': 'question', 'S1Lemma': 'il', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'poser', 'distance': '1'}
-29- 0 : {'B0Lemma': 'lui', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'pose', 'B0Token': 'Lui', 'prevriousT': 'TransitionType.SHIFT', 'S0Token': 'questions', 'S0Lemma': 'question', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'poser', 'distance': '3'}
-30- 2 : {'B0Lemma': 'poser', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '\xc2\xbb', 'B0Token': 'pose', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'questions', 'S1Token': 'Lui', 'S1POS': '_', 'S0Lemma': 'question', 'S1Lemma': 'lui', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': '\xc2\xbb', 'distance': '1'}
-31- 0 : {'B0Lemma': 'poser', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '\xc2\xbb', 'B0Token': 'pose', 'prevriousT': 'TransitionType.SHIFT', 'S0Token': 'questions', 'S0Lemma': 'question', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': '\xc2\xbb', 'distance': '4'}
-32- 1 : {'B0Lemma': '\xc2\xbb', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'et', 'B0Token': '\xc2\xbb', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'questions', 'S1Token': 'pose', 'S1POS': '_', 'S0Lemma': 'question', 'S1Lemma': 'poser', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'et', 'distance': '1'}
-33- 2 : {'B0Lemma': '\xc2\xbb', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'et', 'B0Token': '\xc2\xbb', 'prevriousT': 'TransitionType.SHIFT', 'S0Token': 'questions-pose', 'S0Lemma': 'question-poser', 'S0POS': '_-_', 'B0POS': '_', 'B1Lemma': 'et', 'distance': '1'}
-34- 0 : {'B0Lemma': '\xc2\xbb', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'et', 'B0Token': '\xc2\xbb', 'prevriousT': 'TransitionType.MERGE', 'B0POS': '_', 'B1Lemma': 'et'}
-35- 2 : {'B0Lemma': 'et', 'antepenultimateT': 'TransitionType.MERGE', 'B1POS': '_', 'B1Token': 'que', 'B0Token': 'et', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': '\xc2\xbb', 'S0Lemma': '\xc2\xbb', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'que', 'distance': '1'}
-36- 0 : {'B0Lemma': 'et', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'que', 'B0Token': 'et', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'que'}
-37- 2 : {'B0Lemma': 'que', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '\xc2\xab', 'B0Token': 'que', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'et', 'S0Lemma': 'et', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': '\xc2\xab', 'distance': '1'}
-38- 0 : {'B0Lemma': 'que', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '\xc2\xab', 'B0Token': 'que', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': '\xc2\xab'}
-39- 2 : {'B0Lemma': '\xc2\xab', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'toute', 'B0Token': '\xc2\xab', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'que', 'S0Lemma': 'que', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'tout', 'distance': '1'}
-40- 0 : {'B0Lemma': '\xc2\xab', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'toute', 'B0Token': '\xc2\xab', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'tout'}
-41- 2 : {'B0Lemma': 'tout', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'question', 'B0Token': 'toute', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': '\xc2\xab', 'S0Lemma': '\xc2\xab', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'question', 'distance': '1'}
-42- 0 : {'B0Lemma': 'tout', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'question', 'B0Token': 'toute', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'question'}
-43- 2 : {'B0Lemma': 'question', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'poss\xc3\xa8de', 'B0Token': 'question', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'toute', 'S0Lemma': 'tout', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'poss\xc3\xa9der', 'distance': '1'}
-44- 0 : {'B0Lemma': 'question', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'poss\xc3\xa8de', 'B0Token': 'question', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'poss\xc3\xa9der'}
-45- 2 : {'B0Lemma': 'poss\xc3\xa9der', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'un', 'B0Token': 'poss\xc3\xa8de', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'question', 'S0Lemma': 'question', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'un', 'distance': '1'}
-46- 0 : {'B0Lemma': 'poss\xc3\xa9der', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'un', 'B0Token': 'poss\xc3\xa8de', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'un'}
-47- 2 : {'B0Lemma': 'un', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'pouvoir', 'B0Token': 'un', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'poss\xc3\xa8de', 'S0Lemma': 'poss\xc3\xa9der', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'pouvoir', 'distance': '1'}
-48- 0 : {'B0Lemma': 'un', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'pouvoir', 'B0Token': 'un', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'pouvoir'}
-49- 2 : {'B0Lemma': 'pouvoir', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'qui', 'B0Token': 'pouvoir', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'un', 'S0Lemma': 'un', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'qui', 'distance': '1'}
-50- 0 : {'B0Lemma': 'pouvoir', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'qui', 'B0Token': 'pouvoir', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'qui'}
-51- 2 : {'B0Lemma': 'qui', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'ne', 'B0Token': 'qui', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'pouvoir', 'S0Lemma': 'pouvoir', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'ne', 'distance': '1'}
-52- 0 : {'B0Lemma': 'qui', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'ne', 'B0Token': 'qui', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'ne'}
-53- 2 : {'B0Lemma': 'ne', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'repose', 'B0Token': 'ne', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'qui', 'S0Lemma': 'qui', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'reposer', 'distance': '1'}
-54- 0 : {'B0Lemma': 'ne', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'repose', 'B0Token': 'ne', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'reposer'}
-55- 2 : {'B0Lemma': 'reposer', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'pas', 'B0Token': 'repose', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'ne', 'S0Lemma': 'ne', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'pas', 'distance': '1'}
-56- 0 : {'B0Lemma': 'reposer', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'pas', 'B0Token': 'repose', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'pas'}
-57- 2 : {'B0Lemma': 'pas', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'dans', 'B0Token': 'pas', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'repose', 'S0Lemma': 'reposer', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'dans', 'distance': '1'}
-58- 0 : {'B0Lemma': 'pas', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'dans', 'B0Token': 'pas', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'dans'}
-59- 2 : {'B0Lemma': 'dans', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'la', 'B0Token': 'dans', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'pas', 'S0Lemma': 'pas', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
-60- 0 : {'B0Lemma': 'dans', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'la', 'B0Token': 'dans', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'le'}
-61- 2 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'r\xc3\xa9ponse', 'B0Token': 'la', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'dans', 'S0Lemma': 'dans', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'r\xc3\xa9ponse', 'distance': '1'}
-62- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'r\xc3\xa9ponse', 'B0Token': 'la', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'r\xc3\xa9ponse'}
-63- 2 : {'B0Lemma': 'r\xc3\xa9ponse', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '\xc2\xbb', 'B0Token': 'r\xc3\xa9ponse', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'la', 'S0Lemma': 'le', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': '\xc2\xbb', 'distance': '1'}
-64- 0 : {'B0Lemma': 'r\xc3\xa9ponse', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '\xc2\xbb', 'B0Token': 'r\xc3\xa9ponse', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': '\xc2\xbb'}
-65- 2 : {'B0Lemma': '\xc2\xbb', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '.', 'B0Token': '\xc2\xbb', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'r\xc3\xa9ponse', 'S0Lemma': 'r\xc3\xa9ponse', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': '.', 'distance': '1'}
-66- 0 : {'B0Lemma': '\xc2\xbb', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '.', 'B0Token': '\xc2\xbb', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': '.'}
-67- 2 : {'B0Lemma': '.', 'antepenultimateT': 'TransitionType.SHIFT', 'distance': '1', 'B0Token': '.', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': '\xc2\xbb', 'S0Lemma': '\xc2\xbb', 'S0POS': '_', 'B0POS': '_'}
-68- 0 : {'B0Lemma': '.', 'B0Token': '.', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.COMPLETE', 'B0POS': '_'}
-69- 2 : {'S0Lemma': '.', 'antepenultimateT': 'TransitionType.SHIFT', 'prevriousT': 'TransitionType.COMPLETE', 'S0POS': '_', 'S0Token': '.'}
-##Sentence No. 12027 - fr-ud-train_10596
- Son influence ne s'arrête pas là, puisque plusieurs sites et initiatives ont vu le jour en grande partie grâce à lui, telles que récemment, une vente de bracelets afin de récolter des fonds pour l'environnement, ou encore les sites A beautiful Lie ou encore The Echelon House.
-###Existing MWEs: 
-1- **s' arrête** (IReflV)
-2- **vu le jour** (ID)
-
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Son ,.. ]
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Son]   -|||- [influence ,.. ]
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [influence ,.. ]
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[influence]   -|||- [ne ,.. ]
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [ne ,.. ]
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[ne]   -|||- [s' ,.. ]
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [s' ,.. ]
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[s']   -|||- [arrête ,.. ]
-8- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[s', arrête]   -|||- [pas ,.. ]
-9- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[[s', arrête]]   -|||- [pas ,.. ]
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [pas ,.. ]
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[pas]   -|||- [là ,.. ]
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [là ,.. ]
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[là]   -|||- [, ,.. ]
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [, ,.. ]
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[,]   -|||- [puisque ,.. ]
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [puisque ,.. ]
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[puisque]   -|||- [plusieurs ,.. ]
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [plusieurs ,.. ]
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[plusieurs]   -|||- [sites ,.. ]
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [sites ,.. ]
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[sites]   -|||- [et ,.. ]
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [et ,.. ]
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[et]   -|||- [initiatives ,.. ]
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [initiatives ,.. ]
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[initiatives]   -|||- [ont ,.. ]
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [ont ,.. ]
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[ont]   -|||- [vu ,.. ]
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [vu ,.. ]
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[vu]   -|||- [le ,.. ]
-30- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[vu, le]   -|||- [jour ,.. ]
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[vu, le, jour]   -|||- [en ,.. ]
-32- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[vu, [le, jour]]   -|||- [en ,.. ]
-33- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[[vu, [le, jour]]]   -|||- [en ,.. ]
-34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [en ,.. ]
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[en]   -|||- [grande ,.. ]
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [grande ,.. ]
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[grande]   -|||- [partie ,.. ]
-38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [partie ,.. ]
-39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[partie]   -|||- [grâce ,.. ]
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [grâce ,.. ]
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[grâce]   -|||- [à ,.. ]
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [à ,.. ]
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[à]   -|||- [lui ,.. ]
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [lui ,.. ]
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[lui]   -|||- [, ,.. ]
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[les]   -|||- [difficultés ,.. ]
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [difficultés ,.. ]
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[difficultés]   -|||- [de ,.. ]
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [de ,.. ]
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[de]   -|||- [le ,.. ]
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [le ,.. ]
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[le]   -|||- [vieux ,.. ]
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [vieux ,.. ]
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[vieux]   -|||- [continent ,.. ]
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [continent ,.. ]
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[continent]   -|||- [, ,.. ]
 46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [, ,.. ]
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[,]   -|||- [telles ,.. ]
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [telles ,.. ]
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[telles]   -|||- [que ,.. ]
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [que ,.. ]
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[que]   -|||- [récemment ,.. ]
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [récemment ,.. ]
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[récemment]   -|||- [, ,.. ]
-54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [, ,.. ]
-55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[,]   -|||- [une ,.. ]
-56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [une ,.. ]
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[une]   -|||- [vente ,.. ]
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [vente ,.. ]
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[vente]   -|||- [de ,.. ]
-60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [de ,.. ]
-61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[de]   -|||- [bracelets ,.. ]
-62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [bracelets ,.. ]
-63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[bracelets]   -|||- [afin ,.. ]
-64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [afin ,.. ]
-65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[afin]   -|||- [de ,.. ]
-66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [de ,.. ]
-67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[de]   -|||- [récolter ,.. ]
-68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [récolter ,.. ]
-69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[récolter]   -|||- [des ,.. ]
-70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [des ,.. ]
-71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[des]   -|||- [fonds ,.. ]
-72- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [fonds ,.. ]
-73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[fonds]   -|||- [pour ,.. ]
-74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [pour ,.. ]
-75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[pour]   -|||- [l' ,.. ]
-76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [l' ,.. ]
-77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[l']   -|||- [environnement ,.. ]
-78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [environnement ,.. ]
-79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[environnement]   -|||- [, ,.. ]
-80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [, ,.. ]
-81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[,]   -|||- [ou ,.. ]
-82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [ou ,.. ]
-83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[ou]   -|||- [encore ,.. ]
-84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [encore ,.. ]
-85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[encore]   -|||- [les ,.. ]
-86- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [les ,.. ]
-87- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[les]   -|||- [sites ,.. ]
-88- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [sites ,.. ]
-89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[sites]   -|||- [A ,.. ]
-90- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [A ,.. ]
-91- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[A]   -|||- [beautiful ,.. ]
-92- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [beautiful ,.. ]
-93- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[beautiful]   -|||- [Lie ,.. ]
-94- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Lie ,.. ]
-95- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Lie]   -|||- [ou ,.. ]
-96- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [ou ,.. ]
-97- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[ou]   -|||- [encore ,.. ]
-98- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [encore ,.. ]
-99- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[encore]   -|||- [The ,.. ]
-100- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [The ,.. ]
-101- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[The]   -|||- [Echelon ,.. ]
-102- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Echelon ,.. ]
-103- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Echelon]   -|||- [House ,.. ]
-104- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [House ,.. ]
-105- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[House]   -|||- [.]
-106- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [.]
-107- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[.]   -|||- [ ]
-108- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [ ]
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[,]   -|||- [nous ,.. ]
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [nous ,.. ]
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[nous]   -|||- [devrions ,.. ]
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [devrions ,.. ]
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[devrions]   -|||- [faire ,.. ]
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [faire ,.. ]
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[faire]   -|||- [plus ,.. ]
+54- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[faire, plus]   -|||- [d' ,.. ]
+55- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[faire]   -|||- [d' ,.. ]
+56- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[faire, d']   -|||- [affaires ,.. ]
+57- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[faire]   -|||- [affaires ,.. ]
+58- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[faire, affaires]   -|||- [avec ,.. ]
+59- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[[faire, affaires]]   -|||- [avec ,.. ]
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [avec ,.. ]
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[avec]   -|||- [l' ,.. ]
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [l' ,.. ]
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[l']   -|||- [Afrique ,.. ]
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Afrique ,.. ]
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Afrique]   -|||- [, ,.. ]
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [, ,.. ]
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[,]   -|||- [où ,.. ]
+68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [où ,.. ]
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[où]   -|||- [il ,.. ]
+70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [il ,.. ]
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[il]   -|||- [y ,.. ]
+72- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[il, y]   -|||- [a ,.. ]
+73- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[il, y, a]   -|||- [encore ,.. ]
+74- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[il, [y, a]]   -|||- [encore ,.. ]
+75- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[[il, [y, a]]]   -|||- [encore ,.. ]
+76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [encore ,.. ]
+77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[encore]   -|||- [des ,.. ]
+78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [des ,.. ]
+79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[des]   -|||- [niveaux ,.. ]
+80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [niveaux ,.. ]
+81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[niveaux]   -|||- [substantiels ,.. ]
+82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [substantiels ,.. ]
+83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[substantiels]   -|||- [de ,.. ]
+84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [de ,.. ]
+85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[de]   -|||- [croissance ,.. ]
+86- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [croissance ,.. ]
+87- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[croissance]   -|||- [, ,.. ]
+88- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [, ,.. ]
+89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[,]   -|||- [a ,.. ]
+90- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [a ,.. ]
+91- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[a]   -|||- [pour ,.. ]
+92- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [pour ,.. ]
+93- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[pour]   -|||- [sa ,.. ]
+94- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [sa ,.. ]
+95- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[sa]   -|||- [part ,.. ]
+96- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [part ,.. ]
+97- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[part]   -|||- [indiqué ,.. ]
+98- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [indiqué ,.. ]
+99- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[indiqué]   -|||- [le ,.. ]
+100- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [le ,.. ]
+101- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[le]   -|||- [ministre ,.. ]
+102- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [ministre ,.. ]
+103- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[ministre]   -|||- [de ,.. ]
+104- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [de ,.. ]
+105- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[de]   -|||- [les ,.. ]
+106- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [les ,.. ]
+107- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[les]   -|||- [Finances ,.. ]
+108- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Finances ,.. ]
+109- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Finances]   -|||- [, ,.. ]
+110- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [, ,.. ]
+111- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[,]   -|||- [Pravin ,.. ]
+112- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Pravin ,.. ]
+113- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Pravin]   -|||- [Gordhan ,.. ]
+114- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Gordhan ,.. ]
+115- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Gordhan]   -|||- [, ,.. ]
+116- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [, ,.. ]
+117- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[,]   -|||- [de ,.. ]
+118- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [de ,.. ]
+119- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[de]   -|||- [retour ,.. ]
+120- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [retour ,.. ]
+121- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[retour]   -|||- [de ,.. ]
+122- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [de ,.. ]
+123- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[de]   -|||- [la ,.. ]
+124- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [la ,.. ]
+125- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[la]   -|||- [réunion ,.. ]
+126- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [réunion ,.. ]
+127- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[réunion]   -|||- [annuelle ,.. ]
+128- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [annuelle ,.. ]
+129- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[annuelle]   -|||- [de ,.. ]
+130- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [de ,.. ]
+131- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[de]   -|||- [le ,.. ]
+132- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [le ,.. ]
+133- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[le]   -|||- [Fonds ,.. ]
+134- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Fonds ,.. ]
+135- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Fonds]   -|||- [monétaire ,.. ]
+136- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [monétaire ,.. ]
+137- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[monétaire]   -|||- [international ,.. ]
+138- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [international ,.. ]
+139- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[international]   -|||- [( ,.. ]
+140- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [( ,.. ]
+141- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[(]   -|||- [FMI ,.. ]
+142- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [FMI ,.. ]
+143- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[FMI]   -|||- [) ,.. ]
+144- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [) ,.. ]
+145- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[)]   -|||- [.]
+146- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [.]
+147- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[.]   -|||- [ ]
+148- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [ ]
 
 ###Features: 
-0- 0 : {'B0Lemma': 'son', 'antepenultimateT': '_', 'B1POS': '_', 'B1Token': 'influence', 'B0Token': 'Son', 'prevriousT': '_', 'B0POS': '_', 'B1Lemma': 'influence'}
-1- 2 : {'B0Lemma': 'influence', 'antepenultimateT': '_', 'B1POS': '_', 'B1Token': 'ne', 'B0Token': 'influence', 'prevriousT': 'None', 'S0Token': 'Son', 'S0Lemma': 'son', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'ne', 'distance': '1'}
-2- 0 : {'B0Lemma': 'influence', 'antepenultimateT': 'None', 'B1POS': '_', 'B1Token': 'ne', 'B0Token': 'influence', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'ne'}
-3- 2 : {'B0Lemma': 'ne', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "s'", 'B0Token': 'ne', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'influence', 'S0Lemma': 'influence', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'se', 'distance': '1'}
-4- 0 : {'B0Lemma': 'ne', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': "s'", 'B0Token': 'ne', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'se'}
-5- 2 : {'B0Lemma': 'se', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'arr\xc3\xaate', 'B0Token': "s'", 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'ne', 'S0Lemma': 'ne', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'arr\xc3\xaater', 'distance': '1'}
-6- 0 : {'B0Lemma': 'se', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'arr\xc3\xaate', 'B0Token': "s'", 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'arr\xc3\xaater'}
-7- 0 : {'B0Lemma': 'arr\xc3\xaater', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'pas', 'B0Token': 'arr\xc3\xaate', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': "s'", 'S0Lemma': 'se', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'pas', 'distance': '1'}
-8- 1 : {'B0Lemma': 'pas', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'l\xc3\xa0', 'B0Token': 'pas', 'prevriousT': 'TransitionType.SHIFT', 'S0Token': "s'", 'S1Token': 'arr\xc3\xaate', 'S1POS': '_', 'S0Lemma': 'se', 'S1Lemma': 'arr\xc3\xaater', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'l\xc3\xa0', 'distance': '1'}
-9- 2 : {'B0Lemma': 'pas', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'l\xc3\xa0', 'B0Token': 'pas', 'prevriousT': 'TransitionType.SHIFT', 'S0Token': "s'-arr\xc3\xaate", 'S0Lemma': 'se-arr\xc3\xaater', 'S0POS': '_-_', 'B0POS': '_', 'B1Lemma': 'l\xc3\xa0', 'distance': '1'}
-10- 0 : {'B0Lemma': 'pas', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'l\xc3\xa0', 'B0Token': 'pas', 'prevriousT': 'TransitionType.MERGE', 'B0POS': '_', 'B1Lemma': 'l\xc3\xa0'}
-11- 2 : {'B0Lemma': 'l\xc3\xa0', 'antepenultimateT': 'TransitionType.MERGE', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'l\xc3\xa0', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'pas', 'S0Lemma': 'pas', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': ',', 'distance': '1'}
-12- 0 : {'B0Lemma': 'l\xc3\xa0', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'l\xc3\xa0', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': ','}
-13- 2 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'puisque', 'B0Token': ',', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'l\xc3\xa0', 'S0Lemma': 'l\xc3\xa0', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'puisque', 'distance': '1'}
-14- 0 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'puisque', 'B0Token': ',', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'puisque'}
-15- 2 : {'B0Lemma': 'puisque', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'plusieurs', 'B0Token': 'puisque', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': ',', 'S0Lemma': ',', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'plusieurs', 'distance': '1'}
-16- 0 : {'B0Lemma': 'puisque', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'plusieurs', 'B0Token': 'puisque', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'plusieurs'}
-17- 2 : {'B0Lemma': 'plusieurs', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'sites', 'B0Token': 'plusieurs', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'puisque', 'S0Lemma': 'puisque', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'site', 'distance': '1'}
-18- 0 : {'B0Lemma': 'plusieurs', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'sites', 'B0Token': 'plusieurs', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'site'}
-19- 2 : {'B0Lemma': 'site', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'et', 'B0Token': 'sites', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'plusieurs', 'S0Lemma': 'plusieurs', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'et', 'distance': '1'}
-20- 0 : {'B0Lemma': 'site', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'et', 'B0Token': 'sites', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'et'}
-21- 2 : {'B0Lemma': 'et', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'initiatives', 'B0Token': 'et', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'sites', 'S0Lemma': 'site', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'initiative', 'distance': '1'}
-22- 0 : {'B0Lemma': 'et', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'initiatives', 'B0Token': 'et', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'initiative'}
-23- 2 : {'B0Lemma': 'initiative', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'ont', 'B0Token': 'initiatives', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'et', 'S0Lemma': 'et', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'avoir', 'distance': '1'}
-24- 0 : {'B0Lemma': 'initiative', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'ont', 'B0Token': 'initiatives', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'avoir'}
-25- 2 : {'B0Lemma': 'avoir', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'vu', 'B0Token': 'ont', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'initiatives', 'S0Lemma': 'initiative', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'voir', 'distance': '1'}
-26- 0 : {'B0Lemma': 'avoir', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'vu', 'B0Token': 'ont', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'voir'}
-27- 2 : {'B0Lemma': 'voir', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'le', 'B0Token': 'vu', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'ont', 'S0Lemma': 'avoir', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
-28- 0 : {'B0Lemma': 'voir', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'le', 'B0Token': 'vu', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'le'}
-29- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'jour', 'B0Token': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'vu', 'S0Lemma': 'voir', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'jour', 'distance': '1'}
-30- 0 : {'B0Lemma': 'jour', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'en', 'B0Token': 'jour', 'prevriousT': 'TransitionType.SHIFT', 'S0Token': 'vu', 'S1Token': 'le', 'S1POS': '_', 'S0Lemma': 'voir', 'S1Lemma': 'le', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'en', 'distance': '1'}
-31- 1 : {'B0Lemma': 'en', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'grande', 'B0Token': 'en', 'prevriousT': 'TransitionType.SHIFT', 'S0Token': 'le', 'S1Token': 'jour', 'S1POS': '_', 'S0Lemma': 'le', 'S1Lemma': 'jour', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'grand', 'distance': '1'}
-32- 1 : {'B0Lemma': 'en', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'grande', 'B0Token': 'en', 'prevriousT': 'TransitionType.SHIFT', 'S0Token': 'vu', 'S1Token': 'le-jour', 'S1POS': '_-_', 'S0Lemma': 'voir', 'S1Lemma': 'le-jour', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'grand', 'distance': '1'}
-33- 2 : {'B0Lemma': 'en', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'grande', 'B0Token': 'en', 'prevriousT': 'TransitionType.MERGE', 'S0Token': 'vu-le-jour', 'S0Lemma': 'voir-le-jour', 'S0POS': '_-_-_', 'B0POS': '_', 'B1Lemma': 'grand', 'distance': '1'}
-34- 0 : {'B0Lemma': 'en', 'antepenultimateT': 'TransitionType.MERGE', 'B1POS': '_', 'B1Token': 'grande', 'B0Token': 'en', 'prevriousT': 'TransitionType.MERGE', 'B0POS': '_', 'B1Lemma': 'grand'}
-35- 2 : {'B0Lemma': 'grand', 'antepenultimateT': 'TransitionType.MERGE', 'B1POS': '_', 'B1Token': 'partie', 'B0Token': 'grande', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'en', 'S0Lemma': 'en', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'partie', 'distance': '1'}
-36- 0 : {'B0Lemma': 'grand', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'partie', 'B0Token': 'grande', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'partie'}
-37- 2 : {'B0Lemma': 'partie', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'gr\xc3\xa2ce', 'B0Token': 'partie', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'grande', 'S0Lemma': 'grand', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'gr\xc3\xa2ce', 'distance': '1'}
-38- 0 : {'B0Lemma': 'partie', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'gr\xc3\xa2ce', 'B0Token': 'partie', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'gr\xc3\xa2ce'}
-39- 2 : {'B0Lemma': 'gr\xc3\xa2ce', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '\xc3\xa0', 'B0Token': 'gr\xc3\xa2ce', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'partie', 'S0Lemma': 'partie', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': '\xc3\xa0', 'distance': '1'}
-40- 0 : {'B0Lemma': 'gr\xc3\xa2ce', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '\xc3\xa0', 'B0Token': 'gr\xc3\xa2ce', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': '\xc3\xa0'}
-41- 2 : {'B0Lemma': '\xc3\xa0', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'lui', 'B0Token': '\xc3\xa0', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'gr\xc3\xa2ce', 'S0Lemma': 'gr\xc3\xa2ce', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'lui', 'distance': '1'}
-42- 0 : {'B0Lemma': '\xc3\xa0', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'lui', 'B0Token': '\xc3\xa0', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'lui'}
-43- 2 : {'B0Lemma': 'lui', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'lui', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': '\xc3\xa0', 'S0Lemma': '\xc3\xa0', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': ',', 'distance': '1'}
-44- 0 : {'B0Lemma': 'lui', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'lui', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': ','}
-45- 2 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'telles', 'B0Token': ',', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'lui', 'S0Lemma': 'lui', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'tel', 'distance': '1'}
-46- 0 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'telles', 'B0Token': ',', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'tel'}
-47- 2 : {'B0Lemma': 'tel', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'que', 'B0Token': 'telles', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': ',', 'S0Lemma': ',', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'que', 'distance': '1'}
-48- 0 : {'B0Lemma': 'tel', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'que', 'B0Token': 'telles', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'que'}
-49- 2 : {'B0Lemma': 'que', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'r\xc3\xa9cemment', 'B0Token': 'que', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'telles', 'S0Lemma': 'tel', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'r\xc3\xa9cemment', 'distance': '1'}
-50- 0 : {'B0Lemma': 'que', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'r\xc3\xa9cemment', 'B0Token': 'que', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'r\xc3\xa9cemment'}
-51- 2 : {'B0Lemma': 'r\xc3\xa9cemment', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'r\xc3\xa9cemment', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'que', 'S0Lemma': 'que', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': ',', 'distance': '1'}
-52- 0 : {'B0Lemma': 'r\xc3\xa9cemment', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'r\xc3\xa9cemment', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': ','}
-53- 2 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'une', 'B0Token': ',', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'r\xc3\xa9cemment', 'S0Lemma': 'r\xc3\xa9cemment', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'un', 'distance': '1'}
-54- 0 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'une', 'B0Token': ',', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'un'}
-55- 2 : {'B0Lemma': 'un', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'vente', 'B0Token': 'une', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': ',', 'S0Lemma': ',', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'vente', 'distance': '1'}
-56- 0 : {'B0Lemma': 'un', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'vente', 'B0Token': 'une', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'vente'}
-57- 2 : {'B0Lemma': 'vente', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'vente', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'une', 'S0Lemma': 'un', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
-58- 0 : {'B0Lemma': 'vente', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'vente', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'de'}
-59- 2 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'bracelets', 'B0Token': 'de', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'vente', 'S0Lemma': 'vente', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'bracelet', 'distance': '1'}
-60- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'bracelets', 'B0Token': 'de', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'bracelet'}
-61- 2 : {'B0Lemma': 'bracelet', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'afin', 'B0Token': 'bracelets', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'de', 'S0Lemma': 'de', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'afin', 'distance': '1'}
-62- 0 : {'B0Lemma': 'bracelet', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'afin', 'B0Token': 'bracelets', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'afin'}
-63- 2 : {'B0Lemma': 'afin', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'afin', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'bracelets', 'S0Lemma': 'bracelet', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
-64- 0 : {'B0Lemma': 'afin', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'afin', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'de'}
-65- 2 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'r\xc3\xa9colter', 'B0Token': 'de', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'afin', 'S0Lemma': 'afin', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'r\xc3\xa9colter', 'distance': '1'}
-66- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'r\xc3\xa9colter', 'B0Token': 'de', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'r\xc3\xa9colter'}
-67- 2 : {'B0Lemma': 'r\xc3\xa9colter', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'des', 'B0Token': 'r\xc3\xa9colter', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'de', 'S0Lemma': 'de', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'un', 'distance': '1'}
-68- 0 : {'B0Lemma': 'r\xc3\xa9colter', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'des', 'B0Token': 'r\xc3\xa9colter', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'un'}
-69- 2 : {'B0Lemma': 'un', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'fonds', 'B0Token': 'des', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'r\xc3\xa9colter', 'S0Lemma': 'r\xc3\xa9colter', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'fonds', 'distance': '1'}
-70- 0 : {'B0Lemma': 'un', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'fonds', 'B0Token': 'des', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'fonds'}
-71- 2 : {'B0Lemma': 'fonds', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'pour', 'B0Token': 'fonds', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'des', 'S0Lemma': 'un', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'pour', 'distance': '1'}
-72- 0 : {'B0Lemma': 'fonds', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'pour', 'B0Token': 'fonds', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'pour'}
-73- 2 : {'B0Lemma': 'pour', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "l'", 'B0Token': 'pour', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'fonds', 'S0Lemma': 'fonds', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
-74- 0 : {'B0Lemma': 'pour', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': "l'", 'B0Token': 'pour', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'le'}
-75- 2 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'environnement', 'B0Token': "l'", 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'pour', 'S0Lemma': 'pour', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'environnement', 'distance': '1'}
-76- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'environnement', 'B0Token': "l'", 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'environnement'}
-77- 2 : {'B0Lemma': 'environnement', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'environnement', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': "l'", 'S0Lemma': 'le', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': ',', 'distance': '1'}
-78- 0 : {'B0Lemma': 'environnement', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'environnement', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': ','}
-79- 2 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'ou', 'B0Token': ',', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'environnement', 'S0Lemma': 'environnement', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'ou', 'distance': '1'}
-80- 0 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'ou', 'B0Token': ',', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'ou'}
-81- 2 : {'B0Lemma': 'ou', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'encore', 'B0Token': 'ou', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': ',', 'S0Lemma': ',', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'encore', 'distance': '1'}
-82- 0 : {'B0Lemma': 'ou', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'encore', 'B0Token': 'ou', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'encore'}
-83- 2 : {'B0Lemma': 'encore', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'les', 'B0Token': 'encore', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'ou', 'S0Lemma': 'ou', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
-84- 0 : {'B0Lemma': 'encore', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'les', 'B0Token': 'encore', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'le'}
-85- 2 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'sites', 'B0Token': 'les', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'encore', 'S0Lemma': 'encore', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'site', 'distance': '1'}
-86- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'sites', 'B0Token': 'les', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'site'}
-87- 2 : {'B0Lemma': 'site', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'A', 'B0Token': 'sites', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'les', 'S0Lemma': 'le', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'a', 'distance': '1'}
-88- 0 : {'B0Lemma': 'site', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'A', 'B0Token': 'sites', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'a'}
-89- 2 : {'B0Lemma': 'a', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'beautiful', 'B0Token': 'A', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'sites', 'S0Lemma': 'site', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'beautiful', 'distance': '1'}
-90- 0 : {'B0Lemma': 'a', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'beautiful', 'B0Token': 'A', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'beautiful'}
-91- 2 : {'B0Lemma': 'beautiful', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Lie', 'B0Token': 'beautiful', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'A', 'S0Lemma': 'a', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'lie', 'distance': '1'}
-92- 0 : {'B0Lemma': 'beautiful', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Lie', 'B0Token': 'beautiful', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'lie'}
-93- 2 : {'B0Lemma': 'lie', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'ou', 'B0Token': 'Lie', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'beautiful', 'S0Lemma': 'beautiful', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'ou', 'distance': '1'}
-94- 0 : {'B0Lemma': 'lie', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'ou', 'B0Token': 'Lie', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'ou'}
-95- 2 : {'B0Lemma': 'ou', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'encore', 'B0Token': 'ou', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'Lie', 'S0Lemma': 'lie', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'encore', 'distance': '1'}
-96- 0 : {'B0Lemma': 'ou', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'encore', 'B0Token': 'ou', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'encore'}
-97- 2 : {'B0Lemma': 'encore', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'The', 'B0Token': 'encore', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'ou', 'S0Lemma': 'ou', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'the', 'distance': '1'}
-98- 0 : {'B0Lemma': 'encore', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'The', 'B0Token': 'encore', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'the'}
-99- 2 : {'B0Lemma': 'the', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Echelon', 'B0Token': 'The', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'encore', 'S0Lemma': 'encore', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'echelon', 'distance': '1'}
-100- 0 : {'B0Lemma': 'the', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Echelon', 'B0Token': 'The', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'echelon'}
-101- 2 : {'B0Lemma': 'echelon', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'House', 'B0Token': 'Echelon', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'The', 'S0Lemma': 'the', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'house', 'distance': '1'}
-102- 0 : {'B0Lemma': 'echelon', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'House', 'B0Token': 'Echelon', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'house'}
-103- 2 : {'B0Lemma': 'house', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '.', 'B0Token': 'House', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'Echelon', 'S0Lemma': 'echelon', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': '.', 'distance': '1'}
-104- 0 : {'B0Lemma': 'house', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '.', 'B0Token': 'House', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': '.'}
-105- 2 : {'B0Lemma': '.', 'antepenultimateT': 'TransitionType.SHIFT', 'distance': '1', 'B0Token': '.', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'House', 'S0Lemma': 'house', 'S0POS': '_', 'B0POS': '_'}
-106- 0 : {'B0Lemma': '.', 'B0Token': '.', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.COMPLETE', 'B0POS': '_'}
-107- 2 : {'S0Lemma': '.', 'antepenultimateT': 'TransitionType.SHIFT', 'prevriousT': 'TransitionType.COMPLETE', 'S0POS': '_', 'S0Token': '.'}
-##Sentence No. 12070 - fr-ud-train_10639
- Le nombre de matches et donc de clubs n'est pas fixe, ainsi en 2004-2005 il y a eu quatre matches alors qu'en 2005-2006 il n'y en aura qu'un seul.
+0- 0 : {'B0Lemma': 'pour', 'antepenultimateT': '_', 'B1POS': '_', 'B1Token': 'pr\xc3\xa9server', 'B0Token': 'Pour', 'prevriousT': '_', 'transitionHistory': '__', 'B0POS': '_', 'B1Lemma': 'pr\xc3\xa9server'}
+1- 2 : {'B0Lemma': 'pr\xc3\xa9server', 'prevriousT': 'None', 'antepenultimateT': '_', 'B1POS': '_', 'B1Token': "l'", 'S0POS': '_', 'B0Token': 'pr\xc3\xa9server', 'S0B0Token': 'Pour_pr\xc3\xa9server', 'transitionHistory': 'None_', 'S0Token': 'Pour', 'S0B0POS': '___', 'S0B0POSLemma': '__pr\xc3\xa9server', 'S0Lemma': 'pour', 'S0B0LemmaPOS': 'pour__', 'S0B0Lemma': 'pour_pr\xc3\xa9server', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+2- 0 : {'B0Lemma': 'pr\xc3\xa9server', 'antepenultimateT': 'None', 'B1POS': '_', 'B1Token': "l'", 'B0Token': 'pr\xc3\xa9server', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTNone', 'B0POS': '_', 'B1Lemma': 'le'}
+3- 2 : {'B0Lemma': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'emploi', 'S0POS': '_', 'B0Token': "l'", 'S0B0Token': "pr\xc3\xa9server_l'", 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'pr\xc3\xa9server', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': 'pr\xc3\xa9server', 'S0B0LemmaPOS': 'pr\xc3\xa9server__', 'S0B0Lemma': 'pr\xc3\xa9server_le', 'B0POS': '_', 'B1Lemma': 'emploi', 'distance': '1'}
+4- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'emploi', 'B0Token': "l'", 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'emploi'}
+5- 2 : {'B0Lemma': 'emploi', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': ',', 'S0POS': '_', 'B0Token': 'emploi', 'S0B0Token': "l'_emploi", 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': "l'", 'S0B0POS': '___', 'S0B0POSLemma': '__emploi', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_emploi', 'B0POS': '_', 'B1Lemma': ',', 'distance': '1'}
+6- 0 : {'B0Lemma': 'emploi', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'emploi', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': ','}
+7- 2 : {'B0Lemma': ',', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'dans', 'S0POS': '_', 'B0Token': ',', 'S0B0Token': 'emploi_,', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'emploi', 'S0B0POS': '___', 'S0B0POSLemma': '__,', 'S0Lemma': 'emploi', 'S0B0LemmaPOS': 'emploi__', 'S0B0Lemma': 'emploi_,', 'B0POS': '_', 'B1Lemma': 'dans', 'distance': '1'}
+8- 0 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'dans', 'B0Token': ',', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'dans'}
+9- 2 : {'B0Lemma': 'dans', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'un', 'S0POS': '_', 'B0Token': 'dans', 'S0B0Token': ',_dans', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': ',', 'S0B0POS': '___', 'S0B0POSLemma': '__dans', 'S0Lemma': ',', 'S0B0LemmaPOS': ',__', 'S0B0Lemma': ',_dans', 'B0POS': '_', 'B1Lemma': 'un', 'distance': '1'}
+10- 0 : {'B0Lemma': 'dans', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'un', 'B0Token': 'dans', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'un'}
+11- 2 : {'B0Lemma': 'un', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'contexte', 'S0POS': '_', 'B0Token': 'un', 'S0B0Token': 'dans_un', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'dans', 'S0B0POS': '___', 'S0B0POSLemma': '__un', 'S0Lemma': 'dans', 'S0B0LemmaPOS': 'dans__', 'S0B0Lemma': 'dans_un', 'B0POS': '_', 'B1Lemma': 'contexte', 'distance': '1'}
+12- 0 : {'B0Lemma': 'un', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'contexte', 'B0Token': 'un', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'contexte'}
+13- 2 : {'B0Lemma': 'contexte', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'o\xc3\xb9', 'S0POS': '_', 'B0Token': 'contexte', 'S0B0Token': 'un_contexte', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'un', 'S0B0POS': '___', 'S0B0POSLemma': '__contexte', 'S0Lemma': 'un', 'S0B0LemmaPOS': 'un__', 'S0B0Lemma': 'un_contexte', 'B0POS': '_', 'B1Lemma': 'o\xc3\xb9', 'distance': '1'}
+14- 0 : {'B0Lemma': 'contexte', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'o\xc3\xb9', 'B0Token': 'contexte', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'o\xc3\xb9'}
+15- 2 : {'B0Lemma': 'o\xc3\xb9', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'les', 'S0POS': '_', 'B0Token': 'o\xc3\xb9', 'S0B0Token': 'contexte_o\xc3\xb9', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'contexte', 'S0B0POS': '___', 'S0B0POSLemma': '__o\xc3\xb9', 'S0Lemma': 'contexte', 'S0B0LemmaPOS': 'contexte__', 'S0B0Lemma': 'contexte_o\xc3\xb9', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+16- 0 : {'B0Lemma': 'o\xc3\xb9', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'les', 'B0Token': 'o\xc3\xb9', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'le'}
+17- 2 : {'B0Lemma': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'exportations', 'S0POS': '_', 'B0Token': 'les', 'S0B0Token': 'o\xc3\xb9_les', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'o\xc3\xb9', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': 'o\xc3\xb9', 'S0B0LemmaPOS': 'o\xc3\xb9__', 'S0B0Lemma': 'o\xc3\xb9_le', 'B0POS': '_', 'B1Lemma': 'exportation', 'distance': '1'}
+18- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'exportations', 'B0Token': 'les', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'exportation'}
+19- 2 : {'B0Lemma': 'exportation', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'vers', 'S0POS': '_', 'B0Token': 'exportations', 'S0B0Token': 'les_exportations', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'les', 'S0B0POS': '___', 'S0B0POSLemma': '__exportation', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_exportation', 'B0POS': '_', 'B1Lemma': 'vers', 'distance': '1'}
+20- 0 : {'B0Lemma': 'exportation', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'vers', 'B0Token': 'exportations', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'vers'}
+21- 2 : {'B0Lemma': 'vers', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "l'", 'S0POS': '_', 'B0Token': 'vers', 'S0B0Token': 'exportations_vers', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'exportations', 'S0B0POS': '___', 'S0B0POSLemma': '__vers', 'S0Lemma': 'exportation', 'S0B0LemmaPOS': 'exportation__', 'S0B0Lemma': 'exportation_vers', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+22- 0 : {'B0Lemma': 'vers', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': "l'", 'B0Token': 'vers', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'le'}
+23- 2 : {'B0Lemma': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Europe', 'S0POS': '_', 'B0Token': "l'", 'S0B0Token': "vers_l'", 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'vers', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': 'vers', 'S0B0LemmaPOS': 'vers__', 'S0B0Lemma': 'vers_le', 'B0POS': '_', 'B1Lemma': 'Europe', 'distance': '1'}
+24- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Europe', 'B0Token': "l'", 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'Europe'}
+25- 2 : {'B0Lemma': 'Europe', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'pourraient', 'S0POS': '_', 'B0Token': 'Europe', 'S0B0Token': "l'_Europe", 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': "l'", 'S0B0POS': '___', 'S0B0POSLemma': '__Europe', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_Europe', 'B0POS': '_', 'B1Lemma': 'pouvoir', 'distance': '1'}
+26- 0 : {'B0Lemma': 'Europe', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'pourraient', 'B0Token': 'Europe', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'pouvoir'}
+27- 2 : {'B0Lemma': 'pouvoir', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'souffrir', 'S0POS': '_', 'B0Token': 'pourraient', 'S0B0Token': 'Europe_pourraient', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'Europe', 'S0B0POS': '___', 'S0B0POSLemma': '__pouvoir', 'S0Lemma': 'Europe', 'S0B0LemmaPOS': 'Europe__', 'S0B0Lemma': 'Europe_pouvoir', 'B0POS': '_', 'B1Lemma': 'souffrir', 'distance': '1'}
+28- 0 : {'B0Lemma': 'pouvoir', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'souffrir', 'B0Token': 'pourraient', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'souffrir'}
+29- 2 : {'B0Lemma': 'souffrir', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'de', 'S0POS': '_', 'B0Token': 'souffrir', 'S0B0Token': 'pourraient_souffrir', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'pourraient', 'S0B0POS': '___', 'S0B0POSLemma': '__souffrir', 'S0Lemma': 'pouvoir', 'S0B0LemmaPOS': 'pouvoir__', 'S0B0Lemma': 'pouvoir_souffrir', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
+30- 0 : {'B0Lemma': 'souffrir', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'souffrir', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'de'}
+31- 2 : {'B0Lemma': 'de', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'les', 'S0POS': '_', 'B0Token': 'de', 'S0B0Token': 'souffrir_de', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'souffrir', 'S0B0POS': '___', 'S0B0POSLemma': '__de', 'S0Lemma': 'souffrir', 'S0B0LemmaPOS': 'souffrir__', 'S0B0Lemma': 'souffrir_de', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+32- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'les', 'B0Token': 'de', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'le'}
+33- 2 : {'B0Lemma': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'difficult\xc3\xa9s', 'S0POS': '_', 'B0Token': 'les', 'S0B0Token': 'de_les', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'de', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': 'de', 'S0B0LemmaPOS': 'de__', 'S0B0Lemma': 'de_le', 'B0POS': '_', 'B1Lemma': 'difficult\xc3\xa9', 'distance': '1'}
+34- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'difficult\xc3\xa9s', 'B0Token': 'les', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'difficult\xc3\xa9'}
+35- 2 : {'B0Lemma': 'difficult\xc3\xa9', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'de', 'S0POS': '_', 'B0Token': 'difficult\xc3\xa9s', 'S0B0Token': 'les_difficult\xc3\xa9s', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'les', 'S0B0POS': '___', 'S0B0POSLemma': '__difficult\xc3\xa9', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_difficult\xc3\xa9', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
+36- 0 : {'B0Lemma': 'difficult\xc3\xa9', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'difficult\xc3\xa9s', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'de'}
+37- 2 : {'B0Lemma': 'de', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'le', 'S0POS': '_', 'B0Token': 'de', 'S0B0Token': 'difficult\xc3\xa9s_de', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'difficult\xc3\xa9s', 'S0B0POS': '___', 'S0B0POSLemma': '__de', 'S0Lemma': 'difficult\xc3\xa9', 'S0B0LemmaPOS': 'difficult\xc3\xa9__', 'S0B0Lemma': 'difficult\xc3\xa9_de', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+38- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'le', 'B0Token': 'de', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'le'}
+39- 2 : {'B0Lemma': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'vieux', 'S0POS': '_', 'B0Token': 'le', 'S0B0Token': 'de_le', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'de', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': 'de', 'S0B0LemmaPOS': 'de__', 'S0B0Lemma': 'de_le', 'B0POS': '_', 'B1Lemma': 'vieux', 'distance': '1'}
+40- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'vieux', 'B0Token': 'le', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'vieux'}
+41- 2 : {'B0Lemma': 'vieux', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'continent', 'S0POS': '_', 'B0Token': 'vieux', 'S0B0Token': 'le_vieux', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'le', 'S0B0POS': '___', 'S0B0POSLemma': '__vieux', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_vieux', 'B0POS': '_', 'B1Lemma': 'continent', 'distance': '1'}
+42- 0 : {'B0Lemma': 'vieux', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'continent', 'B0Token': 'vieux', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'continent'}
+43- 2 : {'B0Lemma': 'continent', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': ',', 'S0POS': '_', 'B0Token': 'continent', 'S0B0Token': 'vieux_continent', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'vieux', 'S0B0POS': '___', 'S0B0POSLemma': '__continent', 'S0Lemma': 'vieux', 'S0B0LemmaPOS': 'vieux__', 'S0B0Lemma': 'vieux_continent', 'B0POS': '_', 'B1Lemma': ',', 'distance': '1'}
+44- 0 : {'B0Lemma': 'continent', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'continent', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': ','}
+45- 2 : {'B0Lemma': ',', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'nous', 'S0POS': '_', 'B0Token': ',', 'S0B0Token': 'continent_,', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'continent', 'S0B0POS': '___', 'S0B0POSLemma': '__,', 'S0Lemma': 'continent', 'S0B0LemmaPOS': 'continent__', 'S0B0Lemma': 'continent_,', 'B0POS': '_', 'B1Lemma': 'nous', 'distance': '1'}
+46- 0 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'nous', 'B0Token': ',', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'nous'}
+47- 2 : {'B0Lemma': 'nous', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'devrions', 'S0POS': '_', 'B0Token': 'nous', 'S0B0Token': ',_nous', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': ',', 'S0B0POS': '___', 'S0B0POSLemma': '__nous', 'S0Lemma': ',', 'S0B0LemmaPOS': ',__', 'S0B0Lemma': ',_nous', 'B0POS': '_', 'B1Lemma': 'devoir', 'distance': '1'}
+48- 0 : {'B0Lemma': 'nous', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'devrions', 'B0Token': 'nous', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'devoir'}
+49- 2 : {'B0Lemma': 'devoir', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'faire', 'S0POS': '_', 'B0Token': 'devrions', 'S0B0Token': 'nous_devrions', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'nous', 'S0B0POS': '___', 'S0B0POSLemma': '__devoir', 'S0Lemma': 'nous', 'S0B0LemmaPOS': 'nous__', 'S0B0Lemma': 'nous_devoir', 'B0POS': '_', 'B1Lemma': 'faire', 'distance': '1'}
+50- 0 : {'B0Lemma': 'devoir', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'faire', 'B0Token': 'devrions', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'faire'}
+51- 2 : {'B0Lemma': 'faire', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'plus', 'S0POS': '_', 'B0Token': 'faire', 'S0B0Token': 'devrions_faire', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'devrions', 'S0B0POS': '___', 'S0B0POSLemma': '__faire', 'S0Lemma': 'devoir', 'S0B0LemmaPOS': 'devoir__', 'S0B0Lemma': 'devoir_faire', 'B0POS': '_', 'B1Lemma': 'plus', 'distance': '1'}
+52- 0 : {'B0Lemma': 'faire', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'plus', 'B0Token': 'faire', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'plus'}
+53- 0 : {'B0Lemma': 'plus', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "d'", 'S0POS': '_', 'B0Token': 'plus', 'S0B0Token': 'faire_plus', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'faire', 'S0B0POS': '___', 'S0B0POSLemma': '__plus', 'S0Lemma': 'faire', 'S0B0LemmaPOS': 'faire__', 'S0B0Lemma': 'faire_plus', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
+54- 2 : {'B0Lemma': 'de', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'affaires', 'S0B0Lemma': 'plus_de', 'B0Token': "d'", 'S0B0Token': "plus_d'", 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'S0Token': 'faire', 'S0B0POS': '___', 'S1Token': 'plus', 'S1POS': '_', 'S0B0POSLemma': '__de', 'S0Lemma': 'faire', 'S0B0LemmaPOS': 'plus__', 'S1Lemma': 'plus', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'affaire', 'distance': '1'}
+55- 0 : {'B0Lemma': 'de', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'affaires', 'S0POS': '_', 'B0Token': "d'", 'S0B0Token': "faire_d'", 'transitionHistory': 'TransitionType.SHIFTTransitionType.SHIFT', 'S0Token': 'faire', 'S0B0POS': '___', 'S0B0POSLemma': '__de', 'S0Lemma': 'faire', 'S0B0LemmaPOS': 'faire__', 'S0B0Lemma': 'faire_de', 'B0POS': '_', 'B1Lemma': 'affaire', 'distance': '2'}
+56- 2 : {'B0Lemma': 'affaire', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'avec', 'S0B0Lemma': 'de_affaire', 'B0Token': 'affaires', 'S0B0Token': "d'_affaires", 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'faire', 'S0B0POS': '___', 'S1Token': "d'", 'S1POS': '_', 'S0B0POSLemma': '__affaire', 'S0Lemma': 'faire', 'S0B0LemmaPOS': 'de__', 'S1Lemma': 'de', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'avec', 'distance': '1'}
+57- 0 : {'B0Lemma': 'affaire', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'avec', 'S0POS': '_', 'B0Token': 'affaires', 'S0B0Token': 'faire_affaires', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'S0Token': 'faire', 'S0B0POS': '___', 'S0B0POSLemma': '__affaire', 'S0Lemma': 'faire', 'S0B0LemmaPOS': 'faire__', 'S0B0Lemma': 'faire_affaire', 'B0POS': '_', 'B1Lemma': 'avec', 'distance': '3'}
+58- 1 : {'B0Lemma': 'avec', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "l'", 'S0B0Lemma': 'affaire_avec', 'B0Token': 'avec', 'S0B0Token': 'affaires_avec', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'faire', 'S0B0POS': '___', 'S1Token': 'affaires', 'S1POS': '_', 'S0B0POSLemma': '__avec', 'S0Lemma': 'faire', 'S0B0LemmaPOS': 'affaire__', 'S1Lemma': 'affaire', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+59- 2 : {'B0Lemma': 'avec', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': "l'", 'S0POS': '___', 'B0Token': 'avec', 'S0B0Token': 'faire_affaires_avec', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'S0Token': 'faire_affaires', 'S0B0POS': '_____', 'S0B0POSLemma': '____avec', 'S0Lemma': 'faire_affaire', 'S0B0LemmaPOS': 'faire_affaire__', 'S0B0Lemma': 'faire_affaire_avec', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+60- 0 : {'B0Lemma': 'avec', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "l'", 'B0Token': 'avec', 'prevriousT': 'TransitionType.MERGE', 'transitionHistory': 'TransitionType.MERGETransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'le'}
+61- 2 : {'B0Lemma': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.MERGE', 'B1POS': '_', 'B1Token': 'Afrique', 'S0POS': '_', 'B0Token': "l'", 'S0B0Token': "avec_l'", 'transitionHistory': 'TransitionType.COMPLETETransitionType.MERGE', 'S0Token': 'avec', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': 'avec', 'S0B0LemmaPOS': 'avec__', 'S0B0Lemma': 'avec_le', 'B0POS': '_', 'B1Lemma': 'Afrique', 'distance': '1'}
+62- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Afrique', 'B0Token': "l'", 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'Afrique'}
+63- 2 : {'B0Lemma': 'Afrique', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': ',', 'S0POS': '_', 'B0Token': 'Afrique', 'S0B0Token': "l'_Afrique", 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': "l'", 'S0B0POS': '___', 'S0B0POSLemma': '__Afrique', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_Afrique', 'B0POS': '_', 'B1Lemma': ',', 'distance': '1'}
+64- 0 : {'B0Lemma': 'Afrique', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'Afrique', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': ','}
+65- 2 : {'B0Lemma': ',', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'o\xc3\xb9', 'S0POS': '_', 'B0Token': ',', 'S0B0Token': 'Afrique_,', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'Afrique', 'S0B0POS': '___', 'S0B0POSLemma': '__,', 'S0Lemma': 'Afrique', 'S0B0LemmaPOS': 'Afrique__', 'S0B0Lemma': 'Afrique_,', 'B0POS': '_', 'B1Lemma': 'o\xc3\xb9', 'distance': '1'}
+66- 0 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'o\xc3\xb9', 'B0Token': ',', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'o\xc3\xb9'}
+67- 2 : {'B0Lemma': 'o\xc3\xb9', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'il', 'S0POS': '_', 'B0Token': 'o\xc3\xb9', 'S0B0Token': ',_o\xc3\xb9', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': ',', 'S0B0POS': '___', 'S0B0POSLemma': '__o\xc3\xb9', 'S0Lemma': ',', 'S0B0LemmaPOS': ',__', 'S0B0Lemma': ',_o\xc3\xb9', 'B0POS': '_', 'B1Lemma': 'il', 'distance': '1'}
+68- 0 : {'B0Lemma': 'o\xc3\xb9', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'il', 'B0Token': 'o\xc3\xb9', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'il'}
+69- 2 : {'B0Lemma': 'il', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'y', 'S0POS': '_', 'B0Token': 'il', 'S0B0Token': 'o\xc3\xb9_il', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'o\xc3\xb9', 'S0B0POS': '___', 'S0B0POSLemma': '__il', 'S0Lemma': 'o\xc3\xb9', 'S0B0LemmaPOS': 'o\xc3\xb9__', 'S0B0Lemma': 'o\xc3\xb9_il', 'B0POS': '_', 'B1Lemma': 'y', 'distance': '1'}
+70- 0 : {'B0Lemma': 'il', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'y', 'B0Token': 'il', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'y'}
+71- 0 : {'B0Lemma': 'y', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'a', 'S0POS': '_', 'B0Token': 'y', 'S0B0Token': 'il_y', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'il', 'S0B0POS': '___', 'S0B0POSLemma': '__y', 'S0Lemma': 'il', 'S0B0LemmaPOS': 'il__', 'S0B0Lemma': 'il_y', 'B0POS': '_', 'B1Lemma': 'avoir', 'distance': '1'}
+72- 0 : {'B0Lemma': 'avoir', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'encore', 'S0B0Lemma': 'y_avoir', 'B0Token': 'a', 'S0B0Token': 'y_a', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'S0Token': 'il', 'S0B0POS': '___', 'S1Token': 'y', 'S1POS': '_', 'S0B0POSLemma': '__avoir', 'S0Lemma': 'il', 'S0B0LemmaPOS': 'y__', 'S1Lemma': 'y', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'encore', 'distance': '1'}
+73- 1 : {'B0Lemma': 'encore', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'des', 'S0B0Lemma': 'avoir_encore', 'B0Token': 'encore', 'S0B0Token': 'a_encore', 'transitionHistory': 'TransitionType.SHIFTTransitionType.SHIFT', 'S0Token': 'y', 'S0B0POS': '___', 'S1Token': 'a', 'S1POS': '_', 'S0B0POSLemma': '__encore', 'S0Lemma': 'y', 'S0B0LemmaPOS': 'avoir__', 'S1Lemma': 'avoir', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'un', 'distance': '1'}
+74- 1 : {'B0Lemma': 'encore', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'des', 'S0B0Lemma': 'y_avoir_encore', 'B0Token': 'encore', 'S0B0Token': 'y_a_encore', 'transitionHistory': 'TransitionType.SHIFTTransitionType.SHIFT', 'S0Token': 'il', 'S0B0POS': '_____', 'S1Token': 'y_a', 'S1POS': '___', 'S0B0POSLemma': '____encore', 'S0Lemma': 'il', 'S0B0LemmaPOS': 'y_avoir__', 'S1Lemma': 'y_avoir', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'un', 'distance': '1'}
+75- 2 : {'B0Lemma': 'encore', 'prevriousT': 'TransitionType.MERGE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'des', 'S0POS': '_____', 'B0Token': 'encore', 'S0B0Token': 'il_y_a_encore', 'transitionHistory': 'TransitionType.MERGETransitionType.SHIFT', 'S0Token': 'il_y_a', 'S0B0POS': '_______', 'S0B0POSLemma': '______encore', 'S0Lemma': 'il_y_avoir', 'S0B0LemmaPOS': 'il_y_avoir__', 'S0B0Lemma': 'il_y_avoir_encore', 'B0POS': '_', 'B1Lemma': 'un', 'distance': '1'}
+76- 0 : {'B0Lemma': 'encore', 'antepenultimateT': 'TransitionType.MERGE', 'B1POS': '_', 'B1Token': 'des', 'B0Token': 'encore', 'prevriousT': 'TransitionType.MERGE', 'transitionHistory': 'TransitionType.MERGETransitionType.MERGE', 'B0POS': '_', 'B1Lemma': 'un'}
+77- 2 : {'B0Lemma': 'un', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.MERGE', 'B1POS': '_', 'B1Token': 'niveaux', 'S0POS': '_', 'B0Token': 'des', 'S0B0Token': 'encore_des', 'transitionHistory': 'TransitionType.COMPLETETransitionType.MERGE', 'S0Token': 'encore', 'S0B0POS': '___', 'S0B0POSLemma': '__un', 'S0Lemma': 'encore', 'S0B0LemmaPOS': 'encore__', 'S0B0Lemma': 'encore_un', 'B0POS': '_', 'B1Lemma': 'niveau', 'distance': '1'}
+78- 0 : {'B0Lemma': 'un', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'niveaux', 'B0Token': 'des', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'niveau'}
+79- 2 : {'B0Lemma': 'niveau', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'substantiels', 'S0POS': '_', 'B0Token': 'niveaux', 'S0B0Token': 'des_niveaux', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'des', 'S0B0POS': '___', 'S0B0POSLemma': '__niveau', 'S0Lemma': 'un', 'S0B0LemmaPOS': 'un__', 'S0B0Lemma': 'un_niveau', 'B0POS': '_', 'B1Lemma': 'substantiel', 'distance': '1'}
+80- 0 : {'B0Lemma': 'niveau', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'substantiels', 'B0Token': 'niveaux', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'substantiel'}
+81- 2 : {'B0Lemma': 'substantiel', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'de', 'S0POS': '_', 'B0Token': 'substantiels', 'S0B0Token': 'niveaux_substantiels', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'niveaux', 'S0B0POS': '___', 'S0B0POSLemma': '__substantiel', 'S0Lemma': 'niveau', 'S0B0LemmaPOS': 'niveau__', 'S0B0Lemma': 'niveau_substantiel', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
+82- 0 : {'B0Lemma': 'substantiel', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'substantiels', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'de'}
+83- 2 : {'B0Lemma': 'de', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'croissance', 'S0POS': '_', 'B0Token': 'de', 'S0B0Token': 'substantiels_de', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'substantiels', 'S0B0POS': '___', 'S0B0POSLemma': '__de', 'S0Lemma': 'substantiel', 'S0B0LemmaPOS': 'substantiel__', 'S0B0Lemma': 'substantiel_de', 'B0POS': '_', 'B1Lemma': 'croissance', 'distance': '1'}
+84- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'croissance', 'B0Token': 'de', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'croissance'}
+85- 2 : {'B0Lemma': 'croissance', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': ',', 'S0POS': '_', 'B0Token': 'croissance', 'S0B0Token': 'de_croissance', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'de', 'S0B0POS': '___', 'S0B0POSLemma': '__croissance', 'S0Lemma': 'de', 'S0B0LemmaPOS': 'de__', 'S0B0Lemma': 'de_croissance', 'B0POS': '_', 'B1Lemma': ',', 'distance': '1'}
+86- 0 : {'B0Lemma': 'croissance', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'croissance', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': ','}
+87- 2 : {'B0Lemma': ',', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'a', 'S0POS': '_', 'B0Token': ',', 'S0B0Token': 'croissance_,', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'croissance', 'S0B0POS': '___', 'S0B0POSLemma': '__,', 'S0Lemma': 'croissance', 'S0B0LemmaPOS': 'croissance__', 'S0B0Lemma': 'croissance_,', 'B0POS': '_', 'B1Lemma': 'avoir', 'distance': '1'}
+88- 0 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'a', 'B0Token': ',', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'avoir'}
+89- 2 : {'B0Lemma': 'avoir', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'pour', 'S0POS': '_', 'B0Token': 'a', 'S0B0Token': ',_a', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': ',', 'S0B0POS': '___', 'S0B0POSLemma': '__avoir', 'S0Lemma': ',', 'S0B0LemmaPOS': ',__', 'S0B0Lemma': ',_avoir', 'B0POS': '_', 'B1Lemma': 'pour', 'distance': '1'}
+90- 0 : {'B0Lemma': 'avoir', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'pour', 'B0Token': 'a', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'pour'}
+91- 2 : {'B0Lemma': 'pour', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'sa', 'S0POS': '_', 'B0Token': 'pour', 'S0B0Token': 'a_pour', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'a', 'S0B0POS': '___', 'S0B0POSLemma': '__pour', 'S0Lemma': 'avoir', 'S0B0LemmaPOS': 'avoir__', 'S0B0Lemma': 'avoir_pour', 'B0POS': '_', 'B1Lemma': 'son', 'distance': '1'}
+92- 0 : {'B0Lemma': 'pour', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'sa', 'B0Token': 'pour', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'son'}
+93- 2 : {'B0Lemma': 'son', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'part', 'S0POS': '_', 'B0Token': 'sa', 'S0B0Token': 'pour_sa', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'pour', 'S0B0POS': '___', 'S0B0POSLemma': '__son', 'S0Lemma': 'pour', 'S0B0LemmaPOS': 'pour__', 'S0B0Lemma': 'pour_son', 'B0POS': '_', 'B1Lemma': 'part', 'distance': '1'}
+94- 0 : {'B0Lemma': 'son', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'part', 'B0Token': 'sa', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'part'}
+95- 2 : {'B0Lemma': 'part', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'indiqu\xc3\xa9', 'S0POS': '_', 'B0Token': 'part', 'S0B0Token': 'sa_part', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'sa', 'S0B0POS': '___', 'S0B0POSLemma': '__part', 'S0Lemma': 'son', 'S0B0LemmaPOS': 'son__', 'S0B0Lemma': 'son_part', 'B0POS': '_', 'B1Lemma': 'indiquer', 'distance': '1'}
+96- 0 : {'B0Lemma': 'part', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'indiqu\xc3\xa9', 'B0Token': 'part', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'indiquer'}
+97- 2 : {'B0Lemma': 'indiquer', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'le', 'S0POS': '_', 'B0Token': 'indiqu\xc3\xa9', 'S0B0Token': 'part_indiqu\xc3\xa9', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'part', 'S0B0POS': '___', 'S0B0POSLemma': '__indiquer', 'S0Lemma': 'part', 'S0B0LemmaPOS': 'part__', 'S0B0Lemma': 'part_indiquer', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+98- 0 : {'B0Lemma': 'indiquer', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'le', 'B0Token': 'indiqu\xc3\xa9', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'le'}
+99- 2 : {'B0Lemma': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'ministre', 'S0POS': '_', 'B0Token': 'le', 'S0B0Token': 'indiqu\xc3\xa9_le', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'indiqu\xc3\xa9', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': 'indiquer', 'S0B0LemmaPOS': 'indiquer__', 'S0B0Lemma': 'indiquer_le', 'B0POS': '_', 'B1Lemma': 'ministre', 'distance': '1'}
+100- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'ministre', 'B0Token': 'le', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'ministre'}
+101- 2 : {'B0Lemma': 'ministre', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'de', 'S0POS': '_', 'B0Token': 'ministre', 'S0B0Token': 'le_ministre', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'le', 'S0B0POS': '___', 'S0B0POSLemma': '__ministre', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_ministre', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
+102- 0 : {'B0Lemma': 'ministre', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'ministre', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'de'}
+103- 2 : {'B0Lemma': 'de', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'les', 'S0POS': '_', 'B0Token': 'de', 'S0B0Token': 'ministre_de', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'ministre', 'S0B0POS': '___', 'S0B0POSLemma': '__de', 'S0Lemma': 'ministre', 'S0B0LemmaPOS': 'ministre__', 'S0B0Lemma': 'ministre_de', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+104- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'les', 'B0Token': 'de', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'le'}
+105- 2 : {'B0Lemma': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Finances', 'S0POS': '_', 'B0Token': 'les', 'S0B0Token': 'de_les', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'de', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': 'de', 'S0B0LemmaPOS': 'de__', 'S0B0Lemma': 'de_le', 'B0POS': '_', 'B1Lemma': 'Finances', 'distance': '1'}
+106- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Finances', 'B0Token': 'les', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'Finances'}
+107- 2 : {'B0Lemma': 'Finances', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': ',', 'S0POS': '_', 'B0Token': 'Finances', 'S0B0Token': 'les_Finances', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'les', 'S0B0POS': '___', 'S0B0POSLemma': '__Finances', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_Finances', 'B0POS': '_', 'B1Lemma': ',', 'distance': '1'}
+108- 0 : {'B0Lemma': 'Finances', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'Finances', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': ','}
+109- 2 : {'B0Lemma': ',', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Pravin', 'S0POS': '_', 'B0Token': ',', 'S0B0Token': 'Finances_,', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'Finances', 'S0B0POS': '___', 'S0B0POSLemma': '__,', 'S0Lemma': 'Finances', 'S0B0LemmaPOS': 'Finances__', 'S0B0Lemma': 'Finances_,', 'B0POS': '_', 'B1Lemma': 'Pravin', 'distance': '1'}
+110- 0 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Pravin', 'B0Token': ',', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'Pravin'}
+111- 2 : {'B0Lemma': 'Pravin', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Gordhan', 'S0POS': '_', 'B0Token': 'Pravin', 'S0B0Token': ',_Pravin', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': ',', 'S0B0POS': '___', 'S0B0POSLemma': '__Pravin', 'S0Lemma': ',', 'S0B0LemmaPOS': ',__', 'S0B0Lemma': ',_Pravin', 'B0POS': '_', 'B1Lemma': 'Gordhan', 'distance': '1'}
+112- 0 : {'B0Lemma': 'Pravin', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Gordhan', 'B0Token': 'Pravin', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'Gordhan'}
+113- 2 : {'B0Lemma': 'Gordhan', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': ',', 'S0POS': '_', 'B0Token': 'Gordhan', 'S0B0Token': 'Pravin_Gordhan', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'Pravin', 'S0B0POS': '___', 'S0B0POSLemma': '__Gordhan', 'S0Lemma': 'Pravin', 'S0B0LemmaPOS': 'Pravin__', 'S0B0Lemma': 'Pravin_Gordhan', 'B0POS': '_', 'B1Lemma': ',', 'distance': '1'}
+114- 0 : {'B0Lemma': 'Gordhan', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'Gordhan', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': ','}
+115- 2 : {'B0Lemma': ',', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'de', 'S0POS': '_', 'B0Token': ',', 'S0B0Token': 'Gordhan_,', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'Gordhan', 'S0B0POS': '___', 'S0B0POSLemma': '__,', 'S0Lemma': 'Gordhan', 'S0B0LemmaPOS': 'Gordhan__', 'S0B0Lemma': 'Gordhan_,', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
+116- 0 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'de', 'B0Token': ',', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'de'}
+117- 2 : {'B0Lemma': 'de', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'retour', 'S0POS': '_', 'B0Token': 'de', 'S0B0Token': ',_de', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': ',', 'S0B0POS': '___', 'S0B0POSLemma': '__de', 'S0Lemma': ',', 'S0B0LemmaPOS': ',__', 'S0B0Lemma': ',_de', 'B0POS': '_', 'B1Lemma': 'retour', 'distance': '1'}
+118- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'retour', 'B0Token': 'de', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'retour'}
+119- 2 : {'B0Lemma': 'retour', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'de', 'S0POS': '_', 'B0Token': 'retour', 'S0B0Token': 'de_retour', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'de', 'S0B0POS': '___', 'S0B0POSLemma': '__retour', 'S0Lemma': 'de', 'S0B0LemmaPOS': 'de__', 'S0B0Lemma': 'de_retour', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
+120- 0 : {'B0Lemma': 'retour', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'retour', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'de'}
+121- 2 : {'B0Lemma': 'de', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'la', 'S0POS': '_', 'B0Token': 'de', 'S0B0Token': 'retour_de', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'retour', 'S0B0POS': '___', 'S0B0POSLemma': '__de', 'S0Lemma': 'retour', 'S0B0LemmaPOS': 'retour__', 'S0B0Lemma': 'retour_de', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+122- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'la', 'B0Token': 'de', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'le'}
+123- 2 : {'B0Lemma': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'r\xc3\xa9union', 'S0POS': '_', 'B0Token': 'la', 'S0B0Token': 'de_la', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'de', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': 'de', 'S0B0LemmaPOS': 'de__', 'S0B0Lemma': 'de_le', 'B0POS': '_', 'B1Lemma': 'r\xc3\xa9union', 'distance': '1'}
+124- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'r\xc3\xa9union', 'B0Token': 'la', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'r\xc3\xa9union'}
+125- 2 : {'B0Lemma': 'r\xc3\xa9union', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'annuelle', 'S0POS': '_', 'B0Token': 'r\xc3\xa9union', 'S0B0Token': 'la_r\xc3\xa9union', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'la', 'S0B0POS': '___', 'S0B0POSLemma': '__r\xc3\xa9union', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_r\xc3\xa9union', 'B0POS': '_', 'B1Lemma': 'annuel', 'distance': '1'}
+126- 0 : {'B0Lemma': 'r\xc3\xa9union', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'annuelle', 'B0Token': 'r\xc3\xa9union', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'annuel'}
+127- 2 : {'B0Lemma': 'annuel', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'de', 'S0POS': '_', 'B0Token': 'annuelle', 'S0B0Token': 'r\xc3\xa9union_annuelle', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'r\xc3\xa9union', 'S0B0POS': '___', 'S0B0POSLemma': '__annuel', 'S0Lemma': 'r\xc3\xa9union', 'S0B0LemmaPOS': 'r\xc3\xa9union__', 'S0B0Lemma': 'r\xc3\xa9union_annuel', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
+128- 0 : {'B0Lemma': 'annuel', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'annuelle', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'de'}
+129- 2 : {'B0Lemma': 'de', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'le', 'S0POS': '_', 'B0Token': 'de', 'S0B0Token': 'annuelle_de', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'annuelle', 'S0B0POS': '___', 'S0B0POSLemma': '__de', 'S0Lemma': 'annuel', 'S0B0LemmaPOS': 'annuel__', 'S0B0Lemma': 'annuel_de', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+130- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'le', 'B0Token': 'de', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'le'}
+131- 2 : {'B0Lemma': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Fonds', 'S0POS': '_', 'B0Token': 'le', 'S0B0Token': 'de_le', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'de', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': 'de', 'S0B0LemmaPOS': 'de__', 'S0B0Lemma': 'de_le', 'B0POS': '_', 'B1Lemma': 'fonds', 'distance': '1'}
+132- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Fonds', 'B0Token': 'le', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'fonds'}
+133- 2 : {'B0Lemma': 'fonds', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'mon\xc3\xa9taire', 'S0POS': '_', 'B0Token': 'Fonds', 'S0B0Token': 'le_Fonds', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'le', 'S0B0POS': '___', 'S0B0POSLemma': '__fonds', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_fonds', 'B0POS': '_', 'B1Lemma': 'mon\xc3\xa9taire', 'distance': '1'}
+134- 0 : {'B0Lemma': 'fonds', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'mon\xc3\xa9taire', 'B0Token': 'Fonds', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'mon\xc3\xa9taire'}
+135- 2 : {'B0Lemma': 'mon\xc3\xa9taire', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'international', 'S0POS': '_', 'B0Token': 'mon\xc3\xa9taire', 'S0B0Token': 'Fonds_mon\xc3\xa9taire', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'Fonds', 'S0B0POS': '___', 'S0B0POSLemma': '__mon\xc3\xa9taire', 'S0Lemma': 'fonds', 'S0B0LemmaPOS': 'fonds__', 'S0B0Lemma': 'fonds_mon\xc3\xa9taire', 'B0POS': '_', 'B1Lemma': 'international', 'distance': '1'}
+136- 0 : {'B0Lemma': 'mon\xc3\xa9taire', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'international', 'B0Token': 'mon\xc3\xa9taire', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'international'}
+137- 2 : {'B0Lemma': 'international', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '(', 'S0POS': '_', 'B0Token': 'international', 'S0B0Token': 'mon\xc3\xa9taire_international', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'mon\xc3\xa9taire', 'S0B0POS': '___', 'S0B0POSLemma': '__international', 'S0Lemma': 'mon\xc3\xa9taire', 'S0B0LemmaPOS': 'mon\xc3\xa9taire__', 'S0B0Lemma': 'mon\xc3\xa9taire_international', 'B0POS': '_', 'B1Lemma': '(', 'distance': '1'}
+138- 0 : {'B0Lemma': 'international', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '(', 'B0Token': 'international', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': '('}
+139- 2 : {'B0Lemma': '(', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'FMI', 'S0POS': '_', 'B0Token': '(', 'S0B0Token': 'international_(', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'international', 'S0B0POS': '___', 'S0B0POSLemma': '__(', 'S0Lemma': 'international', 'S0B0LemmaPOS': 'international__', 'S0B0Lemma': 'international_(', 'B0POS': '_', 'B1Lemma': 'FMI', 'distance': '1'}
+140- 0 : {'B0Lemma': '(', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'FMI', 'B0Token': '(', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'FMI'}
+141- 2 : {'B0Lemma': 'FMI', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': ')', 'S0POS': '_', 'B0Token': 'FMI', 'S0B0Token': '(_FMI', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': '(', 'S0B0POS': '___', 'S0B0POSLemma': '__FMI', 'S0Lemma': '(', 'S0B0LemmaPOS': '(__', 'S0B0Lemma': '(_FMI', 'B0POS': '_', 'B1Lemma': ')', 'distance': '1'}
+142- 0 : {'B0Lemma': 'FMI', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': ')', 'B0Token': 'FMI', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': ')'}
+143- 2 : {'B0Lemma': ')', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '.', 'S0POS': '_', 'B0Token': ')', 'S0B0Token': 'FMI_)', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'FMI', 'S0B0POS': '___', 'S0B0POSLemma': '__)', 'S0Lemma': 'FMI', 'S0B0LemmaPOS': 'FMI__', 'S0B0Lemma': 'FMI_)', 'B0POS': '_', 'B1Lemma': '.', 'distance': '1'}
+144- 0 : {'B0Lemma': ')', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '.', 'B0Token': ')', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': '.'}
+145- 2 : {'B0Lemma': '.', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'distance': '1', 'S0POS': '_', 'B0Token': '.', 'S0B0Token': ')_.', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': ')', 'S0B0POS': '___', 'S0B0POSLemma': '__.', 'S0Lemma': ')', 'S0B0LemmaPOS': ')__', 'S0B0Lemma': ')_.', 'B0POS': '_'}
+146- 0 : {'B0Lemma': '.', 'antepenultimateT': 'TransitionType.COMPLETE', 'B0Token': '.', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_'}
+147- 2 : {'antepenultimateT': 'TransitionType.SHIFT', 'prevriousT': 'TransitionType.COMPLETE', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': '.', 'S0Lemma': '.', 'S0POS': '_'}
+##Sentence No. 1791 - fr-ud-train_00359
+ Pourtant la grande affection qui lie les membres de la famille leur permet de faire face à d'autres problèmes : arrivée d'autres jumeaux, mise à la retraite de « papa » qui se fait escroquer par un agent immobilier, difficulté de se faire une clientèle pour Robert, jeune avocat...
 ###Existing MWEs: 
-1- **il y eu** (ID)
-2- **il y aura** (ID)
+1- **faire face** (ID)
+2- **se fait** (IReflV)
 
-0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Le ,.. ]
-1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Le]   -|||- [nombre ,.. ]
-2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [nombre ,.. ]
-3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[nombre]   -|||- [de ,.. ]
-4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [de ,.. ]
-5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[de]   -|||- [matches ,.. ]
-6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [matches ,.. ]
-7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[matches]   -|||- [et ,.. ]
-8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [et ,.. ]
-9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[et]   -|||- [donc ,.. ]
-10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [donc ,.. ]
-11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[donc]   -|||- [de ,.. ]
-12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [de ,.. ]
-13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[de]   -|||- [clubs ,.. ]
-14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [clubs ,.. ]
-15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[clubs]   -|||- [n' ,.. ]
-16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [n' ,.. ]
-17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[n']   -|||- [est ,.. ]
-18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [est ,.. ]
-19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[est]   -|||- [pas ,.. ]
-20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [pas ,.. ]
-21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[pas]   -|||- [fixe ,.. ]
-22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [fixe ,.. ]
-23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[fixe]   -|||- [, ,.. ]
-24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [, ,.. ]
-25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[,]   -|||- [ainsi ,.. ]
-26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [ainsi ,.. ]
-27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[ainsi]   -|||- [en ,.. ]
-28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [en ,.. ]
-29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[en]   -|||- [2004-2005 ,.. ]
-30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [2004-2005 ,.. ]
-31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[2004-2005]   -|||- [il ,.. ]
-32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [il ,.. ]
-33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[il]   -|||- [y ,.. ]
-34- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[il, y]   -|||- [a ,.. ]
-35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[il, y, a]   -|||- [eu ,.. ]
-36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[il, y]   -|||- [eu ,.. ]
-37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[il, y, eu]   -|||- [quatre ,.. ]
-38- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[il, [y, eu]]   -|||- [quatre ,.. ]
-39- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[[il, [y, eu]]]   -|||- [quatre ,.. ]
-40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [quatre ,.. ]
-41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[quatre]   -|||- [matches ,.. ]
-42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [matches ,.. ]
-43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[matches]   -|||- [alors ,.. ]
-44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [alors ,.. ]
-45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[alors]   -|||- [qu' ,.. ]
-46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [qu' ,.. ]
-47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[qu']   -|||- [en ,.. ]
-48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [en ,.. ]
-49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[en]   -|||- [2005-2006 ,.. ]
-50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [2005-2006 ,.. ]
-51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[2005-2006]   -|||- [il ,.. ]
-52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [il ,.. ]
-53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[il]   -|||- [n' ,.. ]
-54- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[il, n']   -|||- [y ,.. ]
-55- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[il]   -|||- [y ,.. ]
-56- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[il, y]   -|||- [en ,.. ]
-57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[il, y, en]   -|||- [aura ,.. ]
-58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[il, y]   -|||- [aura ,.. ]
-59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[il, y, aura]   -|||- [qu' ,.. ]
-60- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[il, [y, aura]]   -|||- [qu' ,.. ]
-61- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[[il, [y, aura]]]   -|||- [qu' ,.. ]
-62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [qu' ,.. ]
-63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[qu']   -|||- [un ,.. ]
-64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [un ,.. ]
-65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[un]   -|||- [seul ,.. ]
-66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [seul ,.. ]
-67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[seul]   -|||- [.]
-68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [.]
-69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[.]   -|||- [ ]
-70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [ ]
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Pourtant ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Pourtant]   -|||- [la ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [la ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[la]   -|||- [grande ,.. ]
+4- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [grande ,.. ]
+5- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[grande]   -|||- [affection ,.. ]
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [affection ,.. ]
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[affection]   -|||- [qui ,.. ]
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [qui ,.. ]
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[qui]   -|||- [lie ,.. ]
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [lie ,.. ]
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[lie]   -|||- [les ,.. ]
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [les ,.. ]
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[les]   -|||- [membres ,.. ]
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [membres ,.. ]
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[membres]   -|||- [de ,.. ]
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [de ,.. ]
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[de]   -|||- [la ,.. ]
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [la ,.. ]
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[la]   -|||- [famille ,.. ]
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [famille ,.. ]
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[famille]   -|||- [leur ,.. ]
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [leur ,.. ]
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[leur]   -|||- [permet ,.. ]
+24- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [permet ,.. ]
+25- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[permet]   -|||- [de ,.. ]
+26- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [de ,.. ]
+27- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[de]   -|||- [faire ,.. ]
+28- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [faire ,.. ]
+29- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[faire]   -|||- [face ,.. ]
+30- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[faire, face]   -|||- [à ,.. ]
+31- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[[faire, face]]   -|||- [à ,.. ]
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [à ,.. ]
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[à]   -|||- [d' ,.. ]
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [d' ,.. ]
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[d']   -|||- [autres ,.. ]
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [autres ,.. ]
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[autres]   -|||- [problèmes ,.. ]
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [problèmes ,.. ]
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[problèmes]   -|||- [: ,.. ]
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [: ,.. ]
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[:]   -|||- [arrivée ,.. ]
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [arrivée ,.. ]
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[arrivée]   -|||- [d' ,.. ]
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [d' ,.. ]
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[d']   -|||- [autres ,.. ]
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [autres ,.. ]
+47- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[autres]   -|||- [jumeaux ,.. ]
+48- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [jumeaux ,.. ]
+49- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[jumeaux]   -|||- [, ,.. ]
+50- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [, ,.. ]
+51- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[,]   -|||- [mise ,.. ]
+52- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [mise ,.. ]
+53- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[mise]   -|||- [à ,.. ]
+54- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [à ,.. ]
+55- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[à]   -|||- [la ,.. ]
+56- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [la ,.. ]
+57- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[la]   -|||- [retraite ,.. ]
+58- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [retraite ,.. ]
+59- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[retraite]   -|||- [de ,.. ]
+60- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [de ,.. ]
+61- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[de]   -|||- [« ,.. ]
+62- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [« ,.. ]
+63- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[«]   -|||- [papa ,.. ]
+64- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [papa ,.. ]
+65- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[papa]   -|||- [» ,.. ]
+66- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [» ,.. ]
+67- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[»]   -|||- [qui ,.. ]
+68- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [qui ,.. ]
+69- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[qui]   -|||- [se ,.. ]
+70- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [se ,.. ]
+71- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[se]   -|||- [fait ,.. ]
+72- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[se, fait]   -|||- [escroquer ,.. ]
+73- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[[se, fait]]   -|||- [escroquer ,.. ]
+74- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [escroquer ,.. ]
+75- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[escroquer]   -|||- [par ,.. ]
+76- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [par ,.. ]
+77- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[par]   -|||- [un ,.. ]
+78- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [un ,.. ]
+79- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[un]   -|||- [agent ,.. ]
+80- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [agent ,.. ]
+81- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[agent]   -|||- [immobilier ,.. ]
+82- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [immobilier ,.. ]
+83- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[immobilier]   -|||- [, ,.. ]
+84- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [, ,.. ]
+85- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[,]   -|||- [difficulté ,.. ]
+86- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [difficulté ,.. ]
+87- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[difficulté]   -|||- [de ,.. ]
+88- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [de ,.. ]
+89- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[de]   -|||- [se ,.. ]
+90- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [se ,.. ]
+91- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[se]   -|||- [faire ,.. ]
+92- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [faire ,.. ]
+93- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[faire]   -|||- [une ,.. ]
+94- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [une ,.. ]
+95- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[une]   -|||- [clientèle ,.. ]
+96- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [clientèle ,.. ]
+97- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[clientèle]   -|||- [pour ,.. ]
+98- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [pour ,.. ]
+99- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[pour]   -|||- [Robert ,.. ]
+100- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Robert ,.. ]
+101- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Robert]   -|||- [, ,.. ]
+102- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [, ,.. ]
+103- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[,]   -|||- [jeune ,.. ]
+104- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [jeune ,.. ]
+105- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[jeune]   -|||- [avocat ,.. ]
+106- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [avocat ,.. ]
+107- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[avocat]   -|||- [...]
+108- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [...]
+109- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[...]   -|||- [ ]
+110- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [ ]
 
 ###Features: 
-0- 0 : {'B0Lemma': 'le', 'antepenultimateT': '_', 'B1POS': '_', 'B1Token': 'nombre', 'B0Token': 'Le', 'prevriousT': '_', 'B0POS': '_', 'B1Lemma': 'nombre'}
-1- 2 : {'B0Lemma': 'nombre', 'antepenultimateT': '_', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'nombre', 'prevriousT': 'None', 'S0Token': 'Le', 'S0Lemma': 'le', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
-2- 0 : {'B0Lemma': 'nombre', 'antepenultimateT': 'None', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'nombre', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'de'}
-3- 2 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'matches', 'B0Token': 'de', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'nombre', 'S0Lemma': 'nombre', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'match', 'distance': '1'}
-4- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'matches', 'B0Token': 'de', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'match'}
-5- 2 : {'B0Lemma': 'match', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'et', 'B0Token': 'matches', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'de', 'S0Lemma': 'de', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'et', 'distance': '1'}
-6- 0 : {'B0Lemma': 'match', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'et', 'B0Token': 'matches', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'et'}
-7- 2 : {'B0Lemma': 'et', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'donc', 'B0Token': 'et', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'matches', 'S0Lemma': 'match', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'donc', 'distance': '1'}
-8- 0 : {'B0Lemma': 'et', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'donc', 'B0Token': 'et', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'donc'}
-9- 2 : {'B0Lemma': 'donc', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'donc', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'et', 'S0Lemma': 'et', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
-10- 0 : {'B0Lemma': 'donc', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'donc', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'de'}
-11- 2 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'clubs', 'B0Token': 'de', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'donc', 'S0Lemma': 'donc', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'club', 'distance': '1'}
-12- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'clubs', 'B0Token': 'de', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'club'}
-13- 2 : {'B0Lemma': 'club', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "n'", 'B0Token': 'clubs', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'de', 'S0Lemma': 'de', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'ne', 'distance': '1'}
-14- 0 : {'B0Lemma': 'club', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': "n'", 'B0Token': 'clubs', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'ne'}
-15- 2 : {'B0Lemma': 'ne', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'est', 'B0Token': "n'", 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'clubs', 'S0Lemma': 'club', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': '\xc3\xaatre', 'distance': '1'}
-16- 0 : {'B0Lemma': 'ne', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'est', 'B0Token': "n'", 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': '\xc3\xaatre'}
-17- 2 : {'B0Lemma': '\xc3\xaatre', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'pas', 'B0Token': 'est', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': "n'", 'S0Lemma': 'ne', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'pas', 'distance': '1'}
-18- 0 : {'B0Lemma': '\xc3\xaatre', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'pas', 'B0Token': 'est', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'pas'}
-19- 2 : {'B0Lemma': 'pas', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'fixe', 'B0Token': 'pas', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'est', 'S0Lemma': '\xc3\xaatre', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'fixe', 'distance': '1'}
-20- 0 : {'B0Lemma': 'pas', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'fixe', 'B0Token': 'pas', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'fixe'}
-21- 2 : {'B0Lemma': 'fixe', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'fixe', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'pas', 'S0Lemma': 'pas', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': ',', 'distance': '1'}
-22- 0 : {'B0Lemma': 'fixe', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'fixe', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': ','}
-23- 2 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'ainsi', 'B0Token': ',', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'fixe', 'S0Lemma': 'fixe', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'ainsi', 'distance': '1'}
-24- 0 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'ainsi', 'B0Token': ',', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'ainsi'}
-25- 2 : {'B0Lemma': 'ainsi', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'en', 'B0Token': 'ainsi', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': ',', 'S0Lemma': ',', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'en', 'distance': '1'}
-26- 0 : {'B0Lemma': 'ainsi', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'en', 'B0Token': 'ainsi', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'en'}
-27- 2 : {'B0Lemma': 'en', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '2004-2005', 'B0Token': 'en', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'ainsi', 'S0Lemma': 'ainsi', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': '2004-2005', 'distance': '1'}
-28- 0 : {'B0Lemma': 'en', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '2004-2005', 'B0Token': 'en', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': '2004-2005'}
-29- 2 : {'B0Lemma': '2004-2005', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'il', 'B0Token': '2004-2005', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'en', 'S0Lemma': 'en', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'il', 'distance': '1'}
-30- 0 : {'B0Lemma': '2004-2005', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'il', 'B0Token': '2004-2005', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'il'}
-31- 2 : {'B0Lemma': 'il', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'y', 'B0Token': 'il', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': '2004-2005', 'S0Lemma': '2004-2005', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'y', 'distance': '1'}
-32- 0 : {'B0Lemma': 'il', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'y', 'B0Token': 'il', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'y'}
-33- 0 : {'B0Lemma': 'y', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'a', 'B0Token': 'y', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'il', 'S0Lemma': 'il', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'avoir', 'distance': '1'}
-34- 0 : {'B0Lemma': 'avoir', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'eu', 'B0Token': 'a', 'prevriousT': 'TransitionType.SHIFT', 'S0Token': 'il', 'S1Token': 'y', 'S1POS': '_', 'S0Lemma': 'il', 'S1Lemma': 'y', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'avoir', 'distance': '1'}
-35- 2 : {'B0Lemma': 'avoir', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'quatre', 'B0Token': 'eu', 'prevriousT': 'TransitionType.SHIFT', 'S0Token': 'y', 'S1Token': 'a', 'S1POS': '_', 'S0Lemma': 'y', 'S1Lemma': 'avoir', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'quatre', 'distance': '1'}
-36- 0 : {'B0Lemma': 'avoir', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'quatre', 'B0Token': 'eu', 'prevriousT': 'TransitionType.SHIFT', 'S0Token': 'il', 'S1Token': 'y', 'S1POS': '_', 'S0Lemma': 'il', 'S1Lemma': 'y', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'quatre', 'distance': '2'}
-37- 1 : {'B0Lemma': 'quatre', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'matches', 'B0Token': 'quatre', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'y', 'S1Token': 'eu', 'S1POS': '_', 'S0Lemma': 'y', 'S1Lemma': 'avoir', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'match', 'distance': '1'}
-38- 1 : {'B0Lemma': 'quatre', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'matches', 'B0Token': 'quatre', 'prevriousT': 'TransitionType.SHIFT', 'S0Token': 'il', 'S1Token': 'y-eu', 'S1POS': '_-_', 'S0Lemma': 'il', 'S1Lemma': 'y-avoir', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'match', 'distance': '1'}
-39- 2 : {'B0Lemma': 'quatre', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'matches', 'B0Token': 'quatre', 'prevriousT': 'TransitionType.MERGE', 'S0Token': 'il-y-eu', 'S0Lemma': 'il-y-avoir', 'S0POS': '_-_-_', 'B0POS': '_', 'B1Lemma': 'match', 'distance': '1'}
-40- 0 : {'B0Lemma': 'quatre', 'antepenultimateT': 'TransitionType.MERGE', 'B1POS': '_', 'B1Token': 'matches', 'B0Token': 'quatre', 'prevriousT': 'TransitionType.MERGE', 'B0POS': '_', 'B1Lemma': 'match'}
-41- 2 : {'B0Lemma': 'match', 'antepenultimateT': 'TransitionType.MERGE', 'B1POS': '_', 'B1Token': 'alors', 'B0Token': 'matches', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'quatre', 'S0Lemma': 'quatre', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'alors', 'distance': '1'}
-42- 0 : {'B0Lemma': 'match', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'alors', 'B0Token': 'matches', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'alors'}
-43- 2 : {'B0Lemma': 'alors', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "qu'", 'B0Token': 'alors', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'matches', 'S0Lemma': 'match', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'que', 'distance': '1'}
-44- 0 : {'B0Lemma': 'alors', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': "qu'", 'B0Token': 'alors', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'que'}
-45- 2 : {'B0Lemma': 'que', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'en', 'B0Token': "qu'", 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'alors', 'S0Lemma': 'alors', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'en', 'distance': '1'}
-46- 0 : {'B0Lemma': 'que', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'en', 'B0Token': "qu'", 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'en'}
-47- 2 : {'B0Lemma': 'en', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '2005-2006', 'B0Token': 'en', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': "qu'", 'S0Lemma': 'que', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': '2005-2006', 'distance': '1'}
-48- 0 : {'B0Lemma': 'en', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '2005-2006', 'B0Token': 'en', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': '2005-2006'}
-49- 2 : {'B0Lemma': '2005-2006', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'il', 'B0Token': '2005-2006', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'en', 'S0Lemma': 'en', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'il', 'distance': '1'}
-50- 0 : {'B0Lemma': '2005-2006', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'il', 'B0Token': '2005-2006', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'il'}
-51- 2 : {'B0Lemma': 'il', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "n'", 'B0Token': 'il', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': '2005-2006', 'S0Lemma': '2005-2006', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'ne', 'distance': '1'}
-52- 0 : {'B0Lemma': 'il', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': "n'", 'B0Token': 'il', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'ne'}
-53- 0 : {'B0Lemma': 'ne', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'y', 'B0Token': "n'", 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'il', 'S0Lemma': 'il', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'y', 'distance': '1'}
-54- 2 : {'B0Lemma': 'y', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'en', 'B0Token': 'y', 'prevriousT': 'TransitionType.SHIFT', 'S0Token': 'il', 'S1Token': "n'", 'S1POS': '_', 'S0Lemma': 'il', 'S1Lemma': 'ne', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'en', 'distance': '1'}
-55- 0 : {'B0Lemma': 'y', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'en', 'B0Token': 'y', 'prevriousT': 'TransitionType.SHIFT', 'S0Token': 'il', 'S0Lemma': 'il', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'en', 'distance': '2'}
-56- 0 : {'B0Lemma': 'en', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'aura', 'B0Token': 'en', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'il', 'S1Token': 'y', 'S1POS': '_', 'S0Lemma': 'il', 'S1Lemma': 'y', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'avoir', 'distance': '1'}
-57- 2 : {'B0Lemma': 'avoir', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': "qu'", 'B0Token': 'aura', 'prevriousT': 'TransitionType.SHIFT', 'S0Token': 'y', 'S1Token': 'en', 'S1POS': '_', 'S0Lemma': 'y', 'S1Lemma': 'en', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'que', 'distance': '1'}
-58- 0 : {'B0Lemma': 'avoir', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "qu'", 'B0Token': 'aura', 'prevriousT': 'TransitionType.SHIFT', 'S0Token': 'il', 'S1Token': 'y', 'S1POS': '_', 'S0Lemma': 'il', 'S1Lemma': 'y', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'que', 'distance': '2'}
-59- 1 : {'B0Lemma': 'que', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'un', 'B0Token': "qu'", 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'y', 'S1Token': 'aura', 'S1POS': '_', 'S0Lemma': 'y', 'S1Lemma': 'avoir', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'un', 'distance': '1'}
-60- 1 : {'B0Lemma': 'que', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'un', 'B0Token': "qu'", 'prevriousT': 'TransitionType.SHIFT', 'S0Token': 'il', 'S1Token': 'y-aura', 'S1POS': '_-_', 'S0Lemma': 'il', 'S1Lemma': 'y-avoir', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'un', 'distance': '1'}
-61- 2 : {'B0Lemma': 'que', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'un', 'B0Token': "qu'", 'prevriousT': 'TransitionType.MERGE', 'S0Token': 'il-y-aura', 'S0Lemma': 'il-y-avoir', 'S0POS': '_-_-_', 'B0POS': '_', 'B1Lemma': 'un', 'distance': '1'}
-62- 0 : {'B0Lemma': 'que', 'antepenultimateT': 'TransitionType.MERGE', 'B1POS': '_', 'B1Token': 'un', 'B0Token': "qu'", 'prevriousT': 'TransitionType.MERGE', 'B0POS': '_', 'B1Lemma': 'un'}
-63- 2 : {'B0Lemma': 'un', 'antepenultimateT': 'TransitionType.MERGE', 'B1POS': '_', 'B1Token': 'seul', 'B0Token': 'un', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': "qu'", 'S0Lemma': 'que', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'seul', 'distance': '1'}
-64- 0 : {'B0Lemma': 'un', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'seul', 'B0Token': 'un', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'seul'}
-65- 2 : {'B0Lemma': 'seul', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '.', 'B0Token': 'seul', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'un', 'S0Lemma': 'un', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': '.', 'distance': '1'}
-66- 0 : {'B0Lemma': 'seul', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '.', 'B0Token': 'seul', 'prevriousT': 'TransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': '.'}
-67- 2 : {'B0Lemma': '.', 'antepenultimateT': 'TransitionType.SHIFT', 'distance': '1', 'B0Token': '.', 'prevriousT': 'TransitionType.COMPLETE', 'S0Token': 'seul', 'S0Lemma': 'seul', 'S0POS': '_', 'B0POS': '_'}
-68- 0 : {'B0Lemma': '.', 'B0Token': '.', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.COMPLETE', 'B0POS': '_'}
-69- 2 : {'S0Lemma': '.', 'antepenultimateT': 'TransitionType.SHIFT', 'prevriousT': 'TransitionType.COMPLETE', 'S0POS': '_', 'S0Token': '.'}
+0- 0 : {'B0Lemma': 'pourtant', 'antepenultimateT': '_', 'B1POS': '_', 'B1Token': 'la', 'B0Token': 'Pourtant', 'prevriousT': '_', 'transitionHistory': '__', 'B0POS': '_', 'B1Lemma': 'le'}
+1- 2 : {'B0Lemma': 'le', 'prevriousT': 'None', 'antepenultimateT': '_', 'B1POS': '_', 'B1Token': 'grande', 'S0POS': '_', 'B0Token': 'la', 'S0B0Token': 'Pourtant_la', 'transitionHistory': 'None_', 'S0Token': 'Pourtant', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': 'pourtant', 'S0B0LemmaPOS': 'pourtant__', 'S0B0Lemma': 'pourtant_le', 'B0POS': '_', 'B1Lemma': 'grand', 'distance': '1'}
+2- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'None', 'B1POS': '_', 'B1Token': 'grande', 'B0Token': 'la', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTNone', 'B0POS': '_', 'B1Lemma': 'grand'}
+3- 2 : {'B0Lemma': 'grand', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'affection', 'S0POS': '_', 'B0Token': 'grande', 'S0B0Token': 'la_grande', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'la', 'S0B0POS': '___', 'S0B0POSLemma': '__grand', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_grand', 'B0POS': '_', 'B1Lemma': 'affection', 'distance': '1'}
+4- 0 : {'B0Lemma': 'grand', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'affection', 'B0Token': 'grande', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'affection'}
+5- 2 : {'B0Lemma': 'affection', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'qui', 'S0POS': '_', 'B0Token': 'affection', 'S0B0Token': 'grande_affection', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'grande', 'S0B0POS': '___', 'S0B0POSLemma': '__affection', 'S0Lemma': 'grand', 'S0B0LemmaPOS': 'grand__', 'S0B0Lemma': 'grand_affection', 'B0POS': '_', 'B1Lemma': 'qui', 'distance': '1'}
+6- 0 : {'B0Lemma': 'affection', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'qui', 'B0Token': 'affection', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'qui'}
+7- 2 : {'B0Lemma': 'qui', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'lie', 'S0POS': '_', 'B0Token': 'qui', 'S0B0Token': 'affection_qui', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'affection', 'S0B0POS': '___', 'S0B0POSLemma': '__qui', 'S0Lemma': 'affection', 'S0B0LemmaPOS': 'affection__', 'S0B0Lemma': 'affection_qui', 'B0POS': '_', 'B1Lemma': 'lier', 'distance': '1'}
+8- 0 : {'B0Lemma': 'qui', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'lie', 'B0Token': 'qui', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'lier'}
+9- 2 : {'B0Lemma': 'lier', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'les', 'S0POS': '_', 'B0Token': 'lie', 'S0B0Token': 'qui_lie', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'qui', 'S0B0POS': '___', 'S0B0POSLemma': '__lier', 'S0Lemma': 'qui', 'S0B0LemmaPOS': 'qui__', 'S0B0Lemma': 'qui_lier', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+10- 0 : {'B0Lemma': 'lier', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'les', 'B0Token': 'lie', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'le'}
+11- 2 : {'B0Lemma': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'membres', 'S0POS': '_', 'B0Token': 'les', 'S0B0Token': 'lie_les', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'lie', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': 'lier', 'S0B0LemmaPOS': 'lier__', 'S0B0Lemma': 'lier_le', 'B0POS': '_', 'B1Lemma': 'membre', 'distance': '1'}
+12- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'membres', 'B0Token': 'les', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'membre'}
+13- 2 : {'B0Lemma': 'membre', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'de', 'S0POS': '_', 'B0Token': 'membres', 'S0B0Token': 'les_membres', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'les', 'S0B0POS': '___', 'S0B0POSLemma': '__membre', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_membre', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
+14- 0 : {'B0Lemma': 'membre', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'membres', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'de'}
+15- 2 : {'B0Lemma': 'de', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'la', 'S0POS': '_', 'B0Token': 'de', 'S0B0Token': 'membres_de', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'membres', 'S0B0POS': '___', 'S0B0POSLemma': '__de', 'S0Lemma': 'membre', 'S0B0LemmaPOS': 'membre__', 'S0B0Lemma': 'membre_de', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+16- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'la', 'B0Token': 'de', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'le'}
+17- 2 : {'B0Lemma': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'famille', 'S0POS': '_', 'B0Token': 'la', 'S0B0Token': 'de_la', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'de', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': 'de', 'S0B0LemmaPOS': 'de__', 'S0B0Lemma': 'de_le', 'B0POS': '_', 'B1Lemma': 'famille', 'distance': '1'}
+18- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'famille', 'B0Token': 'la', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'famille'}
+19- 2 : {'B0Lemma': 'famille', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'leur', 'S0POS': '_', 'B0Token': 'famille', 'S0B0Token': 'la_famille', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'la', 'S0B0POS': '___', 'S0B0POSLemma': '__famille', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_famille', 'B0POS': '_', 'B1Lemma': 'lui', 'distance': '1'}
+20- 0 : {'B0Lemma': 'famille', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'leur', 'B0Token': 'famille', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'lui'}
+21- 2 : {'B0Lemma': 'lui', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'permet', 'S0POS': '_', 'B0Token': 'leur', 'S0B0Token': 'famille_leur', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'famille', 'S0B0POS': '___', 'S0B0POSLemma': '__lui', 'S0Lemma': 'famille', 'S0B0LemmaPOS': 'famille__', 'S0B0Lemma': 'famille_lui', 'B0POS': '_', 'B1Lemma': 'permettre', 'distance': '1'}
+22- 0 : {'B0Lemma': 'lui', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'permet', 'B0Token': 'leur', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'permettre'}
+23- 2 : {'B0Lemma': 'permettre', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'de', 'S0POS': '_', 'B0Token': 'permet', 'S0B0Token': 'leur_permet', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'leur', 'S0B0POS': '___', 'S0B0POSLemma': '__permettre', 'S0Lemma': 'lui', 'S0B0LemmaPOS': 'lui__', 'S0B0Lemma': 'lui_permettre', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
+24- 0 : {'B0Lemma': 'permettre', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'permet', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'de'}
+25- 2 : {'B0Lemma': 'de', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'faire', 'S0POS': '_', 'B0Token': 'de', 'S0B0Token': 'permet_de', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'permet', 'S0B0POS': '___', 'S0B0POSLemma': '__de', 'S0Lemma': 'permettre', 'S0B0LemmaPOS': 'permettre__', 'S0B0Lemma': 'permettre_de', 'B0POS': '_', 'B1Lemma': 'faire', 'distance': '1'}
+26- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'faire', 'B0Token': 'de', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'faire'}
+27- 2 : {'B0Lemma': 'faire', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'face', 'S0POS': '_', 'B0Token': 'faire', 'S0B0Token': 'de_faire', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'de', 'S0B0POS': '___', 'S0B0POSLemma': '__faire', 'S0Lemma': 'de', 'S0B0LemmaPOS': 'de__', 'S0B0Lemma': 'de_faire', 'B0POS': '_', 'B1Lemma': 'face', 'distance': '1'}
+28- 0 : {'B0Lemma': 'faire', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'face', 'B0Token': 'faire', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'face'}
+29- 0 : {'B0Lemma': 'face', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '\xc3\xa0', 'S0POS': '_', 'B0Token': 'face', 'S0B0Token': 'faire_face', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'faire', 'S0B0POS': '___', 'S0B0POSLemma': '__face', 'S0Lemma': 'faire', 'S0B0LemmaPOS': 'faire__', 'S0B0Lemma': 'faire_face', 'B0POS': '_', 'B1Lemma': '\xc3\xa0', 'distance': '1'}
+30- 1 : {'B0Lemma': '\xc3\xa0', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': "d'", 'S0B0Lemma': 'face_\xc3\xa0', 'B0Token': '\xc3\xa0', 'S0B0Token': 'face_\xc3\xa0', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'S0Token': 'faire', 'S0B0POS': '___', 'S1Token': 'face', 'S1POS': '_', 'S0B0POSLemma': '__\xc3\xa0', 'S0Lemma': 'faire', 'S0B0LemmaPOS': 'face__', 'S1Lemma': 'face', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'un', 'distance': '1'}
+31- 2 : {'B0Lemma': '\xc3\xa0', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "d'", 'S0POS': '___', 'B0Token': '\xc3\xa0', 'S0B0Token': 'faire_face_\xc3\xa0', 'transitionHistory': 'TransitionType.SHIFTTransitionType.SHIFT', 'S0Token': 'faire_face', 'S0B0POS': '_____', 'S0B0POSLemma': '____\xc3\xa0', 'S0Lemma': 'faire_face', 'S0B0LemmaPOS': 'faire_face__', 'S0B0Lemma': 'faire_face_\xc3\xa0', 'B0POS': '_', 'B1Lemma': 'un', 'distance': '1'}
+32- 0 : {'B0Lemma': '\xc3\xa0', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "d'", 'B0Token': '\xc3\xa0', 'prevriousT': 'TransitionType.MERGE', 'transitionHistory': 'TransitionType.MERGETransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'un'}
+33- 2 : {'B0Lemma': 'un', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.MERGE', 'B1POS': '_', 'B1Token': 'autres', 'S0POS': '_', 'B0Token': "d'", 'S0B0Token': "\xc3\xa0_d'", 'transitionHistory': 'TransitionType.COMPLETETransitionType.MERGE', 'S0Token': '\xc3\xa0', 'S0B0POS': '___', 'S0B0POSLemma': '__un', 'S0Lemma': '\xc3\xa0', 'S0B0LemmaPOS': '\xc3\xa0__', 'S0B0Lemma': '\xc3\xa0_un', 'B0POS': '_', 'B1Lemma': 'autre', 'distance': '1'}
+34- 0 : {'B0Lemma': 'un', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'autres', 'B0Token': "d'", 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'autre'}
+35- 2 : {'B0Lemma': 'autre', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'probl\xc3\xa8mes', 'S0POS': '_', 'B0Token': 'autres', 'S0B0Token': "d'_autres", 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': "d'", 'S0B0POS': '___', 'S0B0POSLemma': '__autre', 'S0Lemma': 'un', 'S0B0LemmaPOS': 'un__', 'S0B0Lemma': 'un_autre', 'B0POS': '_', 'B1Lemma': 'probl\xc3\xa8me', 'distance': '1'}
+36- 0 : {'B0Lemma': 'autre', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'probl\xc3\xa8mes', 'B0Token': 'autres', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'probl\xc3\xa8me'}
+37- 2 : {'B0Lemma': 'probl\xc3\xa8me', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': ':', 'S0POS': '_', 'B0Token': 'probl\xc3\xa8mes', 'S0B0Token': 'autres_probl\xc3\xa8mes', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'autres', 'S0B0POS': '___', 'S0B0POSLemma': '__probl\xc3\xa8me', 'S0Lemma': 'autre', 'S0B0LemmaPOS': 'autre__', 'S0B0Lemma': 'autre_probl\xc3\xa8me', 'B0POS': '_', 'B1Lemma': ':', 'distance': '1'}
+38- 0 : {'B0Lemma': 'probl\xc3\xa8me', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': ':', 'B0Token': 'probl\xc3\xa8mes', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': ':'}
+39- 2 : {'B0Lemma': ':', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'arriv\xc3\xa9e', 'S0POS': '_', 'B0Token': ':', 'S0B0Token': 'probl\xc3\xa8mes_:', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'probl\xc3\xa8mes', 'S0B0POS': '___', 'S0B0POSLemma': '__:', 'S0Lemma': 'probl\xc3\xa8me', 'S0B0LemmaPOS': 'probl\xc3\xa8me__', 'S0B0Lemma': 'probl\xc3\xa8me_:', 'B0POS': '_', 'B1Lemma': 'arriv\xc3\xa9e', 'distance': '1'}
+40- 0 : {'B0Lemma': ':', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'arriv\xc3\xa9e', 'B0Token': ':', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'arriv\xc3\xa9e'}
+41- 2 : {'B0Lemma': 'arriv\xc3\xa9e', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "d'", 'S0POS': '_', 'B0Token': 'arriv\xc3\xa9e', 'S0B0Token': ':_arriv\xc3\xa9e', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': ':', 'S0B0POS': '___', 'S0B0POSLemma': '__arriv\xc3\xa9e', 'S0Lemma': ':', 'S0B0LemmaPOS': ':__', 'S0B0Lemma': ':_arriv\xc3\xa9e', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
+42- 0 : {'B0Lemma': 'arriv\xc3\xa9e', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': "d'", 'B0Token': 'arriv\xc3\xa9e', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'de'}
+43- 2 : {'B0Lemma': 'de', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'autres', 'S0POS': '_', 'B0Token': "d'", 'S0B0Token': "arriv\xc3\xa9e_d'", 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'arriv\xc3\xa9e', 'S0B0POS': '___', 'S0B0POSLemma': '__de', 'S0Lemma': 'arriv\xc3\xa9e', 'S0B0LemmaPOS': 'arriv\xc3\xa9e__', 'S0B0Lemma': 'arriv\xc3\xa9e_de', 'B0POS': '_', 'B1Lemma': 'autre', 'distance': '1'}
+44- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'autres', 'B0Token': "d'", 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'autre'}
+45- 2 : {'B0Lemma': 'autre', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'jumeaux', 'S0POS': '_', 'B0Token': 'autres', 'S0B0Token': "d'_autres", 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': "d'", 'S0B0POS': '___', 'S0B0POSLemma': '__autre', 'S0Lemma': 'de', 'S0B0LemmaPOS': 'de__', 'S0B0Lemma': 'de_autre', 'B0POS': '_', 'B1Lemma': 'jumeau', 'distance': '1'}
+46- 0 : {'B0Lemma': 'autre', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'jumeaux', 'B0Token': 'autres', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'jumeau'}
+47- 2 : {'B0Lemma': 'jumeau', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': ',', 'S0POS': '_', 'B0Token': 'jumeaux', 'S0B0Token': 'autres_jumeaux', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'autres', 'S0B0POS': '___', 'S0B0POSLemma': '__jumeau', 'S0Lemma': 'autre', 'S0B0LemmaPOS': 'autre__', 'S0B0Lemma': 'autre_jumeau', 'B0POS': '_', 'B1Lemma': ',', 'distance': '1'}
+48- 0 : {'B0Lemma': 'jumeau', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'jumeaux', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': ','}
+49- 2 : {'B0Lemma': ',', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'mise', 'S0POS': '_', 'B0Token': ',', 'S0B0Token': 'jumeaux_,', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'jumeaux', 'S0B0POS': '___', 'S0B0POSLemma': '__,', 'S0Lemma': 'jumeau', 'S0B0LemmaPOS': 'jumeau__', 'S0B0Lemma': 'jumeau_,', 'B0POS': '_', 'B1Lemma': 'mise', 'distance': '1'}
+50- 0 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'mise', 'B0Token': ',', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'mise'}
+51- 2 : {'B0Lemma': 'mise', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '\xc3\xa0', 'S0POS': '_', 'B0Token': 'mise', 'S0B0Token': ',_mise', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': ',', 'S0B0POS': '___', 'S0B0POSLemma': '__mise', 'S0Lemma': ',', 'S0B0LemmaPOS': ',__', 'S0B0Lemma': ',_mise', 'B0POS': '_', 'B1Lemma': '\xc3\xa0', 'distance': '1'}
+52- 0 : {'B0Lemma': 'mise', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '\xc3\xa0', 'B0Token': 'mise', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': '\xc3\xa0'}
+53- 2 : {'B0Lemma': '\xc3\xa0', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'la', 'S0POS': '_', 'B0Token': '\xc3\xa0', 'S0B0Token': 'mise_\xc3\xa0', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'mise', 'S0B0POS': '___', 'S0B0POSLemma': '__\xc3\xa0', 'S0Lemma': 'mise', 'S0B0LemmaPOS': 'mise__', 'S0B0Lemma': 'mise_\xc3\xa0', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+54- 0 : {'B0Lemma': '\xc3\xa0', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'la', 'B0Token': '\xc3\xa0', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'le'}
+55- 2 : {'B0Lemma': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'retraite', 'S0POS': '_', 'B0Token': 'la', 'S0B0Token': '\xc3\xa0_la', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': '\xc3\xa0', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': '\xc3\xa0', 'S0B0LemmaPOS': '\xc3\xa0__', 'S0B0Lemma': '\xc3\xa0_le', 'B0POS': '_', 'B1Lemma': 'retraite', 'distance': '1'}
+56- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'retraite', 'B0Token': 'la', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'retraite'}
+57- 2 : {'B0Lemma': 'retraite', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'de', 'S0POS': '_', 'B0Token': 'retraite', 'S0B0Token': 'la_retraite', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'la', 'S0B0POS': '___', 'S0B0POSLemma': '__retraite', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_retraite', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
+58- 0 : {'B0Lemma': 'retraite', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'retraite', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'de'}
+59- 2 : {'B0Lemma': 'de', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '\xc2\xab', 'S0POS': '_', 'B0Token': 'de', 'S0B0Token': 'retraite_de', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'retraite', 'S0B0POS': '___', 'S0B0POSLemma': '__de', 'S0Lemma': 'retraite', 'S0B0LemmaPOS': 'retraite__', 'S0B0Lemma': 'retraite_de', 'B0POS': '_', 'B1Lemma': '\xc2\xab', 'distance': '1'}
+60- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '\xc2\xab', 'B0Token': 'de', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': '\xc2\xab'}
+61- 2 : {'B0Lemma': '\xc2\xab', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'papa', 'S0POS': '_', 'B0Token': '\xc2\xab', 'S0B0Token': 'de_\xc2\xab', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'de', 'S0B0POS': '___', 'S0B0POSLemma': '__\xc2\xab', 'S0Lemma': 'de', 'S0B0LemmaPOS': 'de__', 'S0B0Lemma': 'de_\xc2\xab', 'B0POS': '_', 'B1Lemma': 'papa', 'distance': '1'}
+62- 0 : {'B0Lemma': '\xc2\xab', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'papa', 'B0Token': '\xc2\xab', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'papa'}
+63- 2 : {'B0Lemma': 'papa', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '\xc2\xbb', 'S0POS': '_', 'B0Token': 'papa', 'S0B0Token': '\xc2\xab_papa', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': '\xc2\xab', 'S0B0POS': '___', 'S0B0POSLemma': '__papa', 'S0Lemma': '\xc2\xab', 'S0B0LemmaPOS': '\xc2\xab__', 'S0B0Lemma': '\xc2\xab_papa', 'B0POS': '_', 'B1Lemma': '\xc2\xbb', 'distance': '1'}
+64- 0 : {'B0Lemma': 'papa', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '\xc2\xbb', 'B0Token': 'papa', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': '\xc2\xbb'}
+65- 2 : {'B0Lemma': '\xc2\xbb', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'qui', 'S0POS': '_', 'B0Token': '\xc2\xbb', 'S0B0Token': 'papa_\xc2\xbb', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'papa', 'S0B0POS': '___', 'S0B0POSLemma': '__\xc2\xbb', 'S0Lemma': 'papa', 'S0B0LemmaPOS': 'papa__', 'S0B0Lemma': 'papa_\xc2\xbb', 'B0POS': '_', 'B1Lemma': 'qui', 'distance': '1'}
+66- 0 : {'B0Lemma': '\xc2\xbb', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'qui', 'B0Token': '\xc2\xbb', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'qui'}
+67- 2 : {'B0Lemma': 'qui', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'se', 'S0POS': '_', 'B0Token': 'qui', 'S0B0Token': '\xc2\xbb_qui', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': '\xc2\xbb', 'S0B0POS': '___', 'S0B0POSLemma': '__qui', 'S0Lemma': '\xc2\xbb', 'S0B0LemmaPOS': '\xc2\xbb__', 'S0B0Lemma': '\xc2\xbb_qui', 'B0POS': '_', 'B1Lemma': 'se', 'distance': '1'}
+68- 0 : {'B0Lemma': 'qui', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'se', 'B0Token': 'qui', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'se'}
+69- 2 : {'B0Lemma': 'se', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'fait', 'S0POS': '_', 'B0Token': 'se', 'S0B0Token': 'qui_se', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'qui', 'S0B0POS': '___', 'S0B0POSLemma': '__se', 'S0Lemma': 'qui', 'S0B0LemmaPOS': 'qui__', 'S0B0Lemma': 'qui_se', 'B0POS': '_', 'B1Lemma': 'faire', 'distance': '1'}
+70- 0 : {'B0Lemma': 'se', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'fait', 'B0Token': 'se', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'faire'}
+71- 0 : {'B0Lemma': 'faire', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'escroquer', 'S0POS': '_', 'B0Token': 'fait', 'S0B0Token': 'se_fait', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'se', 'S0B0POS': '___', 'S0B0POSLemma': '__faire', 'S0Lemma': 'se', 'S0B0LemmaPOS': 'se__', 'S0B0Lemma': 'se_faire', 'B0POS': '_', 'B1Lemma': 'escroquer', 'distance': '1'}
+72- 1 : {'B0Lemma': 'escroquer', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'par', 'S0B0Lemma': 'faire_escroquer', 'B0Token': 'escroquer', 'S0B0Token': 'fait_escroquer', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'S0Token': 'se', 'S0B0POS': '___', 'S1Token': 'fait', 'S1POS': '_', 'S0B0POSLemma': '__escroquer', 'S0Lemma': 'se', 'S0B0LemmaPOS': 'faire__', 'S1Lemma': 'faire', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'par', 'distance': '1'}
+73- 2 : {'B0Lemma': 'escroquer', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'par', 'S0POS': '___', 'B0Token': 'escroquer', 'S0B0Token': 'se_fait_escroquer', 'transitionHistory': 'TransitionType.SHIFTTransitionType.SHIFT', 'S0Token': 'se_fait', 'S0B0POS': '_____', 'S0B0POSLemma': '____escroquer', 'S0Lemma': 'se_faire', 'S0B0LemmaPOS': 'se_faire__', 'S0B0Lemma': 'se_faire_escroquer', 'B0POS': '_', 'B1Lemma': 'par', 'distance': '1'}
+74- 0 : {'B0Lemma': 'escroquer', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'par', 'B0Token': 'escroquer', 'prevriousT': 'TransitionType.MERGE', 'transitionHistory': 'TransitionType.MERGETransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'par'}
+75- 2 : {'B0Lemma': 'par', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.MERGE', 'B1POS': '_', 'B1Token': 'un', 'S0POS': '_', 'B0Token': 'par', 'S0B0Token': 'escroquer_par', 'transitionHistory': 'TransitionType.COMPLETETransitionType.MERGE', 'S0Token': 'escroquer', 'S0B0POS': '___', 'S0B0POSLemma': '__par', 'S0Lemma': 'escroquer', 'S0B0LemmaPOS': 'escroquer__', 'S0B0Lemma': 'escroquer_par', 'B0POS': '_', 'B1Lemma': 'un', 'distance': '1'}
+76- 0 : {'B0Lemma': 'par', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'un', 'B0Token': 'par', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'un'}
+77- 2 : {'B0Lemma': 'un', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'agent', 'S0POS': '_', 'B0Token': 'un', 'S0B0Token': 'par_un', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'par', 'S0B0POS': '___', 'S0B0POSLemma': '__un', 'S0Lemma': 'par', 'S0B0LemmaPOS': 'par__', 'S0B0Lemma': 'par_un', 'B0POS': '_', 'B1Lemma': 'agent', 'distance': '1'}
+78- 0 : {'B0Lemma': 'un', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'agent', 'B0Token': 'un', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'agent'}
+79- 2 : {'B0Lemma': 'agent', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'immobilier', 'S0POS': '_', 'B0Token': 'agent', 'S0B0Token': 'un_agent', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'un', 'S0B0POS': '___', 'S0B0POSLemma': '__agent', 'S0Lemma': 'un', 'S0B0LemmaPOS': 'un__', 'S0B0Lemma': 'un_agent', 'B0POS': '_', 'B1Lemma': 'immobilier', 'distance': '1'}
+80- 0 : {'B0Lemma': 'agent', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'immobilier', 'B0Token': 'agent', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'immobilier'}
+81- 2 : {'B0Lemma': 'immobilier', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': ',', 'S0POS': '_', 'B0Token': 'immobilier', 'S0B0Token': 'agent_immobilier', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'agent', 'S0B0POS': '___', 'S0B0POSLemma': '__immobilier', 'S0Lemma': 'agent', 'S0B0LemmaPOS': 'agent__', 'S0B0Lemma': 'agent_immobilier', 'B0POS': '_', 'B1Lemma': ',', 'distance': '1'}
+82- 0 : {'B0Lemma': 'immobilier', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'immobilier', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': ','}
+83- 2 : {'B0Lemma': ',', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'difficult\xc3\xa9', 'S0POS': '_', 'B0Token': ',', 'S0B0Token': 'immobilier_,', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'immobilier', 'S0B0POS': '___', 'S0B0POSLemma': '__,', 'S0Lemma': 'immobilier', 'S0B0LemmaPOS': 'immobilier__', 'S0B0Lemma': 'immobilier_,', 'B0POS': '_', 'B1Lemma': 'difficult\xc3\xa9', 'distance': '1'}
+84- 0 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'difficult\xc3\xa9', 'B0Token': ',', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'difficult\xc3\xa9'}
+85- 2 : {'B0Lemma': 'difficult\xc3\xa9', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'de', 'S0POS': '_', 'B0Token': 'difficult\xc3\xa9', 'S0B0Token': ',_difficult\xc3\xa9', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': ',', 'S0B0POS': '___', 'S0B0POSLemma': '__difficult\xc3\xa9', 'S0Lemma': ',', 'S0B0LemmaPOS': ',__', 'S0B0Lemma': ',_difficult\xc3\xa9', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
+86- 0 : {'B0Lemma': 'difficult\xc3\xa9', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'difficult\xc3\xa9', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'de'}
+87- 2 : {'B0Lemma': 'de', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'se', 'S0POS': '_', 'B0Token': 'de', 'S0B0Token': 'difficult\xc3\xa9_de', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'difficult\xc3\xa9', 'S0B0POS': '___', 'S0B0POSLemma': '__de', 'S0Lemma': 'difficult\xc3\xa9', 'S0B0LemmaPOS': 'difficult\xc3\xa9__', 'S0B0Lemma': 'difficult\xc3\xa9_de', 'B0POS': '_', 'B1Lemma': 'se', 'distance': '1'}
+88- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'se', 'B0Token': 'de', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'se'}
+89- 2 : {'B0Lemma': 'se', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'faire', 'S0POS': '_', 'B0Token': 'se', 'S0B0Token': 'de_se', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'de', 'S0B0POS': '___', 'S0B0POSLemma': '__se', 'S0Lemma': 'de', 'S0B0LemmaPOS': 'de__', 'S0B0Lemma': 'de_se', 'B0POS': '_', 'B1Lemma': 'faire', 'distance': '1'}
+90- 0 : {'B0Lemma': 'se', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'faire', 'B0Token': 'se', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'faire'}
+91- 2 : {'B0Lemma': 'faire', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'une', 'S0POS': '_', 'B0Token': 'faire', 'S0B0Token': 'se_faire', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'se', 'S0B0POS': '___', 'S0B0POSLemma': '__faire', 'S0Lemma': 'se', 'S0B0LemmaPOS': 'se__', 'S0B0Lemma': 'se_faire', 'B0POS': '_', 'B1Lemma': 'un', 'distance': '1'}
+92- 0 : {'B0Lemma': 'faire', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'une', 'B0Token': 'faire', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'un'}
+93- 2 : {'B0Lemma': 'un', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'client\xc3\xa8le', 'S0POS': '_', 'B0Token': 'une', 'S0B0Token': 'faire_une', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'faire', 'S0B0POS': '___', 'S0B0POSLemma': '__un', 'S0Lemma': 'faire', 'S0B0LemmaPOS': 'faire__', 'S0B0Lemma': 'faire_un', 'B0POS': '_', 'B1Lemma': 'client\xc3\xa8le', 'distance': '1'}
+94- 0 : {'B0Lemma': 'un', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'client\xc3\xa8le', 'B0Token': 'une', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'client\xc3\xa8le'}
+95- 2 : {'B0Lemma': 'client\xc3\xa8le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'pour', 'S0POS': '_', 'B0Token': 'client\xc3\xa8le', 'S0B0Token': 'une_client\xc3\xa8le', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'une', 'S0B0POS': '___', 'S0B0POSLemma': '__client\xc3\xa8le', 'S0Lemma': 'un', 'S0B0LemmaPOS': 'un__', 'S0B0Lemma': 'un_client\xc3\xa8le', 'B0POS': '_', 'B1Lemma': 'pour', 'distance': '1'}
+96- 0 : {'B0Lemma': 'client\xc3\xa8le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'pour', 'B0Token': 'client\xc3\xa8le', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'pour'}
+97- 2 : {'B0Lemma': 'pour', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Robert', 'S0POS': '_', 'B0Token': 'pour', 'S0B0Token': 'client\xc3\xa8le_pour', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'client\xc3\xa8le', 'S0B0POS': '___', 'S0B0POSLemma': '__pour', 'S0Lemma': 'client\xc3\xa8le', 'S0B0LemmaPOS': 'client\xc3\xa8le__', 'S0B0Lemma': 'client\xc3\xa8le_pour', 'B0POS': '_', 'B1Lemma': 'Robert', 'distance': '1'}
+98- 0 : {'B0Lemma': 'pour', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Robert', 'B0Token': 'pour', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'Robert'}
+99- 2 : {'B0Lemma': 'Robert', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': ',', 'S0POS': '_', 'B0Token': 'Robert', 'S0B0Token': 'pour_Robert', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'pour', 'S0B0POS': '___', 'S0B0POSLemma': '__Robert', 'S0Lemma': 'pour', 'S0B0LemmaPOS': 'pour__', 'S0B0Lemma': 'pour_Robert', 'B0POS': '_', 'B1Lemma': ',', 'distance': '1'}
+100- 0 : {'B0Lemma': 'Robert', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'Robert', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': ','}
+101- 2 : {'B0Lemma': ',', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'jeune', 'S0POS': '_', 'B0Token': ',', 'S0B0Token': 'Robert_,', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'Robert', 'S0B0POS': '___', 'S0B0POSLemma': '__,', 'S0Lemma': 'Robert', 'S0B0LemmaPOS': 'Robert__', 'S0B0Lemma': 'Robert_,', 'B0POS': '_', 'B1Lemma': 'jeune', 'distance': '1'}
+102- 0 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'jeune', 'B0Token': ',', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'jeune'}
+103- 2 : {'B0Lemma': 'jeune', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'avocat', 'S0POS': '_', 'B0Token': 'jeune', 'S0B0Token': ',_jeune', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': ',', 'S0B0POS': '___', 'S0B0POSLemma': '__jeune', 'S0Lemma': ',', 'S0B0LemmaPOS': ',__', 'S0B0Lemma': ',_jeune', 'B0POS': '_', 'B1Lemma': 'avocat', 'distance': '1'}
+104- 0 : {'B0Lemma': 'jeune', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'avocat', 'B0Token': 'jeune', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'avocat'}
+105- 2 : {'B0Lemma': 'avocat', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '...', 'S0POS': '_', 'B0Token': 'avocat', 'S0B0Token': 'jeune_avocat', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'jeune', 'S0B0POS': '___', 'S0B0POSLemma': '__avocat', 'S0Lemma': 'jeune', 'S0B0LemmaPOS': 'jeune__', 'S0B0Lemma': 'jeune_avocat', 'B0POS': '_', 'B1Lemma': '...', 'distance': '1'}
+106- 0 : {'B0Lemma': 'avocat', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '...', 'B0Token': 'avocat', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': '...'}
+107- 2 : {'B0Lemma': '...', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'distance': '1', 'S0POS': '_', 'B0Token': '...', 'S0B0Token': 'avocat_...', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'avocat', 'S0B0POS': '___', 'S0B0POSLemma': '__...', 'S0Lemma': 'avocat', 'S0B0LemmaPOS': 'avocat__', 'S0B0Lemma': 'avocat_...', 'B0POS': '_'}
+108- 0 : {'B0Lemma': '...', 'antepenultimateT': 'TransitionType.COMPLETE', 'B0Token': '...', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_'}
+109- 2 : {'antepenultimateT': 'TransitionType.SHIFT', 'prevriousT': 'TransitionType.COMPLETE', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': '...', 'S0Lemma': '...', 'S0POS': '_'}
+##Sentence No. 1798 - fr-ud-train_00366
+ Steffi rend visite à Monica à l'hôpital, mais ne fait que des commentaires publics minimums à propos de l'attaque.
+###Existing MWEs: 
+1- **rend visite** (LVC)
+2- **fait commentaires** (LVC)
+
+0- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Steffi ,.. ]
+1- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Steffi]   -|||- [rend ,.. ]
+2- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [rend ,.. ]
+3- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[rend]   -|||- [visite ,.. ]
+4- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[rend, visite]   -|||- [à ,.. ]
+5- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[[rend, visite]]   -|||- [à ,.. ]
+6- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [à ,.. ]
+7- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[à]   -|||- [Monica ,.. ]
+8- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [Monica ,.. ]
+9- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[Monica]   -|||- [à ,.. ]
+10- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [à ,.. ]
+11- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[à]   -|||- [l' ,.. ]
+12- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [l' ,.. ]
+13- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[l']   -|||- [hôpital ,.. ]
+14- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [hôpital ,.. ]
+15- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[hôpital]   -|||- [, ,.. ]
+16- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [, ,.. ]
+17- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[,]   -|||- [mais ,.. ]
+18- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [mais ,.. ]
+19- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[mais]   -|||- [ne ,.. ]
+20- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [ne ,.. ]
+21- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[ne]   -|||- [fait ,.. ]
+22- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [fait ,.. ]
+23- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[fait]   -|||- [que ,.. ]
+24- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[fait, que]   -|||- [des ,.. ]
+25- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[fait]   -|||- [des ,.. ]
+26- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[fait, des]   -|||- [commentaires ,.. ]
+27- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[fait]   -|||- [commentaires ,.. ]
+28- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[fait, commentaires]   -|||- [publics ,.. ]
+29- **MERGE**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[[fait, commentaires]]   -|||- [publics ,.. ]
+30- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [publics ,.. ]
+31- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[publics]   -|||- [minimums ,.. ]
+32- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [minimums ,.. ]
+33- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[minimums]   -|||- [à ,.. ]
+34- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [à ,.. ]
+35- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[à]   -|||- [propos ,.. ]
+36- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [propos ,.. ]
+37- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[propos]   -|||- [de ,.. ]
+38- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [de ,.. ]
+39- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[de]   -|||- [l' ,.. ]
+40- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [l' ,.. ]
+41- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[l']   -|||- [attaque ,.. ]
+42- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [attaque ,.. ]
+43- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[attaque]   -|||- [.]
+44- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [.]
+45- SHIFT&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[.]   -|||- [ ]
+46- COMPLETE&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;[]   -|||- [ ]
+
+###Features: 
+0- 0 : {'B0Lemma': 'Steffi', 'antepenultimateT': '_', 'B1POS': '_', 'B1Token': 'rend', 'B0Token': 'Steffi', 'prevriousT': '_', 'transitionHistory': '__', 'B0POS': '_', 'B1Lemma': 'rendre'}
+1- 2 : {'B0Lemma': 'rendre', 'prevriousT': 'None', 'antepenultimateT': '_', 'B1POS': '_', 'B1Token': 'visite', 'S0POS': '_', 'B0Token': 'rend', 'S0B0Token': 'Steffi_rend', 'transitionHistory': 'None_', 'S0Token': 'Steffi', 'S0B0POS': '___', 'S0B0POSLemma': '__rendre', 'S0Lemma': 'Steffi', 'S0B0LemmaPOS': 'Steffi__', 'S0B0Lemma': 'Steffi_rendre', 'B0POS': '_', 'B1Lemma': 'visite', 'distance': '1'}
+2- 0 : {'B0Lemma': 'rendre', 'antepenultimateT': 'None', 'B1POS': '_', 'B1Token': 'visite', 'B0Token': 'rend', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTNone', 'B0POS': '_', 'B1Lemma': 'visite'}
+3- 0 : {'B0Lemma': 'visite', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '\xc3\xa0', 'S0POS': '_', 'B0Token': 'visite', 'S0B0Token': 'rend_visite', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'rend', 'S0B0POS': '___', 'S0B0POSLemma': '__visite', 'S0Lemma': 'rendre', 'S0B0LemmaPOS': 'rendre__', 'S0B0Lemma': 'rendre_visite', 'B0POS': '_', 'B1Lemma': '\xc3\xa0', 'distance': '1'}
+4- 1 : {'B0Lemma': '\xc3\xa0', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'Monica', 'S0B0Lemma': 'visite_\xc3\xa0', 'B0Token': '\xc3\xa0', 'S0B0Token': 'visite_\xc3\xa0', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'S0Token': 'rend', 'S0B0POS': '___', 'S1Token': 'visite', 'S1POS': '_', 'S0B0POSLemma': '__\xc3\xa0', 'S0Lemma': 'rendre', 'S0B0LemmaPOS': 'visite__', 'S1Lemma': 'visite', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'Monica', 'distance': '1'}
+5- 2 : {'B0Lemma': '\xc3\xa0', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Monica', 'S0POS': '___', 'B0Token': '\xc3\xa0', 'S0B0Token': 'rend_visite_\xc3\xa0', 'transitionHistory': 'TransitionType.SHIFTTransitionType.SHIFT', 'S0Token': 'rend_visite', 'S0B0POS': '_____', 'S0B0POSLemma': '____\xc3\xa0', 'S0Lemma': 'rendre_visite', 'S0B0LemmaPOS': 'rendre_visite__', 'S0B0Lemma': 'rendre_visite_\xc3\xa0', 'B0POS': '_', 'B1Lemma': 'Monica', 'distance': '1'}
+6- 0 : {'B0Lemma': '\xc3\xa0', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'Monica', 'B0Token': '\xc3\xa0', 'prevriousT': 'TransitionType.MERGE', 'transitionHistory': 'TransitionType.MERGETransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'Monica'}
+7- 2 : {'B0Lemma': 'Monica', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.MERGE', 'B1POS': '_', 'B1Token': '\xc3\xa0', 'S0POS': '_', 'B0Token': 'Monica', 'S0B0Token': '\xc3\xa0_Monica', 'transitionHistory': 'TransitionType.COMPLETETransitionType.MERGE', 'S0Token': '\xc3\xa0', 'S0B0POS': '___', 'S0B0POSLemma': '__Monica', 'S0Lemma': '\xc3\xa0', 'S0B0LemmaPOS': '\xc3\xa0__', 'S0B0Lemma': '\xc3\xa0_Monica', 'B0POS': '_', 'B1Lemma': '\xc3\xa0', 'distance': '1'}
+8- 0 : {'B0Lemma': 'Monica', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '\xc3\xa0', 'B0Token': 'Monica', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': '\xc3\xa0'}
+9- 2 : {'B0Lemma': '\xc3\xa0', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "l'", 'S0POS': '_', 'B0Token': '\xc3\xa0', 'S0B0Token': 'Monica_\xc3\xa0', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'Monica', 'S0B0POS': '___', 'S0B0POSLemma': '__\xc3\xa0', 'S0Lemma': 'Monica', 'S0B0LemmaPOS': 'Monica__', 'S0B0Lemma': 'Monica_\xc3\xa0', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+10- 0 : {'B0Lemma': '\xc3\xa0', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': "l'", 'B0Token': '\xc3\xa0', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'le'}
+11- 2 : {'B0Lemma': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'h\xc3\xb4pital', 'S0POS': '_', 'B0Token': "l'", 'S0B0Token': "\xc3\xa0_l'", 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': '\xc3\xa0', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': '\xc3\xa0', 'S0B0LemmaPOS': '\xc3\xa0__', 'S0B0Lemma': '\xc3\xa0_le', 'B0POS': '_', 'B1Lemma': 'h\xc3\xb4pital', 'distance': '1'}
+12- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'h\xc3\xb4pital', 'B0Token': "l'", 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'h\xc3\xb4pital'}
+13- 2 : {'B0Lemma': 'h\xc3\xb4pital', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': ',', 'S0POS': '_', 'B0Token': 'h\xc3\xb4pital', 'S0B0Token': "l'_h\xc3\xb4pital", 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': "l'", 'S0B0POS': '___', 'S0B0POSLemma': '__h\xc3\xb4pital', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_h\xc3\xb4pital', 'B0POS': '_', 'B1Lemma': ',', 'distance': '1'}
+14- 0 : {'B0Lemma': 'h\xc3\xb4pital', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': ',', 'B0Token': 'h\xc3\xb4pital', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': ','}
+15- 2 : {'B0Lemma': ',', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'mais', 'S0POS': '_', 'B0Token': ',', 'S0B0Token': 'h\xc3\xb4pital_,', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'h\xc3\xb4pital', 'S0B0POS': '___', 'S0B0POSLemma': '__,', 'S0Lemma': 'h\xc3\xb4pital', 'S0B0LemmaPOS': 'h\xc3\xb4pital__', 'S0B0Lemma': 'h\xc3\xb4pital_,', 'B0POS': '_', 'B1Lemma': 'mais', 'distance': '1'}
+16- 0 : {'B0Lemma': ',', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'mais', 'B0Token': ',', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'mais'}
+17- 2 : {'B0Lemma': 'mais', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'ne', 'S0POS': '_', 'B0Token': 'mais', 'S0B0Token': ',_mais', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': ',', 'S0B0POS': '___', 'S0B0POSLemma': '__mais', 'S0Lemma': ',', 'S0B0LemmaPOS': ',__', 'S0B0Lemma': ',_mais', 'B0POS': '_', 'B1Lemma': 'ne', 'distance': '1'}
+18- 0 : {'B0Lemma': 'mais', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'ne', 'B0Token': 'mais', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'ne'}
+19- 2 : {'B0Lemma': 'ne', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'fait', 'S0POS': '_', 'B0Token': 'ne', 'S0B0Token': 'mais_ne', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'mais', 'S0B0POS': '___', 'S0B0POSLemma': '__ne', 'S0Lemma': 'mais', 'S0B0LemmaPOS': 'mais__', 'S0B0Lemma': 'mais_ne', 'B0POS': '_', 'B1Lemma': 'faire', 'distance': '1'}
+20- 0 : {'B0Lemma': 'ne', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'fait', 'B0Token': 'ne', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'faire'}
+21- 2 : {'B0Lemma': 'faire', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'que', 'S0POS': '_', 'B0Token': 'fait', 'S0B0Token': 'ne_fait', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'ne', 'S0B0POS': '___', 'S0B0POSLemma': '__faire', 'S0Lemma': 'ne', 'S0B0LemmaPOS': 'ne__', 'S0B0Lemma': 'ne_faire', 'B0POS': '_', 'B1Lemma': 'que', 'distance': '1'}
+22- 0 : {'B0Lemma': 'faire', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'que', 'B0Token': 'fait', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'que'}
+23- 0 : {'B0Lemma': 'que', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'des', 'S0POS': '_', 'B0Token': 'que', 'S0B0Token': 'fait_que', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'fait', 'S0B0POS': '___', 'S0B0POSLemma': '__que', 'S0Lemma': 'faire', 'S0B0LemmaPOS': 'faire__', 'S0B0Lemma': 'faire_que', 'B0POS': '_', 'B1Lemma': 'un', 'distance': '1'}
+24- 2 : {'B0Lemma': 'un', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'commentaires', 'S0B0Lemma': 'que_un', 'B0Token': 'des', 'S0B0Token': 'que_des', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'S0Token': 'fait', 'S0B0POS': '___', 'S1Token': 'que', 'S1POS': '_', 'S0B0POSLemma': '__un', 'S0Lemma': 'faire', 'S0B0LemmaPOS': 'que__', 'S1Lemma': 'que', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'commentaire', 'distance': '1'}
+25- 0 : {'B0Lemma': 'un', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'commentaires', 'S0POS': '_', 'B0Token': 'des', 'S0B0Token': 'fait_des', 'transitionHistory': 'TransitionType.SHIFTTransitionType.SHIFT', 'S0Token': 'fait', 'S0B0POS': '___', 'S0B0POSLemma': '__un', 'S0Lemma': 'faire', 'S0B0LemmaPOS': 'faire__', 'S0B0Lemma': 'faire_un', 'B0POS': '_', 'B1Lemma': 'commentaire', 'distance': '2'}
+26- 2 : {'B0Lemma': 'commentaire', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'publics', 'S0B0Lemma': 'un_commentaire', 'B0Token': 'commentaires', 'S0B0Token': 'des_commentaires', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'fait', 'S0B0POS': '___', 'S1Token': 'des', 'S1POS': '_', 'S0B0POSLemma': '__commentaire', 'S0Lemma': 'faire', 'S0B0LemmaPOS': 'un__', 'S1Lemma': 'un', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'public', 'distance': '1'}
+27- 0 : {'B0Lemma': 'commentaire', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'publics', 'S0POS': '_', 'B0Token': 'commentaires', 'S0B0Token': 'fait_commentaires', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'S0Token': 'fait', 'S0B0POS': '___', 'S0B0POSLemma': '__commentaire', 'S0Lemma': 'faire', 'S0B0LemmaPOS': 'faire__', 'S0B0Lemma': 'faire_commentaire', 'B0POS': '_', 'B1Lemma': 'public', 'distance': '3'}
+28- 1 : {'B0Lemma': 'public', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'minimums', 'S0B0Lemma': 'commentaire_public', 'B0Token': 'publics', 'S0B0Token': 'commentaires_publics', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'fait', 'S0B0POS': '___', 'S1Token': 'commentaires', 'S1POS': '_', 'S0B0POSLemma': '__public', 'S0Lemma': 'faire', 'S0B0LemmaPOS': 'commentaire__', 'S1Lemma': 'commentaire', 'S0POS': '_', 'B0POS': '_', 'B1Lemma': 'minimum', 'distance': '1'}
+29- 2 : {'B0Lemma': 'public', 'prevriousT': 'TransitionType.SHIFT', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'minimums', 'S0POS': '___', 'B0Token': 'publics', 'S0B0Token': 'fait_commentaires_publics', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'S0Token': 'fait_commentaires', 'S0B0POS': '_____', 'S0B0POSLemma': '____public', 'S0Lemma': 'faire_commentaire', 'S0B0LemmaPOS': 'faire_commentaire__', 'S0B0Lemma': 'faire_commentaire_public', 'B0POS': '_', 'B1Lemma': 'minimum', 'distance': '1'}
+30- 0 : {'B0Lemma': 'public', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'minimums', 'B0Token': 'publics', 'prevriousT': 'TransitionType.MERGE', 'transitionHistory': 'TransitionType.MERGETransitionType.SHIFT', 'B0POS': '_', 'B1Lemma': 'minimum'}
+31- 2 : {'B0Lemma': 'minimum', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.MERGE', 'B1POS': '_', 'B1Token': '\xc3\xa0', 'S0POS': '_', 'B0Token': 'minimums', 'S0B0Token': 'publics_minimums', 'transitionHistory': 'TransitionType.COMPLETETransitionType.MERGE', 'S0Token': 'publics', 'S0B0POS': '___', 'S0B0POSLemma': '__minimum', 'S0Lemma': 'public', 'S0B0LemmaPOS': 'public__', 'S0B0Lemma': 'public_minimum', 'B0POS': '_', 'B1Lemma': '\xc3\xa0', 'distance': '1'}
+32- 0 : {'B0Lemma': 'minimum', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '\xc3\xa0', 'B0Token': 'minimums', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': '\xc3\xa0'}
+33- 2 : {'B0Lemma': '\xc3\xa0', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'propos', 'S0POS': '_', 'B0Token': '\xc3\xa0', 'S0B0Token': 'minimums_\xc3\xa0', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'minimums', 'S0B0POS': '___', 'S0B0POSLemma': '__\xc3\xa0', 'S0Lemma': 'minimum', 'S0B0LemmaPOS': 'minimum__', 'S0B0Lemma': 'minimum_\xc3\xa0', 'B0POS': '_', 'B1Lemma': 'propos', 'distance': '1'}
+34- 0 : {'B0Lemma': '\xc3\xa0', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'propos', 'B0Token': '\xc3\xa0', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'propos'}
+35- 2 : {'B0Lemma': 'propos', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'de', 'S0POS': '_', 'B0Token': 'propos', 'S0B0Token': '\xc3\xa0_propos', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': '\xc3\xa0', 'S0B0POS': '___', 'S0B0POSLemma': '__propos', 'S0Lemma': '\xc3\xa0', 'S0B0LemmaPOS': '\xc3\xa0__', 'S0B0Lemma': '\xc3\xa0_propos', 'B0POS': '_', 'B1Lemma': 'de', 'distance': '1'}
+36- 0 : {'B0Lemma': 'propos', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'de', 'B0Token': 'propos', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'de'}
+37- 2 : {'B0Lemma': 'de', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': "l'", 'S0POS': '_', 'B0Token': 'de', 'S0B0Token': 'propos_de', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'propos', 'S0B0POS': '___', 'S0B0POSLemma': '__de', 'S0Lemma': 'propos', 'S0B0LemmaPOS': 'propos__', 'S0B0Lemma': 'propos_de', 'B0POS': '_', 'B1Lemma': 'le', 'distance': '1'}
+38- 0 : {'B0Lemma': 'de', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': "l'", 'B0Token': 'de', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'le'}
+39- 2 : {'B0Lemma': 'le', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': 'attaque', 'S0POS': '_', 'B0Token': "l'", 'S0B0Token': "de_l'", 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'de', 'S0B0POS': '___', 'S0B0POSLemma': '__le', 'S0Lemma': 'de', 'S0B0LemmaPOS': 'de__', 'S0B0Lemma': 'de_le', 'B0POS': '_', 'B1Lemma': 'attaque', 'distance': '1'}
+40- 0 : {'B0Lemma': 'le', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': 'attaque', 'B0Token': "l'", 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': 'attaque'}
+41- 2 : {'B0Lemma': 'attaque', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'B1POS': '_', 'B1Token': '.', 'S0POS': '_', 'B0Token': 'attaque', 'S0B0Token': "l'_attaque", 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': "l'", 'S0B0POS': '___', 'S0B0POSLemma': '__attaque', 'S0Lemma': 'le', 'S0B0LemmaPOS': 'le__', 'S0B0Lemma': 'le_attaque', 'B0POS': '_', 'B1Lemma': '.', 'distance': '1'}
+42- 0 : {'B0Lemma': 'attaque', 'antepenultimateT': 'TransitionType.COMPLETE', 'B1POS': '_', 'B1Token': '.', 'B0Token': 'attaque', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_', 'B1Lemma': '.'}
+43- 2 : {'B0Lemma': '.', 'prevriousT': 'TransitionType.COMPLETE', 'antepenultimateT': 'TransitionType.SHIFT', 'distance': '1', 'S0POS': '_', 'B0Token': '.', 'S0B0Token': 'attaque_.', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': 'attaque', 'S0B0POS': '___', 'S0B0POSLemma': '__.', 'S0Lemma': 'attaque', 'S0B0LemmaPOS': 'attaque__', 'S0B0Lemma': 'attaque_.', 'B0POS': '_'}
+44- 0 : {'B0Lemma': '.', 'antepenultimateT': 'TransitionType.COMPLETE', 'B0Token': '.', 'prevriousT': 'TransitionType.SHIFT', 'transitionHistory': 'TransitionType.SHIFTTransitionType.COMPLETE', 'B0POS': '_'}
+45- 2 : {'antepenultimateT': 'TransitionType.SHIFT', 'prevriousT': 'TransitionType.COMPLETE', 'transitionHistory': 'TransitionType.COMPLETETransitionType.SHIFT', 'S0Token': '.', 'S0Lemma': '.', 'S0POS': '_'}
